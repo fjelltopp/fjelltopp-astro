@@ -1,5 +1,4 @@
 ---
-id: 1928
 title: 'Six open-source health information systems you should know about'
 pubDate: 2023-10-03T11:31:22+01:00
 author: 'Dr Jonathan Berry'

@@ -19,7 +19,7 @@ const searchResults = allBlogArticles.filter(article => {
     .toLowerCase()
     .includes(query!.toLowerCase());
 
-    const slugMatch: boolean = article.slug
+    const slugMatch: boolean = article.id
     .toLowerCase()
     .includes(query!.toLowerCase());
 

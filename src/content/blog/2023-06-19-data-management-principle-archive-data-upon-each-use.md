@@ -1,5 +1,4 @@
 ---
-id: 1552
 title: 'Principle #6 Archive data upon each use'
 pubDate: 2023-06-19T15:33:31+01:00
 author: 'Dr Jonathan Berry'

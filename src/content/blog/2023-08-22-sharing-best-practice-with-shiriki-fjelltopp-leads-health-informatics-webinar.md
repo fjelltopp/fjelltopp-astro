@@ -1,5 +1,4 @@
 ---
-id: 1903
 title: 'Sharing best practice with Shiriki: Fjelltopp leads health informatics webinar'
 pubDate: 2023-08-22T16:11:56+01:00
 author: 'Dr Jonathan Berry'

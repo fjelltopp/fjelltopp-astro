@@ -1,5 +1,4 @@
 ---
-id: 2092
 title: 'Health Data Analysis: Four types of analysis'
 pubDate: 2024-04-30T21:03:22+01:00
 author: 'Dr Jonathan Berry'

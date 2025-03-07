@@ -1,5 +1,4 @@
 ---
-id: 1543
 title: 'Principle #5 Version Everything'
 pubDate: 2023-06-19T15:22:16+01:00
 author: 'Dr Jonathan Berry'

@@ -1,5 +1,4 @@
 ---
-id: 2015
 title: 'Robust ETLs for data automation'
 pubDate: 2024-02-06T15:46:54+00:00
 author: 'Jonathan Berry'

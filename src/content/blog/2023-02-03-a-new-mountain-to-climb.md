@@ -1,10 +1,8 @@
 ---
-id: 406
 title: "A new mountain to climb"
 pubDate: 2023-02-03T15:02:02+00:00
 author: 'Dr Jonathan Berry'
 summary: 'Since 2015, our goal has been to strive for higher ground and gain deeper insight of the most challenging issues in public health.'
-slug: a-new-mountain-to-climb
 image: /media/Fjelltopp-Blog-Banner-Cover-1600x686.png
 type: "Article"
 language: "en"

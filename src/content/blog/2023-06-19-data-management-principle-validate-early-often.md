@@ -1,5 +1,4 @@
 ---
-id: 1537
 title: 'Principle #4 Validate early &#038; often'
 pubDate: 2023-06-19T15:10:47+01:00
 author: 'Dr Jonathan Berry'

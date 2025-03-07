@@ -1,5 +1,4 @@
 ---
-id: 2039
 title: 'A Strategic Summit in Helsinki'
 pubDate: 2024-02-20T11:24:05+00:00
 author: 'Jonathan Berry'

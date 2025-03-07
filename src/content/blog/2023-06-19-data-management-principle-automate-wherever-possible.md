@@ -1,5 +1,4 @@
 ---
-id: 1531
 title: 'Principle: #3 Automate wherever possible'
 pubDate: 2023-06-19T14:49:15+01:00
 author: 'Dr Jonathan Berry'

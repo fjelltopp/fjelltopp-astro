@@ -1,11 +1,9 @@
 ---
-id: 2147
 title: 'How Fjelltopp aligns with the United Nations Sustainable Development Goals'
 pubDate: 2024-09-25T07:19:44+01:00
 author: 'Dr Jonathan Berry'
 summary: 'We are working for sustainable development around the globe, especially focusing on SDG3 Health and Well being, as well as SDG17 Partnership for the goals. '
 
-guid: 'https://www.fjelltopp.org/?p=2147'
 permalink: /how-fjelltopp-aligns-with-the-united-nations-sustainable-development-goals/
 image: /media/Untitled-design-39-1600x685.png
 type: "Article"

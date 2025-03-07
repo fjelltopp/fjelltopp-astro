@@ -1,5 +1,4 @@
 ---
-id: 2094
 title: 'Health Data Analysis: Common Health Data Types'
 pubDate: 2024-04-30T21:02:57+01:00
 author: 'Dr Jonathan Berry'

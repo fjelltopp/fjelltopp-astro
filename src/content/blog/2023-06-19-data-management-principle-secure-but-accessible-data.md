@@ -1,5 +1,4 @@
 ---
-id: 1512
 title: 'Principle #1 Centralise for Security AND Accessibility'
 pubDate: 2023-06-19T13:50:08+01:00
 author: 'Dr Jonathan Berry'

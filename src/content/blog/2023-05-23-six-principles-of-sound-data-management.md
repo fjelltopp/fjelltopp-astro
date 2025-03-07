@@ -1,5 +1,4 @@
 ---
-id: 1266
 title: 'Six Principles for Sound Data Management'
 pubDate: 2023-05-23T11:01:51+01:00
 author: 'Jonathan Berry'

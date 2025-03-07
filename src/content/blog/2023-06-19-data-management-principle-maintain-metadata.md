@@ -1,5 +1,4 @@
 ---
-id: 1523
 title: 'Principle #2 Maintain metadata'
 pubDate: 2023-06-19T14:16:59+01:00
 author: 'Dr Jonathan Berry'
