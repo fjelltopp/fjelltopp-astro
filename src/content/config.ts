@@ -1,8 +1,8 @@
 import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
 
-const blogCollection = defineCollection({
-  loader: glob({ pattern: "*.md", base: "./content/blog" }),
+const blog = defineCollection({
+  loader: glob({ pattern: "*.md", base: "src/content/blog" }),
   schema: z.object({
     title: z.string(),
     pubDate: z.date(),
@@ -16,8 +16,8 @@ const blogCollection = defineCollection({
   }),
 });
 
-const industriesCollection = defineCollection({
-  loader: glob({ pattern: "*.md", base: "./content/industries" }),
+const industries = defineCollection({
+  loader: glob({ pattern: "*.md", base: "src/content/industries" }),
   schema: z.object({
     title: z.string(),
     image: z.string(),
@@ -26,8 +26,8 @@ const industriesCollection = defineCollection({
   }),
 });
 
-const projectsCollection = defineCollection({
-  loader: glob({ pattern: "*.md", base: "./content/projects" }),
+const projects = defineCollection({
+  loader: glob({ pattern: "*.md", base: "src/content/projects" }),
   schema: z.object({
     title: z.string(),
     image: z.string(),
@@ -36,8 +36,8 @@ const projectsCollection = defineCollection({
   }),
 });
 
-const servicesCollection = defineCollection({
-  loader: glob({ pattern: "*.md", base: "./content/services" }),
+const services = defineCollection({
+  loader: glob({ pattern: "*.md", base: "src/content/services" }),
   schema: z.object({
     title: z.string(),
     image: z.string(),
@@ -46,8 +46,8 @@ const servicesCollection = defineCollection({
   }),
 });
 
-const teamsCollection = defineCollection({
-  loader: glob({ pattern: "*.md", base: "./content/teams" }),
+const teams = defineCollection({
+  loader: glob({ pattern: "*.md", base: "src/content/teams" }),
   schema: z.object({
     author: z.string(),
     image: z.string(),
@@ -57,9 +57,9 @@ const teamsCollection = defineCollection({
 });
 
 export const collections = {
-  blog: blogCollection,
-  industries: industriesCollection,
-  projects: projectsCollection,
-  services: servicesCollection,
-  teams: teamsCollection,
+  blog: blog,
+  industries: industries,
+  projects: projects,
+  services: services,
+  teams: teams,
 };
