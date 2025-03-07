@@ -1,0 +1,40 @@
+---
+import { Image } from "astro:assets";
+import unaids from "../../assets/company/unaids-white.png";
+import unicef from "../../assets/company/unicef-white.png";
+import who from "../../assets/company/who-white.png";
+import glasgow from "../../assets/company/glasgow-white.png";
+import fcdo from "../../assets/company/fcdo-white.png";
+import fao from "../../assets/company/fao-white.png";
+import Section from "./Section.astro";
+
+const sponsors = [
+  { logo: fao, alt: "FAO logo" },
+  { logo: fcdo, alt: "FCDO logo" },
+  { logo: glasgow, alt: "Unviersity of Glasgow logo" },
+  { logo: who, alt: "WHO logo" },
+  { logo: unicef, alt: "UNICEF logo" },
+  { logo: unaids, alt: "UNAIDS logo" },
+];
+---
+
+<Section id="sponsors" bg="#002920">
+  <div class="flex-row items-center">
+  <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6">
+    {
+      sponsors.map((sponsor) => {
+        return (
+          <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+            <Image src={sponsor.logo} class="h-12 w-auto mx-auto" alt={sponsor.alt} loading="lazy" />
+          </div>
+        );
+      })
+    }
+  </div>
+  </div> 
+</Section>
+<style>
+  #sponsors {
+    background: var(--green);
+  }
+</style>

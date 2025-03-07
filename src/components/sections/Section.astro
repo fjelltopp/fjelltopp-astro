@@ -1,0 +1,17 @@
+---
+type Props = {
+  id: string;
+  bg: string;
+};
+
+const {
+    id,
+    bg
+} = Astro.props;
+---
+
+<section id={id} class={`px-5 flex justify-center overflow-hidden lg:block ${bg ? `bg-[${bg}]` : ''}`}>
+  <div class="w-full max-w-[1280px] mx-auto">
+    <slot />
+  </div>
+</section>
