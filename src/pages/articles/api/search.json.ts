@@ -30,9 +30,7 @@ export const GET: APIRoute = async ({ url }): Promise<Response> => {
       .toLowerCase()
       .includes(query!.toLowerCase());
 
-    const bodyMatch: boolean = article.body
-      .toLowerCase()
-      .includes(query!.toLowerCase());
+    const bodyMatch: boolean =  article.body ? article.body.toLowerCase().includes(query!.toLowerCase()) : false;
 
     const slugMatch: boolean = article.id
       .toLowerCase()
