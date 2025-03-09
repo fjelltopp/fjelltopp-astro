@@ -47,7 +47,7 @@ const services = defineCollection({
 });
 
 const teams = defineCollection({
-  loader: glob({ pattern: "*.md", base: "src/content/teams" }),
+  loader: glob({ pattern: "[^_]*.md", base: "src/content/team" }),
   schema: z.object({
     author: z.string(),
     image: z.string(),
