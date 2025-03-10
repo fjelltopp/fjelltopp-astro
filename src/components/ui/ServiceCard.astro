@@ -6,6 +6,20 @@ import Card from "./Card.astro";
 import gob from "../../assets/arrow-dark.svg";
 import wob from "../../assets/arrow-white.svg";
 
+/* Bit of a bodge this... */
+import c1 from "../../assets/pics/card-pic1.png";
+import c2 from "../../assets/pics/card-pic2.png";
+import c3 from "../../assets/pics/card-pic3.png";
+import c4 from "../../assets/pics/card-pic4.png";
+import c5 from "../../assets/pics/card-pic5.png";
+
+const imageDictionary: { [key: number]: ImageMetadata } = {};
+imageDictionary[0] = c1;
+imageDictionary[1] = c2;
+imageDictionary[2] = c3;
+imageDictionary[3] = c4;
+imageDictionary[4] = c5;
+
 /* 
 1. Gray card with green title and green on black icon 
 2. Green card with gray title and green on black icon
@@ -34,16 +48,11 @@ interface Props {
     <picture
       class="w-full h-full row-span-1 order-1 lg:order-none lg:row-span-2 flex justify-center items-center"
     >
-      <!-- <Image
-        src={service.data.image}
+      <Image
+        src={imageDictionary[service.data.service_id % 5]}
         alt={service.data.alt}
         class="h-[100px] w-auto sm:h-auto sm:w-3/4 object-cover"
-      /> -->
-      <img
-        src={service.data.image}
-        alt={service.data.alt}
-        class="h-[100px] w-auto sm:h-auto sm:w-3/4 object-cover"
-      >
+      />
     </picture>
     <div class="flex items-end">
       <a href={'/fjelltopp-astro/services/' + service.id} class="flex items-center gap-3.5"
