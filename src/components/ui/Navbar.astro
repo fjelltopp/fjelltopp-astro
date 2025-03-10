@@ -48,7 +48,7 @@ const navButton = { href: 'https://github.com/manulthanura/Fjelltopp', label: 'B
                       > {item.label} </span>
                     </button>
                     <DropdownItems>
-                      <div class="absolute top-0 dropdownmenu rounded bg-white opacity-80 mt-[68px]">
+                      <div class="absolute top-0 rounded bg-white opacity-80 mt-[68px]">
                         {item.dropdownContent.map((subItem, _) => (
                           <a 
                             href={`/fjelltopp-astro${item.href}/${subItem.id}`}
