@@ -1,165 +1,140 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+
+    --font-poppins: Poppins, sans-serif;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+
+    --color-green: var(--green);
+    --color-black: var(--black);
+    --color-dark: var(--dark);
+    --color-gray: var(--gray);
+    --color-white: var(--white);
+}
 
 @layer base {
-  @font-face {
-    font-family: "Poppins";
-    src: url("/fjelltopp-astro/fonts/poppins/Poppins-Regular.woff2"), format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
 
-  @font-face {
-    font-family: "Poppins";
-    src: url("/fjelltopp-astro/fonts/poppins/Poppins-Medium.woff2"), format("woff2");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  .font-outline {
-    -webkit-text-stroke: 2.5px black;
-    background-color: transparent;
-  }
-  .font-outline-sm {
-    -webkit-text-stroke: 1.2px black;
-    background-color: transparent;
-  }
-
-  :root {
-    --green: #36E07E;
-    --black: rgb(3, 3, 3);
-    --dark: #002920;
-    --gray: #C4F2DA;
-    --white: #ffffff;
-  }
-
-  /* @layer base {
-    * {
-      box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
-      scroll-behavior: smooth;
+    /*
+      The default border color has changed to `currentColor` in Tailwind CSS v4,
+      so we've added these compatibility styles to make sure everything still
+      looks the same as it did with Tailwind CSS v3.
+    
+      If we ever want to remove these styles, we need to add an explicit border
+      color utility to any element that depends on these defaults.
+    */
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
     }
 
-    body {
-      font-size: 20px;
+    @font-face {
+        font-family: "Poppins";
+        src: url("/fjelltopp-astro/fonts/poppins/Poppins-Regular.woff2"), format("woff2");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
     }
 
-    p {
-      font-size: 1rem;
+    @font-face {
+        font-family: "Poppins";
+        src: url("/fjelltopp-astro/fonts/poppins/Poppins-Medium.woff2"), format("woff2");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
     }
 
-    h1 {
-      font-size: 3rem;
-      line-height: 120%;
-      font-weight: 500;
+    .font-outline {
+        -webkit-text-stroke: 2.5px black;
+        background-color: transparent;
     }
 
-    h2 {
-      font-size: 2rem;
-      font-weight: 500;
+    .font-outline-sm {
+        -webkit-text-stroke: 1.2px black;
+        background-color: transparent;
     }
 
-    h3 {
-      font-size: 1.5rem;
-      font-weight: 500;
+    :root {
+        --green: #36E07E;
+        --black: rgb(3, 3, 3);
+        --dark: #002920;
+        --gray: #C4F2DA;
+        --white: #ffffff;
     }
 
-    h4 {
-      font-size: 1rem;
-      font-weight: 500;
+}
+
+@utility btn-primary {
+    @apply bg-dark text-white rounded-lg px-[35px] py-5 transition-all duration-200;
+
+    &:hover {
+        @apply bg-green text-black transform scale-105;
     }
+}
 
-    @media (max-width: 640px) {
-      body {
-        font-size: 16px;
-      }
+@utility btn-secondary {
+    @apply bg-transparent text-black px-[35px] py-5 rounded-lg border border-solid border-black transition-all duration-200;
 
-      p {
-        font-size: 1rem;
-      }
-
-      h1 {
-        font-size: 2.688rem;
-      }
-
-      h2 {
-        font-size: 2.25rem;
-      }
-
-      h3 {
-        font-size: 1.625rem;
-      }
-
-      h4 {
-        font-size: 1.125rem;
-      }
+    &:hover {
+        @apply bg-black text-white border-green transform scale-105;
     }
-  } */
+}
 
-  @layer components {
-    .btn-primary {
-      @apply bg-dark text-white rounded-lg px-[35px] py-5 transition-all duration-200;
-    }
-    .btn-primary:hover {
-      @apply bg-green text-black transform scale-105;
-    }
+@utility btn-tertiary {
+    @apply bg-green text-black rounded-lg px-[35px] py-5 transition-all duration-200;
 
-    .btn-secondary {
-      @apply bg-transparent text-black px-[35px] py-5 rounded-lg border border-solid border-black transition-all duration-200;
+    &:hover {
+        @apply bg-white text-black transform scale-105;
     }
-    .btn-secondary:hover {
-      @apply bg-black text-white border-green transform scale-105;
-    }
+}
 
-    .btn-tertiary {
-      @apply bg-green text-black rounded-lg px-[35px] py-5 transition-all duration-200;
-    }
-    .btn-tertiary:hover {
-      @apply bg-white text-black transform scale-105;
-    }
+@utility greenhead {
+    @apply bg-green text-black rounded-[7px] px-[7px];
+}
 
-    .greenhead {
-      @apply bg-green text-black rounded-[7px] px-[7px];
-    }
+@utility whitehead {
+    @apply bg-white text-black rounded-[7px] px-[7px];
+}
 
-    .whitehead {
-      @apply bg-white text-black rounded-[7px] px-[7px];
-    }
-
-    .blackhead {
-      @apply bg-black text-white rounded-[7px] px-[7px];
-    }
-  }
+@utility blackhead {
+    @apply bg-black text-white rounded-[7px] px-[7px];
 }
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+    background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #000000;
+    background: #000000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+    background: #555;
 }
 
 /* markdown style */
 .content p {
-  margin: 20px 0;
-  font-size: 1.1rem;
+    margin: 20px 0;
+    font-size: 1.1rem;
 }
 
 .content h2 {
-  margin: 20px 0;
-  font-size: 1.4rem;
-  font-weight: bold;
+    margin: 20px 0;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
