@@ -1,12 +1,18 @@
 ---
-import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import { Astronav, MenuItems, MenuIcon, Dropdown, DropdownItems } from "astro-navbar";
+
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from "astro:content";
+
+const allServices: CollectionEntry<'services'>[] = (await getCollection('services'))
+  .sort((a:CollectionEntry<'services'>, b:CollectionEntry<'services'>) => a.data.service_id - b.data.service_id);
 
 const menuitems = [
-  { href: '/about', label: 'About us' },
-  { href: '/#services', label: 'Services' },
-  { href: '/#cases', label: 'Use Cases' },
-  { href: '/pricing', label: 'Pricing' },
-  { href: '/articles', label: 'Blog'},
+  { href: '/about', label: 'About us', dropdown: false, dropdownContent: [] },
+  { href: '/services', label: 'Services', dropdown: true, dropdownContent: allServices },
+  { href: '/#cases', label: 'Use Cases', dropdown: false, dropdownContent: [] },
+  { href: '/pricing', label: 'Pricing', dropdown: false, dropdownContent: [] },
+  { href: '/articles', label: 'Blog', dropdown: false, dropdownContent: [] },
 ];
 
 const navButton = { href: 'https://github.com/manulthanura/Fjelltopp', label: 'Book a consultation' };
@@ -27,13 +33,34 @@ const navButton = { href: 'https://github.com/manulthanura/Fjelltopp', label: 'B
           <ul class="font-medium flex flex-col p-4 lg:p-0 mt-4 border rounded-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0">
             {menuitems.map((item, _) => (
               <li>
-                <a 
-                  href={`/fjelltopp-astro${item.href}`}
-                  class="mobile-nav-link block py-2 px-3 text-black rounded lg:bg-transparent lg:p-0"
-                  data-close-menu="true"
-                >
-                  {item.label}
-                </a>
+                {!item.dropdown ?
+                  <a 
+                    href={`/fjelltopp-astro${item.href}`}
+                    class="mobile-nav-link block py-2 px-3 text-black rounded lg:bg-transparent lg:p-0"
+                    data-close-menu="true"
+                  >
+                    {item.label}
+                  </a>
+                :
+                  <Dropdown class="group">
+                    <button>
+                      <span> {item.label} </span>
+                    </button>
+                    <DropdownItems>
+                      <div class="absolute top-0 dropdownmenu">
+                        {item.dropdownContent.map((subItem, _) => (
+                          <a 
+                            href={`/fjelltopp-astro${item.href}/${subItem.id}`}
+                            class="mobile-nav-link block py-2 px-3 text-black rounded lg:bg-transparent lg:p-0"
+                            data-close-menu="true"
+                          >
+                            {subItem.data.title}
+                          </a>
+                        ))}
+                      </div>
+                    </DropdownItems>
+                  </Dropdown>
+                }
               </li>
             ))}
             <div class="lg:hidden flex items-center justify-center mt-3 gap-4">

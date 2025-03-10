@@ -1,8 +1,8 @@
 ---
-title: "Research & data analysis"
+title: "Heathcare accessibility"
 service_id: 7
-titleTop: "Research &"
-titleBottom: "data analysis"
+titleTop: "Healthcare"
+titleBottom: "accessibility"
 summary: 'Expert data management and analysis for your public health research project.'
 image: "../../assets/pics/card-pic1.png"
 alt: "A duck and/or a rabbit"

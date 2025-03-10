@@ -163,3 +163,14 @@
   font-size: 1.4rem;
   font-weight: bold;
 }
+
+.dropdownmenu {
+  margin-top: 68px;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.block:hover, group:hover, button:hover {
+  background: #000000;
+  color: white;
+}
