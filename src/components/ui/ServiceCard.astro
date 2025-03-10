@@ -35,13 +35,13 @@ interface Props {
 
 <Card isUnderline={false}>
   <div
-    class=`h-[300px] w-full sm:h-full lg:gap-[60px] grid custom-grid lg:grid-cols-2 lg:grid-rows-1 p-8 sm:p-[50px] rounded-[45px] ${service.data.service_id % 3 === 1 ? 'bg-gray' : service.data.service_id % 3 === 2 ? 'bg-green' : 'bg-dark text-gray'}`
+    class=`h-[300px] w-full sm:h-full lg:gap-[60px] grid custom-grid lg:grid-cols-2 lg:grid-rows-1 p-8 sm:p-[50px] rounded-[45px] ${service.data.order % 3 === 1 ? 'bg-gray' : service.data.order % 3 === 2 ? 'bg-green' : 'bg-dark text-gray'}`
   >
     <h3 class=`flex flex-col col-span-2 lg:col-span-1`>
-      <span class=`w-[fit-content] ${service.data.service_id % 3 === 1 ? 'greenhead' : 'whitehead'}`
+      <span class=`w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : 'whitehead'}`
         >{service.data.titleTop}</span
       >
-      <span class=`w-[fit-content] ${service.data.service_id % 3 === 1 ? 'greenhead' : 'whitehead'}`
+      <span class=`w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : 'whitehead'}`
         >{service.data.titleBottom}</span
       >
     </h3>
@@ -49,14 +49,14 @@ interface Props {
       class="w-full h-full row-span-1 order-1 lg:order-none lg:row-span-2 flex justify-center items-center"
     >
       <Image
-        src={imageDictionary[service.data.service_id % 5]}
+        src={imageDictionary[service.data.order % 5]}
         alt={service.data.alt}
         class="h-[100px] w-auto sm:h-auto sm:w-3/4 object-cover"
       />
     </picture>
     <div class="flex items-end">
       <a href={'/fjelltopp-astro/services/' + service.id} class="flex items-center gap-3.5"
-        ><Image src={service.data.service_id % 3 === 1 || service.data.service_id % 3 === 2 ? gob : wob} alt="Click for more details" />
+        ><Image src={service.data.order % 3 === 1 || service.data.order % 3 === 2 ? gob : wob} alt="Click for more details" />
         <span class="hidden sm:block">More info</span></a
       >
     </div>

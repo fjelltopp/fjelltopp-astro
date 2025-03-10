@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from "astro:content";
 
 const allServices: CollectionEntry<'services'>[] = (await getCollection('services'))
-  .sort((a:CollectionEntry<'services'>, b:CollectionEntry<'services'>) => a.data.service_id - b.data.service_id);
+  .sort((a:CollectionEntry<'services'>, b:CollectionEntry<'services'>) => a.data.order - b.data.order);
 
 const menuitems = [
   { href: '/about', label: 'About us', dropdown: false, dropdownContent: [] },
@@ -43,8 +43,9 @@ const navButton = { href: 'https://github.com/manulthanura/Fjelltopp', label: 'B
                   </a>
                 :
                   <Dropdown class="group">
-                    <button>
-                      <span> {item.label} </span>
+                    <button class="mobile-nav-link block py-2 px-3 text-black rounded lg:bg-transparent lg:p-0">
+                      <span
+                      > {item.label} </span>
                     </button>
                     <DropdownItems>
                       <div class="absolute top-0 dropdownmenu">

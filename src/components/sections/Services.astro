@@ -7,7 +7,7 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from "astro:content";
 
 const allServices: CollectionEntry<'services'>[] = (await getCollection('services'))
-  .sort((a:CollectionEntry<'services'>, b:CollectionEntry<'services'>) => a.data.service_id - b.data.service_id);
+  .sort((a:CollectionEntry<'services'>, b:CollectionEntry<'services'>) => a.data.order - b.data.order);
 
 const description =
   "At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include";

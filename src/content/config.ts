@@ -40,7 +40,7 @@ const services = defineCollection({
   loader: glob({ pattern: "*.md", base: "src/content/services" }),
   schema: z.object({
     title: z.string(),
-    service_id: z.number(),
+    order: z.number(),
     titleTop: z.string(),
     titleBottom: z.string(),
     image: z.string(),
