@@ -1,8 +1,6 @@
 ---
 title: "Heathcare accessibility"
 order: 7
-titleTop: "Healthcare"
-titleBottom: "accessibility"
 summary: 'Expert data management and analysis for your public health research project.'
 image: "fjelltopp-astro/src/assets/pics/card-pic1.png"
 alt: "A duck and/or a rabbit"

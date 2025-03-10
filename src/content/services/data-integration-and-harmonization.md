@@ -1,8 +1,6 @@
 ---
 title: "Data integration & harmonization"
 order: 3
-titleTop: "Data integration"
-titleBottom: "& harmonization"
 summary: 'Expert data management and analysis for your public health research project.'
 image: "fjelltopp-astro/src/assets/pics/card-pic3.png"
 alt: "A duck and/or a rabbit"

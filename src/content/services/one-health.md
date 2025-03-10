@@ -1,8 +1,6 @@
 ---
 title: "One health"
 order: 8
-titleTop: "One"
-titleBottom: "health"
 summary: 'Expert data management and analysis for your public health research project.'
 image: "fjelltopp-astro/src/assets/pics/card-pic2.png"
 alt: "A duck and/or a rabbit"

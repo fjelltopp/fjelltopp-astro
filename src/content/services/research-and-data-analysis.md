@@ -1,8 +1,6 @@
 ---
 title: "Research & data analysis"
 order: 6
-titleTop: "Research &"
-titleBottom: "data analysis"
 summary: 'Expert data management and analysis for your public health research project.'
 image: "fjelltopp-astro/src/assets/pics/card-pic6.png"
 alt: "A duck and/or a rabbit"

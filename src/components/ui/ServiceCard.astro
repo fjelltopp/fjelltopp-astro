@@ -1,4 +1,6 @@
 ---
+import { splitTitle } from "../../utils/splitTitle";
+
 import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import Card from "./Card.astro";
@@ -39,10 +41,10 @@ interface Props {
   >
     <h3 class=`flex flex-col col-span-2 lg:col-span-1`>
       <span class=`w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : 'whitehead'}`
-        >{service.data.titleTop}</span
+        >{splitTitle(service.data.title)[0]}</span
       >
       <span class=`w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : 'whitehead'}`
-        >{service.data.titleBottom}</span
+        >{splitTitle(service.data.title)[1]}</span
       >
     </h3>
     <picture
