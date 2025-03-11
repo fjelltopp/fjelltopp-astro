@@ -26,33 +26,38 @@ const navButton = { href: 'https://github.com/manulthanura/Fjelltopp', label: 'B
           <a href="/fjelltopp-astro/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/fjelltopp-astro/Logo.svg" class="h-16" alt="Logo" />
           </a>
-          <MenuIcon class="w-8 h-8 text-black cursor-pointer lg:hidden">
+          <MenuIcon class="w-8 h-8 text-[var(--dark)] cursor-pointer lg:hidden">
         </div>
         
         <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
-          <ul class="font-medium flex flex-col p-4 lg:p-0 mt-4 border rounded-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0">
+          <ul class="font-medium flex flex-col lg:p-0 mt-4 border rounded-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0">
             {menuitems.map((item, _) => (
               <li>
                 {!item.dropdown ?
                   <a 
                     href={`/fjelltopp-astro${item.href}`}
-                    class="mobile-nav-link block py-2 px-3 text-black rounded lg:bg-transparent lg:p-0 hover:bg-black hover:text-white"
+                    class="mobile-nav-link block text-[var(--dark)] rounded lg:bg-transparent lg:p-1 hover:bg-[var(--dark)] hover:text-white"
                     data-close-menu="true"
                   >
                     {item.label}
                   </a>
                 :
                   <Dropdown class="group">
-                    <button class="mobile-nav-link block py-2 px-3 text-black rounded lg:bg-transparent lg:p-0 hover:bg-black hover:text-white">
-                      <span
-                      > {item.label} </span>
+                    <button
+                      class="mobile-nav-link block text-[var(--dark)] rounded lg:bg-transparent lg:p-1 hover:bg-[var(--dark)] hover:text-white"
+                      style="display: flex; align-items: center; gap: 2px;"
+                    >
+                      <span>{item.label}</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
+                        <path fill-rule="evenodd" d="M8 2a.75.75 0 0 1 .75.75v8.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.22 3.22V2.75A.75.75 0 0 1 8 2Z" clip-rule="evenodd" />
+                      </svg>
                     </button>
                     <DropdownItems>
-                      <div class="absolute top-0 rounded bg-white opacity-80 mt-[67px]">
+                      <div class="lg:absolute lg:top-0 rounded bg-white lg:mt-[71px]">
                         {item.dropdownContent.map((subItem, _) => (
                           <a 
                             href={`/fjelltopp-astro${item.href}/${subItem.id}`}
-                            class="mobile-nav-link block py-2 px-3 text-black rounded lg:bg-transparent lg:p-0 hover:bg-black hover:text-white"
+                            class="mobile-nav-link block text-[var(--dark)] rounded lg:bg-transparent lg:p-1 lg:ml-0 md:ml-4 sm:ml-4 hover:bg-[var(--dark)] hover:text-white"
                             data-close-menu="true"
                           >
                             {subItem.data.title}
@@ -66,7 +71,7 @@ const navButton = { href: 'https://github.com/manulthanura/Fjelltopp', label: 'B
             ))}
             <div class="lg:hidden flex items-center justify-center mt-3 gap-4">
               <a 
-                class="mobile-nav-link px-9 py-5 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex" 
+                class="mobile-nav-link px-9 py-5 rounded-2xl border border-[var(--dark)] bg-white hover:bg-[var(--dark)] text-[var(--dark)] hover:text-white inline-flex" 
                 href={navButton.href}
                 data-close-menu="true"
               >
@@ -79,7 +84,7 @@ const navButton = { href: 'https://github.com/manulthanura/Fjelltopp', label: 'B
 
       <div>
         <div class="hidden lg:flex items-center gap-4">
-          <a class="px-9 py-5 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex" href={navButton.href}>
+          <a class="px-9 py-5 rounded-2xl border border-[var(--dark)] bg-white hover:bg-[var(--dark)] text-[var(--dark)] hover:text-white inline-flex" href={navButton.href}>
             <h2 class="text-center text-xl font-normal leading-7">{navButton.label}</h2>
           </a>
         </div>
