@@ -10,7 +10,7 @@ const {
 } = Astro.props;
 ---
 
-<section id={id} class={`px-5 flex justify-center overflow-hidden lg:block ${bg ? `bg-[${bg}]` : ''}`}>
+<section id={id} class={`px-5 flex justify-center overflow-hidden lg:block`} style={bg ? `background-color: ${bg};` : ''}>
   <div class="w-full max-w-[1280px] mx-auto">
     <slot />
   </div>
