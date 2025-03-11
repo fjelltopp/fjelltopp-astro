@@ -38,9 +38,11 @@ const projects = defineCollection({
 
 const services = defineCollection({
   loader: glob({ pattern: "*.md", base: "src/content/services" }),
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
-    image: z.string(),
+    order: z.number(),
+    image: image(),
+    alt: z.string(),
     summary: z.string(),
     language: z.enum(["en", "fr"]),
   }),
