@@ -1,10 +1,10 @@
 // Split the title string into two lines
 export function splitTitle(title: string): Array<string> {
     if (typeof title !== 'string' || title.length === 0) {
-      return [title, ""];
+      return [title.toString(), ""];
     }
 
-    let titleObj: Array<string> = title.split(' ');
+    let titleObj: Array<string> = title.split(" ");
     let titleTop: Array<string> = [];
     let titleBottom: Array<string> = [];
 
