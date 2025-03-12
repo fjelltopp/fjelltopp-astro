@@ -22,7 +22,7 @@ Have you ever started to look into a solution for your health data issue but hav
 
 Here at Fjelltopp, we appreciate that not everybody is as into tech as we are, and we certainly don’t want to add to the aforementioned information avalanche either. So here’s the health information systems that could be the start of fixing your health data issues, what they do and why they might work for you.
 
-## What are Routine Health Information Systems (RHIS)?
+###What are Routine Health Information Systems (RHIS)?
 
 RHIS is an umbrella term used to refer to all systems that are designed to collect, manage, analyse and report on health-related data in a routine and systematic manner. This data is needed to make good decisions that lead to improved health. Many of the countries we work with struggle to implement such systems, due to the complexity of the data demands, the lack of resources and expertise, the need to agree on standards for metadata and exchange, poor co-ordination between financial and political partners, no clear legal guidance on data-protection, and more…
 
@@ -60,7 +60,7 @@ This health information system is great for collecting, storing and sharing coun
 
 In Fjelltopp’s experience, despite the system’s popularity, it is not without fault. It was originally built for the purposes of collecting aggregated data; the solutions later put in place to manage individual data, especially over multiple appointments, are quite complex to configure and manage. The UI can be very clunky and the options for configuring the system “as code” are somewhat restrictive – much of the complex configurations have to be created/edited manually by hand in the UI, which is a laborious and fiddly process.
 
-## Health Information System 2: OpenEMR
+###Health Information System 2: OpenEMR
 
 [OpenEMR](https://www.open-emr.org/) is an open-source cloud-based solution for “Electronic Medical Records”. It differs from DHIS2 in that its primary function is to support medical practices to manage and record the outcomes of their patient appointments. Medical records are the notes kept during a patient appointment for retrospective review in future appointments.
 
@@ -78,7 +78,7 @@ New modules and customisations can be written for OpenMRS and it can also integr
 
 This is the health information system for smaller organisations that only require a system to manage patient records.
 
-## Health Information System 4: Fjelltopp’s Health Surveillance
+###Health Information System 4: Fjelltopp’s Health Surveillance
 
 The Fjelltopp team was founded to develop a health surveillance system for Jordan during the Syrian refugee crisis. We built a custom Python/Javascript solution which offered:
 
@@ -92,7 +92,7 @@ The Fjelltopp team was founded to develop a health surveillance system for Jorda
 
 This low-cost rapidly deployable solution was also adopted as part of WHO’s response to endemic bubonic plague in Madagascar, the 2017 pre-famine warning in Somalia and the Central African Republic civil war. The solution was published open source on Fjelltopp’s Github page.
 
-## Health Information System 5: OpenLMIS
+###Health Information System 5: OpenLMIS
 
 <div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content">[OpenLMIS](https://openlmis.org/) is a little different to the systems discussed so far. It is a logistics management system that is built specifically for the health sector. It helps tackle the complexity of managing health commodity supply chains. On this health information system, you can handle:
 
@@ -115,7 +115,7 @@ We include OpenHIM here Fjelltopp sees interoperability between health informati
 
 For those looking to smoothly make multiple health information systems, such as DHIS2, interoperable with each other – OpenHIM may be able to help.
 
-## So how can we help?
+###So how can we help?
 
 There are too many systems to write about in a single blog post, but we hope we have given a flavour of the breadth of systems that exist. Now you know a bit more about these high-profile open-source health information systems, let’s take a look at how we can support you.
 

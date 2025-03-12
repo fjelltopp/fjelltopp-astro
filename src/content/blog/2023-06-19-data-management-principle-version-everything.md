@@ -26,7 +26,7 @@ Version control is a crucial (yet often overlooked) feature of any data manageme
 
 In this article, we discuss the importance of maintaining a complete and clear history of all data *and* metadata changes – otherwise referred to as the dataset’s “audit trail”. We’ll show how Fjelltopp could help you implement this for your organisation’s data.
 
-## What is version control?
+###What is version control?
 
 Version control involves tracking and managing the changes made to your data over time. The term can encompass a wide range of features and tools but at the very least, version control should enable you to: review old revisions of your data, understand when they were made, who the author was and revert to them if necessary.
 
@@ -34,7 +34,7 @@ In software and data engineering the most popular tool used for this purpose is 
 
 Whilst Fjelltopp uses Git extensively, in our experience, many of our clients would not benefit from its complexity. For the most part a much simpler feature-set will suffice. We like how Google Drive/Docs does versioning. It records a linear list of revisions made to the document, including the author and time of the revision, allowing you to tag, filter and revert to revisions as desired. This is the approach we have implemented in our [CKAN](https://www.fjelltopp.org/service/ckan-support-service/) and [Health Data Hubs ](https://www.fjelltopp.org/service/data-hubs-for-health/)solutions.
 
-## Why should you Version?
+###Why should you Version?
 
 <div aria-hidden="true" class="wp-block-spacer" style="height:15px"></div><div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-image-fill" style="grid-template-columns:auto 41%"><div class="wp-block-media-text__content">- **Recovery –** If someone accidentally uploads a new version of the data that is completely wrong – maybe they selected the wrong file, or maybe the data became corrupted – versioning allows you to safely recover the previous version and ensure that all is not lost.
 - **Debugging –** When there is a problem with your data, versioning will let you look back through your data’s history and understand where that problem came from. One problem in an early revision may have prompted other problems to appear in later revisions. Versioning will help you unpick this.
@@ -53,7 +53,7 @@ Version control for metadata is critical for accurate and efficient data managem
 
 Fjelltopp builds metadata version control into our data projects as a founding principle. We find this brings added value to Fjelltopp, our clients and the end users of our tools.
 
-## How should you version?
+###How should you version?
 
 <div aria-hidden="true" class="wp-block-spacer" style="height:36px"></div><div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill" style="grid-template-columns:20% auto"><figure class="wp-block-media-text__media" style="background-image:url(https://www.fjelltopp.org/media/Untitled-design-36.png);background-position:49% 60%">![](https://www.fjelltopp.org/media/Untitled-design-36.png)</figure><div class="wp-block-media-text__content">**\[1\] Ensure you and your team are familiar with your versioning tools.**
 

@@ -30,7 +30,7 @@ Each and every one of these validation issues undermines the data quality, there
 
 This article will help you design and evaluate your data validation strategy.
 
-## **Validate Early**
+### Validate Early
 
 Validation should take place wherever there is an “unknown entity” interacting with your data. Furthermore it should take place *as early as possible* after that interaction to minimise the knock on effect of poor data quality across your system. As discussed in principle [\#3 Automate where possible,](https://www.fjelltopp.org/data-management-principles-3-automate-wherever-possible/) “Computer’s don’t make mistakes; humans do.” Humans are likely to be the most common “unknown entity” in your system!
 
@@ -48,7 +48,7 @@ Validation should be automated wherever possible.
 
 It is very repetitive. However, broadly speaking, the more you validate, the more confidence you have in your data. In software engineering, manual testing of your code base is a recipe for collapse as the project grows. These tests should always be automated and they should run as quickly as possible. The same is true for data validation. In fact, in many ways data validation is analogous to software testing and error handling.
 
-## **The Four Dimensions of Data Validation**
+### The Four Dimensions of Data Validation
 
 Based on our experience at Fjelltopp we have identified four different dimensions to data validation. A good validation strategy will consider:
 
@@ -85,7 +85,7 @@ There are a number of open-source tools out there to help you validate your data
 
 ---
 
-## We’d love to know what you think…
+###We’d love to know what you think…
 
 Set up a meeting with us [here](https://docs.google.com/forms/d/e/1FAIpQLSdzzKi5MGz4I45KUxFhOfdwXAr9gNzWs5CRi9REblm3LVI0Hg/viewform). We’ve got some questions to get you thinking:
 

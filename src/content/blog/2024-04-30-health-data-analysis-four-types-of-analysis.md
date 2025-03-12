@@ -17,7 +17,7 @@ tags: []
 
 ---
 
-# Types of Health Data Analysis
+## Types of Health Data Analysis
 
 The “[Gartner Ascendancy Model of Analytics](https://images.app.goo.gl/es3tBv3wK2k8HBbc9)” is a helpful way of framing four different sorts of analytics that should be applied to health data. Let’s break it down:
 

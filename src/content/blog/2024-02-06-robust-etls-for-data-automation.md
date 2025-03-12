@@ -27,7 +27,7 @@ Fjelltopp have worked upon many different ETL solutions for our clients, includi
 
 More recently there has been a rise in the use of the term “ELT” meaning to extract from source, immediately load into the target system, before running any data transformations. In this model the source data is duplicated in the target system before it undergoes any transformation steps. This points to the importance of maintaining clear audit trails and versioning in your system, as it avoids the risk of blackboxing transformations in some unknown third system. In practice the two terms are often used interchangeably, but it is interesting to reflect on the conceptual difference between them.
 
-## First things first – access &amp; orchestration
+###First things first – access &amp; orchestration
 
 Before embarking on building an ETL (Extract, Transform, Load) process, you’ll need to ensure that the data you want to work with is stored in a centralised storage system with machine/programmatic access (most likely via an API). This might be an SQL database or cloud-based storage solution. Fjelltopp has particular experience working with the [CKAN platform](https://www.fjelltopp.org/service/ckan-support-service/), which provides extensive features via its API to search, read and write data and associated metadata. This is your source system, from which you will “extract” data.
 

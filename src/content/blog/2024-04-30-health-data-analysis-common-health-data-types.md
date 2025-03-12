@@ -21,7 +21,7 @@ It can be easy to fall into the trap of confirmation bias, and alter data findin
 
 Health data analysis is the extraction of meaning from the health data, which is then used to make better-informed decisions concerning the management of an individual’s or population’s health. At Fjelltopp, we’re passionate about improving quality of life for all – but especially those in low and middle income countries – through the implementation and promotion of software solutions and research.
 
-# Better health data, better health data analysis
+## Better health data, better health data analysis
 
 At the time of writing, the UK is conducting an ongoing examination of the decisions made by the government and beyond in response to the COVID-19 pandemic. This [COVID-19 inquiry](https://covid19.public-inquiry.uk/) has put the spotlight on public health decision making, questioning whether the decisions taken by individuals were reasonable given the evidence available at the time.
 

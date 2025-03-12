@@ -24,7 +24,7 @@ Balancing data availability with data security is a real challenge, especially f
 
 LMICs often work with multiple national and international partners all of whom require access to such data in order to support the country’s fight against diseases such as Tuberculosis, HIV, Malaria and Polio. On the other hand, health data, particularly patient-identifiable data, is highly sensitive and requires the highest levels of security.
 
-## The Problem
+###The Problem
 
 <div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-image-fill" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;grid-template-columns:auto 37%"><div class="wp-block-media-text__content">We have been shocked at times by some of the security-practices observed in the international development sector, including institutionalised password-sharing, unencrypted data distribution, and security through obscurity to name just a few. Many institutions understand that their data is sensitive, but lack the technical and legal knowledge to develop data security protocols that balance availability and security.
 
@@ -41,7 +41,7 @@ The solution begins as a legal and political one, written up in policy, licences
 
 Our recommendation here is to write something down. Anything. Even if it only serves to reflect the status quo, however arbitrary that may feel. A written document creates clarity and facilitates review, discussion and development amongst stakeholders.
 
-## But technology can and should help…
+###But technology can and should help…
 
 Many projects lack clear adherence to a data protection policy, meaning a pragmatic approach is required to be a responsible steward of data. Here are a few simple technical principles that you can use to help you steer your data management work towards a sound balance of *security* and *availability.*
 

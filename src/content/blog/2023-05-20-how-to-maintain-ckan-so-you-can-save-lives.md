@@ -21,7 +21,7 @@ authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie
 
 <div aria-hidden="true" class="wp-block-spacer" style="height:25px"></div>---
 
-## What is CKAN?
+###What is CKAN?
 
 CKAN is an Open Source Platform for you to store all of your data. Picture it like a virtual library, neatly displaying everything you’ve dumped in there – files, Excel sheets, Word docs, PDFs, links, tables and databases. All of your structured and unstructured data in one place ready for you to cherry pick whenever you need, when you need it.
 
@@ -54,7 +54,7 @@ And because as the saying goes, anything worth having in life is worth working f
 
 <div aria-hidden="true" class="wp-block-spacer" style="height:25px"></div>---
 
-## You’re not alone with CKAN, we’re here to help you with setup, maintenance and beyond
+###You’re not alone with CKAN, we’re here to help you with setup, maintenance and beyond
 
 Fjelltopp has great experience with CKAN after working with it on many different projects. We can help set you up with a fully hosted and maintained CKAN instance with our [CKAN support service](https://www.fjelltopp.org/service/ckan-support-service/). When you work with us you also benefit from our wider related experience which we’ve gained from [multiple other projects](https://www.fjelltopp.org/projects/) looking at sound health data management in low and middle income countries.
 

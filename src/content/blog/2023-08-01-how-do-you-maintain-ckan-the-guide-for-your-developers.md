@@ -28,7 +28,7 @@ CKAN is an Open Source Platform for you to store all of your health data in an o
 
 As we said in our [previous blog,](https://www.fjelltopp.org/how-to-maintain-ckan-so-you-can-save-lives/) in order to get the most out of your data and CKAN it has to be properly maintained. Since this is [one of our expertise,](https://www.fjelltopp.org/service/ckan-support-service/) we’ve put together our top tips to keep CKAN running smoothly which you can use with your developers to make sure everything is in tip top shape.
 
-## Why is active maintenance important?
+###Why is active maintenance important?
 
 <div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:37% auto"><figure class="wp-block-media-text__media">![](https://www.fjelltopp.org/media/Untitled-design-36-2.png)</figure><div class="wp-block-media-text__content">It’s an ever-changing world out there on the web. You want to ensure that you have the most secure, stable, tidy and feature rich system possible. Much like tidying your house, if you don’t keep on top of it bit-by-bit, it can quickly become an overwhelming and impossible task.
 
@@ -72,7 +72,7 @@ They can provide information on troubleshooting particular issues and new prepar
 
 These are just a few of our top tips for how to maintain CKAN. Keeping on top of these steps should help you to keep CKAN well maintained and your data in shipshape, but it doesn’t stop there. If you want to have a chat about CKAN maintenance and how to do it right, please [get in touch](https://www.fjelltopp.org/contact/) with the Fjelltopp team today.
 
-## We’re here to help
+###We’re here to help
 
 You don’t need to sit wondering how to maintain CKAN, we’re here to help however little or as much as you may need. The goal is to harmonise your health data no matter how you get there.
 

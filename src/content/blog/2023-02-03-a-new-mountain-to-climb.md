@@ -14,7 +14,7 @@ Since 2015, our goal has been to strive for higher ground and gain deeper insigh
 
 We needed to do some work on ourselves to better communicate our purpose – not only **what** we do, but **how** and **why**. We have to make sure we’re always in the best position to make the biggest impact on the most people by helping to harmonise the world’s health data.
 
-## **So, what did we do?**
+### So, what did we do?
 
 We got together with the experts at [Mike Pye +Co](https://mikepyemarketing.com/). to take a deep dive into our brand, our personality, our voice. Getting the best out of ourselves means we can deliver the best for our clients.
 
@@ -22,7 +22,7 @@ We knew that we needed to increase the awareness of our company by communicating
 
 <video class="w-full h-auto rounded-xl my-6" controls="" autoplay src="/fjelltopp-astro/videos/fjelltopp-dots.mp4"></video>
 
-## **But why?**
+### But why?
 
 > _To enable the diverse to converse, ensuring infrastructures and systems talk to each other to bring solutions that are right for each nations’ public health needs._
 
@@ -32,7 +32,7 @@ To be honest, we’d never undertaken anything like this before. All our growth 
 
 Cards on the table: we don’t like showing off or being the centre of attention, but it was important to showcase some of the more [impactful work](https://www.fjelltopp.org/timeline/) that we’d been a part of. Frankly, we need a seat at the table to make sure we get our voice heard and have the maximum impact on global health data that we know we can.
 
-## **And why should you care?**
+### And why should you care?
 
 <Image class="place-self-start sm:w-full md:float-left md:w-md pb-5 pr-5" src="/fjelltopp-astro/src/assets/dots/dots2.jpg" alt="TODO"/>
 
@@ -44,7 +44,7 @@ Although we’re data scientists and software engineers, our business is ultimat
 
 > _We’re on a mission to help harmonise the world’s public health data so that countries can provide the best possible health services to their people and communities._
 
-## **Talk to us**
+### Talk to us
 
 If you need data analysis and research support in your organisation, we can provide CKAN support, data hubs for health, DHIS2 support, research and analysis and much more. Have a look at some of the work we’ve been involved with and get in touch today to see how we can help you harmonise health data.
 

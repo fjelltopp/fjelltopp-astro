@@ -20,7 +20,7 @@ authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie
 
 ---
 
-## Why Metadata?
+###Why Metadata?
 
 A simple CSV or Excel file can be rendered entirely useless without appropriate “metadata”. Column names rarely provide enough information to truly understand the column content, because they are generally chosen for uniqueness and conciseness.
 
@@ -37,7 +37,7 @@ There are also important questions about the wider dataset to be answered, such 
 
 At the time of dataset creation and first-use, the answer to these questions may appear mundanely obvious. The answers likely reside in the mind of the researcher / engineer / epidemiologist who conducted data collection. If these answers aren’t clearly recorded somewhere, they will be lost with staff turnover or poor communication between team members. Metadata is therefore essential for datasets maintained and used for longer periods of time by larger teams.
 
-## **What is Metadata?**
+### What is Metadata?
 
 Metadata has been broadly defined by IEEE and the Dublin Core Metadata Initiative as [“structured data about data”.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.5042&rep=rep1&type=pdf) Note that the emphasis in this definition is on the structuring of data. Related documentation, standard operating procedures, research papers (or even podcasts and other media) may contain plenty of “data about data”. Whilst these mediums may be engaging, they are unlikely to provide a complete reference for rapid comprehension of the dataset.
 
@@ -55,7 +55,7 @@ These four principles form the basis of the [FAIR manifesto for publishing scien
 - **Data dictionaries** recording information concerning a dataset’s component fields and columns, especially promoting *interoperability* and *reusability.* Data dictionaries include information concerning columns, fields or elements of a dataset, including: name, description, creation date, units, type, origin and relationships to other elements.
 - **Data catalogues** recording information concerning the organisation and categorisation of multiple datasets, especially promoting *discoverability* and *accessibility.* Data catalogues include information such as the dataset: name, description, author, maintainer, creation date, modification date, purpose, licence for use and sources. Data catalogues may also provide tools for tagging datasets according to particular topics of interest, or organising datasets under hierarchical structures.
 
-## Challenges of Managing Metadata
+###Challenges of Managing Metadata
 
 Metadata poses several challenges to the data manager.
 
@@ -88,7 +88,7 @@ A study undertaken in Fjelltopp’s sector of epidemiology and public health imp
 
 ---
 
-## **Dos &amp; Don’ts for Metadata** Management
+### Dos &amp; Don’ts for Metadata Management
 
 How do your data management practices stack up against the following list of dos and don’ts?
 

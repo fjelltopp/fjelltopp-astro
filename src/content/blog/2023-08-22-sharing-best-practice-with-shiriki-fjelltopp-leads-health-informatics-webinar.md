@@ -27,7 +27,7 @@ Shiriki is an informal community of people who work in global public health info
   
 Fjelltopp has struggled to find professional communities within the public health informatics sector. Shiriki has been a great place for us to learn and network with others. Please do [get in touch](https://www.fjelltopp.org/contact/) and tell us about any relevant professional communities you are part of.
 
-## **What was the webinar about?**
+### What was the webinar about?
 
 <div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:37% auto"><figure class="wp-block-media-text__media">![](https://www.fjelltopp.org/media/Portrait-Hiv-800x1200.jpg)</figure><div class="wp-block-media-text__content">Jonathan led a webinar concerning our recent case study implementing a [Document Management System for the Department of HIV and AIDS for the Malawi Ministry of Health (MOH).](https://www.fjelltopp.org/project/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/)
 
@@ -43,7 +43,7 @@ FAIR is the starting point in maximising the impact of all the health data colle
 
 That’s why speaking in webinars like this is so important, to spread the word on how we can make a difference with digital when it comes to world health data.
 
-## **The important stuff**
+### The important stuff
 
 Here’s the 5 key takeaways from this webinar:
 
@@ -57,7 +57,7 @@ Here’s the 5 key takeaways from this webinar:
 
 ---
 
-## **Where we go from here**
+### Where we go from here
 
 CEO Jonathan really enjoyed delivering this webinar and talking about some of the work we’ve done at Fjelltopp in partnerships. Because at the end of the day, we just want to help make a better world for everyone when it comes to global health.
 

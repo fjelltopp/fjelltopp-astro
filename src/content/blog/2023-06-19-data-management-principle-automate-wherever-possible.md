@@ -24,7 +24,7 @@ Data management is infamously repetitive. Tools like Excel are full of features 
 
 Before such tools existed, just consider the amount of manual work involved in similar data management tasks, such as financial accounting. It was many orders of magnitude larger! This is the power of computing, the power of automation.
 
-## **When Should you Automate?**
+### When Should you Automate?
 
 Wherever people are repeating themselves, automation should be introduced. This repetition may occur over time or space. Perhaps multiple people are having to perform the same task with your data, or perhaps the same person is having to perform the same task several times a week.
 
@@ -37,7 +37,7 @@ Whilst the xkcd comic is insightful, there are more reasons to automate than sim
 - **Automation unlocks the power of repetition.** Perhaps you haven’t considered the *added benefit* of repeating a task more frequently? A task currently performed manually on an annual basis, could bring extra insight if performed weekly by some automation. Repetition can improve data accuracy, data timeliness, and facilitate cleaning data upstream at source.
 - **Automating a process may improve the process design.** The act of automating a task offers an opportunity to review and improve the process behind that task. It may expose problems or weaknesses in the process that were embedded at the time of establishment. Maybe a data source is outdated. Maybe a data element is no longer needed, or maybe valuable data elements are being missed.
 
-## **How to Automate**
+### How to Automate
 
 In order to build automation you must have a way for software to read and write data to your system. This generally requires your data management system to have an Application Programming Interface (API). An API is a list of functions that can be called by a third party software module in order to perform system actions without requiring the software to simulate the act of interpreting text, clicking buttons or entering information into the User Interface (UI).
 
