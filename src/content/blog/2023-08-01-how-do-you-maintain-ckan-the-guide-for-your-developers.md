@@ -1,15 +1,15 @@
 ---
-title: 'How do you maintain CKAN? Top tips for  developers'
+title: "How do you maintain CKAN? Top tips for  developers"
 pubDate: 2023-08-01T15:05:52+01:00
-author: 'Dr Jonathan Berry'
-summary: 'We’ve put together our top CKAN maintenance tips to keep everything running smoothly.'
+author: "Dr Jonathan Berry"
+summary: "We’ve put together our top CKAN maintenance tips to keep everything running smoothly."
 coverImage: ../../assets/dots/dots10.png
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+  - 6Principles
+  - DataManagement
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
 Just like all software systems, CKAN requires active ongoing maintenace We’ve got some top tips for you to consider!
@@ -46,7 +46,7 @@ Minimise the number of repositories and lines of code that you are responsible f
 
 **\[3\] Adopt a better method of managing dependencies.**
 
-The default CKAN practice of using *requirements.txt* files is just not a great solution. At Fjelltopp we now use [PipEnv](https://pipenv.pypa.io/) to create a single locked set of dependencies for our CKAN projects. This helps to keep control of our dependencies across all of our development, testing and hosting environments.
+The default CKAN practice of using _requirements.txt_ files is just not a great solution. At Fjelltopp we now use [PipEnv](https://pipenv.pypa.io/) to create a single locked set of dependencies for our CKAN projects. This helps to keep control of our dependencies across all of our development, testing and hosting environments.
 
 **\[4\] Keep up to date with the latest patch versions of CKAN.**
 

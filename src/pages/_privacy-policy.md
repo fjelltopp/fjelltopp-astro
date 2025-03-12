@@ -1,10 +1,10 @@
 ---
 id: 7
-title: 'Privacy Policy'
+title: "Privacy Policy"
 pubDate: 2021-01-10T18:14:45+00:00
 author: siteadac
 layout: page
-guid: 'https://local.build/buildprj/?page_id=7'
+guid: "https://local.build/buildprj/?page_id=7"
 ---
 
 This is the Cookie Policy for Fjelltopp Ltd’s website, accessible from fjelltopp.org

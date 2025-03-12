@@ -1,18 +1,18 @@
 ---
-title: 'Principle #4 Validate early & often'
+title: "Principle #4 Validate early & often"
 pubDate: 2023-06-19T15:10:47+01:00
-author: 'Dr Jonathan Berry'
-summary: 'Validation builds confidence in your data.  It should be automated and happen early in data workflows.'
+author: "Dr Jonathan Berry"
+summary: "Validation builds confidence in your data.  It should be automated and happen early in data workflows."
 coverImage: ../../assets/dots/dots9.jpg
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+  - 6Principles
+  - DataManagement
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
-*This is the fifth post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“.*
+_This is the fifth post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“._
 
 ---
 
@@ -28,7 +28,7 @@ This article will help you design and evaluate your data validation strategy.
 
 ### Validate Early
 
-Validation should take place wherever there is an “unknown entity” interacting with your data. Furthermore it should take place *as early as possible* after that interaction to minimise the knock on effect of poor data quality across your system. As discussed in principle [\#3 Automate where possible,](https://www.fjelltopp.org/data-management-principles-3-automate-wherever-possible/) “Computer’s don’t make mistakes; humans do.” Humans are likely to be the most common “unknown entity” in your system!
+Validation should take place wherever there is an “unknown entity” interacting with your data. Furthermore it should take place _as early as possible_ after that interaction to minimise the knock on effect of poor data quality across your system. As discussed in principle [\#3 Automate where possible,](https://www.fjelltopp.org/data-management-principles-3-automate-wherever-possible/) “Computer’s don’t make mistakes; humans do.” Humans are likely to be the most common “unknown entity” in your system!
 
 In most public-health cases it is therefore essential to validate at the point of “data entry”. In many of Fjelltopp’s projects data is submitted by humans using an electronic form. Implementing sound input validation as part of the form’s user interface is essential. In Fjelltopp’s project [“The AIDS Data Repository”](https://www.fjelltopp.org/project/the-aids-data-repository-for-unaids-geneva/) users prepare and submit data tables to our data repository. Each table receives comprehensive validation every single time a new version is uploaded to our system.
 
@@ -54,25 +54,25 @@ Based on our experience at Fjelltopp we have identified four different dimension
 
 **\[1\] Column constraints**
 
-*These simple constraints only relate to a single field or column in a data record. Examples include checking the data type, making the field required/not required, restricting the possible values, ensuring numbers are within a certain range, or text is under a certain character limit.*
+_These simple constraints only relate to a single field or column in a data record. Examples include checking the data type, making the field required/not required, restricting the possible values, ensuring numbers are within a certain range, or text is under a certain character limit._
 
 **\[2\] Row constraints**
 
-*Row constraints relate to a single data record, but concern interactions between fields within that record. For instance, you may wish to ensure that: field A is greater than field B; that the sum of multiple fields is always 100%; or require a value for either field A or field B, but not both.*
+_Row constraints relate to a single data record, but concern interactions between fields within that record. For instance, you may wish to ensure that: field A is greater than field B; that the sum of multiple fields is always 100%; or require a value for either field A or field B, but not both._
 
 **\[3\] Table constraints**
 
-*These constraints concern all records/rows in a given data table. Perhaps the most common table-level constraint is the uniqueness constraint for a primary or composite key. Checking that a value is unique requires comparing it against every other row in the table. Other table level constraints we have come across include: requiring all values to be within “n” standard deviations of the overall mean; or checking that your long format data has a consistent number of entries for each field.*
+_These constraints concern all records/rows in a given data table. Perhaps the most common table-level constraint is the uniqueness constraint for a primary or composite key. Checking that a value is unique requires comparing it against every other row in the table. Other table level constraints we have come across include: requiring all values to be within “n” standard deviations of the overall mean; or checking that your long format data has a consistent number of entries for each field._
 
 **\[4\] Dataset (or data package) constraints**
 
-*Some constraints can actually concern multiple tables. The most common dataset-level constraint is the foreign key check – ensuring that all values in a given column are also found in a column from a different table. This is a common requirement in relational database design. Another example of a dataset-level constraint is to simply require that certain data tables are included in your dataset.*
+_Some constraints can actually concern multiple tables. The most common dataset-level constraint is the foreign key check – ensuring that all values in a given column are also found in a column from a different table. This is a common requirement in relational database design. Another example of a dataset-level constraint is to simply require that certain data tables are included in your dataset._
 
 ## Errors vs Warnings
 
 There is a difference between validation errors and warnings – the former should block the data workflow, the latter should raise awareness but not actually block the workflow. It is important to consider carefully what should be an error or a warning. In our experience, if you are at all unsure it is best to err on the side of “non-blocking” – make the issue a warning until you are confident it can be treated as an error.
 
-A good validation engine ideally has the flexibility to distinguish between many levels of severity. We envisage something similar to the Python logging framework: issues are ranked by severity, and thresholds set at “runtime” to identify them as *blocking*, *non-blocking* or *ignored*. If you ever find a tool capable of this, please let us know!
+A good validation engine ideally has the flexibility to distinguish between many levels of severity. We envisage something similar to the Python logging framework: issues are ranked by severity, and thresholds set at “runtime” to identify them as _blocking_, _non-blocking_ or _ignored_. If you ever find a tool capable of this, please let us know!
 
 <Image class="w-fullh-120 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots12.png" alt="TODO" />
 

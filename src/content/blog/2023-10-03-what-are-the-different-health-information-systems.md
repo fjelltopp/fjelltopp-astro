@@ -1,15 +1,15 @@
 ---
-title: 'Six open-source health information systems you should know about'
+title: "Six open-source health information systems you should know about"
 pubDate: 2023-10-03T11:31:22+01:00
-author: 'Dr Jonathan Berry'
-summary: 'We summarise six of the most important open source health information systems. '
+author: "Dr Jonathan Berry"
+summary: "We summarise six of the most important open source health information systems. "
 coverImage: ../../assets/dots/dots3.png
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+  - 6Principles
+  - DataManagement
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
 Have you ever started to look into a solution for your health data issue but have no idea where to start? Often people go looking for answers but just end up with an avalanche of no context technical jargon and end up further from a solution than when they started.

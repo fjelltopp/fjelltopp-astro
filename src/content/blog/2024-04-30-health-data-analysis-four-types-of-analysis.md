@@ -1,12 +1,12 @@
 ---
-title: 'Health Data Analysis: Four types of analysis'
+title: "Health Data Analysis: Four types of analysis"
 pubDate: 2024-04-30T21:03:22+01:00
-author: 'Dr Jonathan Berry'
-summary: 'The “Gartner Ascendancy Model of Analytics” is a helpful way of framing four different sorts of analytics that should be applied to health data. Let’s break it down.'
+author: "Dr Jonathan Berry"
+summary: "The “Gartner Ascendancy Model of Analytics” is a helpful way of framing four different sorts of analytics that should be applied to health data. Let’s break it down."
 coverImage: ../../assets/dots/dots7.png
 type: "Article"
 language: "en"
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 tags: []
 ---
 
@@ -18,11 +18,11 @@ _If you haven’t already, take a look at [part one of this blog](https://fjellt
 
 The “[Gartner Ascendancy Model of Analytics](https://images.app.goo.gl/es3tBv3wK2k8HBbc9)” is a helpful way of framing four different sorts of analytics that should be applied to health data. Let’s break it down:
 
-- **Descriptive analytics – What did happen?** This includes dashboards and reports containing key indicators, charts, and tables assembled from the data that simply describe *what has happened*. E.g. X number of people have been put on treatment for a disease, or Y number of people have been diagnosed with a disease. Such analytics are ubiquitous across the public health sector, especially as part of health information systems.
+- **Descriptive analytics – What did happen?** This includes dashboards and reports containing key indicators, charts, and tables assembled from the data that simply describe _what has happened_. E.g. X number of people have been put on treatment for a disease, or Y number of people have been diagnosed with a disease. Such analytics are ubiquitous across the public health sector, especially as part of health information systems.
 
 - **Diagnostic analytics – Why did it happen?** Researchers that go a further step might start to gather evidence for “causality” – what causes a specific outcome of interest. They do this by examining and quantifying the relationship between the outcome and any variables they believe might be related. In practice, it can be hard to prove causality unequivocally. Still, with the right analysis and an understanding of the science, it’s possible to build up a bank of evidence that is hard for the unbiased mind to reject.
 
-- **Predictive Analytics – What will happen?** By looking at what has happened, we can build up evidence to support our best guess of what is happening and what will happen next using mathematical models built by epidemiologists. It’s an equation built to calculate a *best* *estimate* of something using measurements of other things. Models can be built to estimate the value using various sources of data. Modelling is an imprecise science – it takes great expertise to build the most accurate models, but by definition, no model is perfect.
+- **Predictive Analytics – What will happen?** By looking at what has happened, we can build up evidence to support our best guess of what is happening and what will happen next using mathematical models built by epidemiologists. It’s an equation built to calculate a _best_ _estimate_ of something using measurements of other things. Models can be built to estimate the value using various sources of data. Modelling is an imprecise science – it takes great expertise to build the most accurate models, but by definition, no model is perfect.
 
 - **Prescriptive analytics – How can we make it happen?** Mathematical models can also be used to estimate the impact of public health interventions, giving insight into how public health targets and goals may be reached. For instance, if you hear about a new treatment to fight a disease, you may use research data that measures the efficacy of that treatment alongside your estimates of the number living with the disease to model the cost and impact of treating the given population. You may then decide the impact is too small for the cost, or vice-versa. This way, public health analysis can tell us how to meet key targets.
 

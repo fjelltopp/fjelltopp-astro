@@ -1,16 +1,16 @@
 ---
-title: 'Sharing best practice with Shiriki: Fjelltopp leads health informatics webinar'
+title: "Sharing best practice with Shiriki: Fjelltopp leads health informatics webinar"
 pubDate: 2023-08-22T16:11:56+01:00
-author: 'Dr Jonathan Berry'
-summary: 'Recently Jonathan was a speaker for a webinar hosted by Shiriki.'
+author: "Dr Jonathan Berry"
+summary: "Recently Jonathan was a speaker for a webinar hosted by Shiriki."
 coverImage: ../../assets/dots/dots1.png
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
+  - 6Principles
+  - DataManagement
 
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
 Are you looking for an expert to talk about specialist experience in integrating, managing and comprehending the most challenging aspects of public health data? Our CEO, Jonathan would be delighted to present on any of Fjelltopp’s work that may be of interest to you or your organisation.

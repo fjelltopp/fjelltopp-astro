@@ -1,12 +1,12 @@
 ---
-title: 'How Fjelltopp aligns with the United Nations Sustainable Development Goals'
+title: "How Fjelltopp aligns with the United Nations Sustainable Development Goals"
 pubDate: 2024-09-25T07:19:44+01:00
-author: 'Dr Chas Nelson'
-summary: 'We are working for sustainable development around the globe, especially focusing on SDG3 Health and Well being, as well as SDG17 Partnership for the goals. '
+author: "Dr Chas Nelson"
+summary: "We are working for sustainable development around the globe, especially focusing on SDG3 Health and Well being, as well as SDG17 Partnership for the goals. "
 coverImage: ../../assets/dots/dots5.jpg
 type: "Article"
 language: "en"
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 tags: []
 ---
 

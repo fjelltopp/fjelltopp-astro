@@ -1,18 +1,18 @@
 ---
-title: 'Principle #5 Version Everything'
+title: "Principle #5 Version Everything"
 pubDate: 2023-06-19T15:22:16+01:00
-author: 'Dr Jonathan Berry'
-summary: 'Without version control you risk losing everything. It ensures you have access to old versions of data and metadata. '
+author: "Dr Jonathan Berry"
+summary: "Without version control you risk losing everything. It ensures you have access to old versions of data and metadata. "
 coverImage: ../../assets/dots/dots8.jpg
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+  - 6Principles
+  - DataManagement
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
-*This is the fifth post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“.*
+_This is the fifth post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“._
 
 ---
 
@@ -20,7 +20,7 @@ Without version control you risk losing everything.
 
 Version control is a crucial (yet often overlooked) feature of any data management system. This essential tool can help you debug data-quality issues, base your decisions upon up-to-date data, and ensure that no data is ever lost.
 
-In this article, we discuss the importance of maintaining a complete and clear history of all data *and* metadata changes – otherwise referred to as the dataset’s “audit trail”. We’ll show how Fjelltopp could help you implement this for your organisation’s data.
+In this article, we discuss the importance of maintaining a complete and clear history of all data _and_ metadata changes – otherwise referred to as the dataset’s “audit trail”. We’ll show how Fjelltopp could help you implement this for your organisation’s data.
 
 ### What is version control?
 
@@ -57,21 +57,21 @@ Fjelltopp builds metadata version control into our data projects as a founding p
 
 **\[1\] Ensure you and your team are familiar with your versioning tools.**
 
-*Are you using them correctly? Do they meet all your needs? Everyone should use the same system in the same way so that changes are tracked consistently.*
+_Are you using them correctly? Do they meet all your needs? Everyone should use the same system in the same way so that changes are tracked consistently._
 
 **\[2\] Reflect on your current version control practices.**
 
-*What are you versioning? Data? Metadata? Code? Configurations? What are you not versioning? Why?*
+_What are you versioning? Data? Metadata? Code? Configurations? What are you not versioning? Why?_
 
 **\[3\] Audit your version control system.**
 
-*Ask questions concerning your data’s history and ensure that your version control can lead you to the answers. E.g. Who has made changes to your data? What changes have they made? Can I recall the data used on a particular date, or for a particular purpose?*
+_Ask questions concerning your data’s history and ensure that your version control can lead you to the answers. E.g. Who has made changes to your data? What changes have they made? Can I recall the data used on a particular date, or for a particular purpose?_
 
 **\[4\] Improve your version control system.**
 
-*If gaps are found, work with a development team (such as Fjelltopp!) to put a solution in place.*
+_If gaps are found, work with a development team (such as Fjelltopp!) to put a solution in place._
 
-Version control is a critical element of any data management system. It ensures that you have access to old versions of data *and* metadata, can track changes, restore old versions and create an audit trail. By implementing version control and these recommendations in your organisation, you can collaborate more effectively, maintain accountability, and make better decisions based on up-to-date data.
+Version control is a critical element of any data management system. It ensures that you have access to old versions of data _and_ metadata, can track changes, restore old versions and create an audit trail. By implementing version control and these recommendations in your organisation, you can collaborate more effectively, maintain accountability, and make better decisions based on up-to-date data.
 
 Fjelltopp would be delighted to discuss any of the above points with you – you can set up a free meeting with us [here. ](https://www.fjelltopp.org/contact/)
 

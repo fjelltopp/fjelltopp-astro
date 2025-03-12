@@ -1,10 +1,10 @@
 ---
 id: 106
-title: 'Terms &amp; Conditions'
+title: "Terms &amp; Conditions"
 pubDate: 2022-11-11T16:56:14+00:00
 author: siteadac
 layout: page
-guid: 'https://www.fjelltopp.org/?page_id=106'
+guid: "https://www.fjelltopp.org/?page_id=106"
 ---
 
 This agreement applies as between you, the User of this Web Site and Fjelltopp Ltd, the owner(s) of this Web Site. Your agreement to comply with and be bound by these terms and conditions is deemed to occur upon your first use of the Web Site. If you do not agree to be bound by these terms and conditions, you should stop using the Web Site immediately.

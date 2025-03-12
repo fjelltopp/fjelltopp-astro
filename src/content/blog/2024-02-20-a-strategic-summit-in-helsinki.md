@@ -1,24 +1,23 @@
 ---
-title: 'A Strategic Summit in Helsinki'
+title: "A Strategic Summit in Helsinki"
 pubDate: 2024-02-20T11:24:05+00:00
-author: 'Jonathan Berry'
-summary: 'The directors of INGO ME and Fjelltopp convened in Helsinki for a strategic summit seeking to further their partnership. '
-
-
+author: "Jonathan Berry"
+summary: "The directors of INGO ME and Fjelltopp convened in Helsinki for a strategic summit seeking to further their partnership. "
 
 coverImage: ../../assets/summits/2024-helsinki/tom-brunberg-ohD7kQxykho-unsplash_featured_image.jpg
 type: "Article"
 language: "en"
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 tags: []
 ---
+
 In February 2024, the directors of INGO ME and Fjelltopp convened in Helsinki, Finland, to engage in a strategic dialogue focused on the advancement of data engineering projects for sustainable development. This summit, spanning from the 15th to the 17th, marked a significant step in our collaborative journey, emphasising innovation and future opportunities for our partnership.
 
 <Image class="place-self-start w-full max-h-120 object-cover object-center pb-5 pr-5" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/tapio-haaja-I9SWvZ9sO2U-unsplash_letterbox.jpg" alt="TODO"/>
 
 ## About INGO ME
 
-[INGO ME](https://ingome.pro/), established in 2022 by Taavi Erkkola, is a private consultancy firm based in Helsinki, Finland. It specialises in data systems development, monitoring, and evaluation for international, governmental, and non-governmental organisations, with a strong focus on the health sector. The company brings together a team of experts with vast international experience in development, under Taavi’s leadership. Prior to founding Ingo Me, Taavi spent 20 years working with UNAIDS, finishing at their global HQ in Geneva as *Chief of Strengthening National Capacities and Dissemination*. INGO ME is committed to enhancing the utilisation of data for health-sector programs, strengthening data use, monitoring, evaluation, and accountability towards partners. It leverages a broad network of international experts specialised in various aspects of public health, emphasising transparency, skill-building, management excellence, and public health impact focus in its operations.
+[INGO ME](https://ingome.pro/), established in 2022 by Taavi Erkkola, is a private consultancy firm based in Helsinki, Finland. It specialises in data systems development, monitoring, and evaluation for international, governmental, and non-governmental organisations, with a strong focus on the health sector. The company brings together a team of experts with vast international experience in development, under Taavi’s leadership. Prior to founding Ingo Me, Taavi spent 20 years working with UNAIDS, finishing at their global HQ in Geneva as _Chief of Strengthening National Capacities and Dissemination_. INGO ME is committed to enhancing the utilisation of data for health-sector programs, strengthening data use, monitoring, evaluation, and accountability towards partners. It leverages a broad network of international experts specialised in various aspects of public health, emphasising transparency, skill-building, management excellence, and public health impact focus in its operations.
 
 <Image class="place-self-start w-1/3 max-h-120 object-cover object-center pb-5 pr-5 float-left" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/library.jpg" alt="TODO"/>
 <Image class="place-self-start w-2/3 max-h-120 object-cover object-center pb-5 pr-5 float-right" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/working.jpg" alt="TODO"/>

@@ -1,29 +1,28 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin '@tailwindcss/typography';
 
 @theme {
-    --breakpoint-*: initial;
-    --breakpoint-sm: 640px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 1024px;
-    --breakpoint-xl: 1280px;
-    --breakpoint-2xl: 1536px;
+  --breakpoint-*: initial;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
 
-    --font-poppins: Poppins, sans-serif;
+  --font-poppins: Poppins, sans-serif;
 
-    --font-weight-regular: 400;
-    --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
 
-    --color-green: var(--green);
-    --color-black: var(--black);
-    --color-dark: var(--dark);
-    --color-gray: var(--gray);
-    --color-white: var(--white);
+  --color-green: var(--green);
+  --color-black: var(--black);
+  --color-dark: var(--dark);
+  --color-gray: var(--gray);
+  --color-white: var(--white);
 }
 
 @layer base {
-
-    /*
+  /*
       The default border color has changed to `currentColor` in Tailwind CSS v4,
       so we've added these compatibility styles to make sure everything still
       looks the same as it did with Tailwind CSS v3.
@@ -31,99 +30,102 @@
       If we ever want to remove these styles, we need to add an explicit border
       color utility to any element that depends on these defaults.
     */
-    *,
-    ::after,
-    ::before,
-    ::backdrop,
-    ::file-selector-button {
-        border-color: var(--color-gray-200, currentColor);
-    }
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
 
-    @font-face {
-        font-family: "Poppins";
-        src: url("/fjelltopp-astro/fonts/poppins/Poppins-Regular.woff2"), format("woff2");
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
+  @font-face {
+    font-family: "Poppins";
+    src:
+      url("/fjelltopp-astro/fonts/poppins/Poppins-Regular.woff2"),
+      format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
 
-    @font-face {
-        font-family: "Poppins";
-        src: url("/fjelltopp-astro/fonts/poppins/Poppins-Medium.woff2"), format("woff2");
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
+  @font-face {
+    font-family: "Poppins";
+    src:
+      url("/fjelltopp-astro/fonts/poppins/Poppins-Medium.woff2"),
+      format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
 
-    .font-outline {
-        -webkit-text-stroke: 2.5px black;
-        background-color: transparent;
-    }
+  .font-outline {
+    -webkit-text-stroke: 2.5px black;
+    background-color: transparent;
+  }
 
-    .font-outline-sm {
-        -webkit-text-stroke: 1.2px black;
-        background-color: transparent;
-    }
+  .font-outline-sm {
+    -webkit-text-stroke: 1.2px black;
+    background-color: transparent;
+  }
 
-    :root {
-        --green: #36E07E;
-        --black: #030303;
-        --dark: #002920;
-        --gray: #C4F2DA;
-        --white: #ffffff;
-    }
-
+  :root {
+    --green: #36e07e;
+    --black: #030303;
+    --dark: #002920;
+    --gray: #c4f2da;
+    --white: #ffffff;
+  }
 }
 
 @utility btn-primary {
-    @apply bg-dark text-white rounded-lg px-[35px] py-5 transition-all duration-200;
+  @apply bg-dark rounded-lg px-[35px] py-5 text-white transition-all duration-200;
 
-    &:hover {
-        @apply bg-green text-black transform scale-105;
-    }
+  &:hover {
+    @apply bg-green scale-105 transform text-black;
+  }
 }
 
 @utility btn-secondary {
-    @apply bg-transparent text-black px-[35px] py-5 rounded-lg border border-solid border-black transition-all duration-200;
+  @apply rounded-lg border border-solid border-black bg-transparent px-[35px] py-5 text-black transition-all duration-200;
 
-    &:hover {
-        @apply bg-black text-white border-green transform scale-105;
-    }
+  &:hover {
+    @apply border-green scale-105 transform bg-black text-white;
+  }
 }
 
 @utility btn-tertiary {
-    @apply bg-green text-black rounded-lg px-[35px] py-5 transition-all duration-200;
+  @apply bg-green rounded-lg px-[35px] py-5 text-black transition-all duration-200;
 
-    &:hover {
-        @apply bg-white text-black transform scale-105;
-    }
+  &:hover {
+    @apply scale-105 transform bg-white text-black;
+  }
 }
 
 @utility greenhead {
-    @apply bg-green text-black rounded-[7px] px-[7px];
+  @apply bg-green rounded-[7px] px-[7px] text-black;
 }
 
 @utility whitehead {
-    @apply bg-white text-black rounded-[7px] px-[7px];
+  @apply rounded-[7px] bg-white px-[7px] text-black;
 }
 
 @utility blackhead {
-    @apply bg-black text-white rounded-[7px] px-[7px];
+  @apply rounded-[7px] bg-black px-[7px] text-white;
 }
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #000000;
+  background: #000000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }

@@ -1,15 +1,15 @@
 ---
-title: 'Six Principles for Sound Data Management'
+title: "Six Principles for Sound Data Management"
 pubDate: 2023-05-23T11:01:51+01:00
-author: 'Jonathan Berry'
-summary: 'Improving data management increases data impact, driving decision making, growth and innovation in your sector.'
+author: "Jonathan Berry"
+summary: "Improving data management increases data impact, driving decision making, growth and innovation in your sector."
 coverImage: ../../assets/pics/6principles.jpg
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+  - 6Principles
+  - DataManagement
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
 ## Data makes the modern world go round.
@@ -46,27 +46,27 @@ This article will be followed by further articles addressing and motivating each
 
 [**\[1\]** **Centralise for security AND accessibility**](/data-management-principle-secure-but-accessible-data/)
 
-*Centralise (where possible) in a feature-rich storage tool, protected with industry-standard security, flexible read/write access management for data and metadata, user-friendly interfaces, and API access.*
+_Centralise (where possible) in a feature-rich storage tool, protected with industry-standard security, flexible read/write access management for data and metadata, user-friendly interfaces, and API access._
 
 **[\[2\] Maintain metadata](/data-management-principle-maintain-metadata)**
 
-*Define standards for metadata management. Take time to configure your software tools to enforce these standards and auto-populate where possible to minimise overhead.*
+_Define standards for metadata management. Take time to configure your software tools to enforce these standards and auto-populate where possible to minimise overhead._
 
 **[\[3\] **Automate wherever possible**](/data-management-principle-automate-wherever-possible)**
 
-*Automation may require significant initial investment, but data management is repetitive and prone to human error. This means your investments typically pay off quickly. The codebase also acts as documentation of your analysis, making it traceable and repeatable. Ensure there is API access for building automation.*
+_Automation may require significant initial investment, but data management is repetitive and prone to human error. This means your investments typically pay off quickly. The codebase also acts as documentation of your analysis, making it traceable and repeatable. Ensure there is API access for building automation._
 
 **[\[4\] Validate early and often](/data-management-principle-validate-early--often)**
 
-*Automate checks for data formatting, content and plausibility. Ensure these checks can be run frequently and as close to the source as possible to avoid cascading effects down the data pipeline.*
+_Automate checks for data formatting, content and plausibility. Ensure these checks can be run frequently and as close to the source as possible to avoid cascading effects down the data pipeline._
 
 **[\[5\] **Version EVERYTHING**](/data-management-principle-version-everything)**
 
-*Ensure you can browse, access and restore old versions of both data AND metadata. Track who is making changes and when, so that there is a complete and clear audit trail linking the data to the source.*
+_Ensure you can browse, access and restore old versions of both data AND metadata. Track who is making changes and when, so that there is a complete and clear audit trail linking the data to the source._
 
 **[\[6\] **Archive data upon each use**](/data-management-principle-archive-data-upon-each-use)**
 
-*For traceable, transparent data-based decisions, archive an accompanying immutable copy of the data at the time of use. Archives should be secure and backed-up to multiple locations.*
+_For traceable, transparent data-based decisions, archive an accompanying immutable copy of the data at the time of use. Archives should be secure and backed-up to multiple locations._
 
 ---
 

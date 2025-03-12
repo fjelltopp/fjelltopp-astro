@@ -3,17 +3,18 @@ import { defineCollection, z } from "astro:content";
 
 const blog = defineCollection({
   loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/blog" }),
-  schema: ({ image }) => z.object({
-    title: z.string(),
-    pubDate: z.date(),
-    author: z.string(),
-    authImage: z.string(),
-    coverImage: image(),
-    tags: z.array(z.string()),
-    summary: z.string(),
-    type: z.enum(["Article", "Tutorial"]),
-    language: z.enum(["en", "fr"]),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      pubDate: z.date(),
+      author: z.string(),
+      authImage: z.string(),
+      coverImage: image(),
+      tags: z.array(z.string()),
+      summary: z.string(),
+      type: z.enum(["Article", "Tutorial"]),
+      language: z.enum(["en", "fr"]),
+    }),
 });
 
 const industries = defineCollection({
@@ -38,14 +39,15 @@ const projects = defineCollection({
 
 const services = defineCollection({
   loader: glob({ pattern: "*.md", base: "src/content/services" }),
-  schema: ({ image }) => z.object({
-    title: z.string(),
-    order: z.number(),
-    image: image(),
-    alt: z.string(),
-    summary: z.string(),
-    language: z.enum(["en", "fr"]),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      order: z.number(),
+      image: image(),
+      alt: z.string(),
+      summary: z.string(),
+      language: z.enum(["en", "fr"]),
+    }),
 });
 
 const teams = defineCollection({

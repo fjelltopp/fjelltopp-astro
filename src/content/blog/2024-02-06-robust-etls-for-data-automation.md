@@ -1,12 +1,12 @@
 ---
-title: 'Robust ETLs for data automation'
+title: "Robust ETLs for data automation"
 pubDate: 2024-02-06T15:46:54+00:00
-author: 'Jonathan Berry'
-summary: 'Understanding how to build robust ETL (Extract, Transform, Load) processes is crucial in today’s data-driven world. '
+author: "Jonathan Berry"
+summary: "Understanding how to build robust ETL (Extract, Transform, Load) processes is crucial in today’s data-driven world. "
 coverImage: ../../assets/dots/dots6.png
 type: "Article"
 language: "en"
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 tags: []
 ---
 
@@ -29,7 +29,6 @@ More recently there has been a rise in the use of the term “ELT” meaning to 
 ### First things first – access & orchestration
 
 Before embarking on building an ETL (Extract, Transform, Load) process, you’ll need to ensure that the data you want to work with is stored in a centralised storage system with machine/programmatic access (most likely via an API). This might be an SQL database or cloud-based storage solution. Fjelltopp has particular experience working with the [CKAN platform](https://www.fjelltopp.org/service/ckan-support-service/), which provides extensive features via its API to search, read and write data and associated metadata. This is your source system, from which you will “extract” data.
-
 
 In a similar way you will also need to ensure that you have machine access to the target system into which you want to “load” your data. In some cases this may actually be the same as your source system.
 

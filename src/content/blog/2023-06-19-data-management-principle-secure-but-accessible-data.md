@@ -1,18 +1,18 @@
 ---
-title: 'Principle #1 Centralise for Security AND Accessibility'
+title: "Principle #1 Centralise for Security AND Accessibility"
 pubDate: 2023-06-19T13:50:08+01:00
-author: 'Dr Jonathan Berry'
-summary: 'Balancing data availability with data security is a real challenge.  We provide recommendations on overcoming this.'
+author: "Dr Jonathan Berry"
+summary: "Balancing data availability with data security is a real challenge.  We provide recommendations on overcoming this."
 coverImage: ../../assets/dots/dots7.png
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+  - 6Principles
+  - DataManagement
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
-*This is the second post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“.*
+_This is the second post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“._
 
 ---
 
@@ -41,7 +41,7 @@ Our recommendation here is to write something down. Anything. Even if it only se
 
 ### But technology can and should help…
 
-Many projects lack clear adherence to a data protection policy, meaning a pragmatic approach is required to be a responsible steward of data. Here are a few simple technical principles that you can use to help you steer your data management work towards a sound balance of *security* and *availability.*
+Many projects lack clear adherence to a data protection policy, meaning a pragmatic approach is required to be a responsible steward of data. Here are a few simple technical principles that you can use to help you steer your data management work towards a sound balance of _security_ and _availability._
 
 - **Centralised storage** of data means that you can protect more data, more effectively, with fewer investments in security. It also simplifies the process of finding and accessing data. If your data is sitting on many private computers, or siloed systems, consider how you can bring it together in one place.
 - **Individual user accounts** give you control over restricting and monitoring each individuals’ actions through your system. You should seek to remove all sharing of passwords or account access from your work. In our experience this is one of the most prevalent threats to cyber security in the international development sector.
@@ -60,6 +60,5 @@ Many projects lack clear adherence to a data protection policy, meaning a pragma
 - When designing new software features or systems, do you properly account for the cost of ongoing maintenance to fix security vulnerabilities?
 
 Fjelltopp would be delighted to discuss any of the above questions with you. Set up a free meeting with us [here.](https://docs.google.com/forms/d/e/1FAIpQLSdzzKi5MGz4I45KUxFhOfdwXAr9gNzWs5CRi9REblm3LVI0Hg/viewform)
-
 
 [Read Principle #2 Maintain Metadata](/maintain-metadata/)

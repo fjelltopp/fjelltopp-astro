@@ -1,12 +1,12 @@
 ---
-title: 'Health Data Analysis: Common Health Data Types'
+title: "Health Data Analysis: Common Health Data Types"
 pubDate: 2024-04-30T21:02:57+01:00
-author: 'Dr Jonathan Berry'
+author: "Dr Jonathan Berry"
 summary: "Health data analysis is the extraction of meaning from the health data, which is then used to make better-informed decisions concerning the management of an individual’s or population’s health.\_"
 coverImage: ../../assets/dots/dots9.jpg
 type: "Article"
 language: "en"
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 tags: []
 ---
 
@@ -52,5 +52,4 @@ The quality of the health data analysis depends significantly on the quality of 
 
 At Fjelltopp, we help you collect the best public health data possible using our technical know-how and experience with large-scale public health research. Just take a look at our [previous projects](https://www.fjelltopp.org/). We’ll be writing some more blog posts about health data and health data analysis. Stay tuned for part two of this blog!
 
-  
 In the meantime, if you have any questions or need a sounding board for your own health data problem, please [get in touch](https://www.fjelltopp.org/contact/).

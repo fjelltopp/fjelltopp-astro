@@ -1,18 +1,18 @@
 ---
-title: 'Principle #2 Maintain metadata'
+title: "Principle #2 Maintain metadata"
 pubDate: 2023-06-19T14:16:59+01:00
-author: 'Dr Jonathan Berry'
-summary: 'Metadata is essential for data managed by large teams over long periods. It ensures data is findable and reusable. '
+author: "Dr Jonathan Berry"
+summary: "Metadata is essential for data managed by large teams over long periods. It ensures data is findable and reusable. "
 coverImage: ../../assets/dots/dots6.png
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+  - 6Principles
+  - DataManagement
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
-*This is the third post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“.*
+_This is the third post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“._
 
 ---
 
@@ -50,8 +50,8 @@ These four principles form the basis of the [FAIR manifesto for publishing scien
 
 Fjelltopp works primarily with two different types of metadata:
 
-- **Data dictionaries** recording information concerning a dataset’s component fields and columns, especially promoting *interoperability* and *reusability.* Data dictionaries include information concerning columns, fields or elements of a dataset, including: name, description, creation date, units, type, origin and relationships to other elements.
-- **Data catalogues** recording information concerning the organisation and categorisation of multiple datasets, especially promoting *discoverability* and *accessibility.* Data catalogues include information such as the dataset: name, description, author, maintainer, creation date, modification date, purpose, licence for use and sources. Data catalogues may also provide tools for tagging datasets according to particular topics of interest, or organising datasets under hierarchical structures.
+- **Data dictionaries** recording information concerning a dataset’s component fields and columns, especially promoting _interoperability_ and _reusability._ Data dictionaries include information concerning columns, fields or elements of a dataset, including: name, description, creation date, units, type, origin and relationships to other elements.
+- **Data catalogues** recording information concerning the organisation and categorisation of multiple datasets, especially promoting _discoverability_ and _accessibility._ Data catalogues include information such as the dataset: name, description, author, maintainer, creation date, modification date, purpose, licence for use and sources. Data catalogues may also provide tools for tagging datasets according to particular topics of interest, or organising datasets under hierarchical structures.
 
 ### Challenges of Managing Metadata
 

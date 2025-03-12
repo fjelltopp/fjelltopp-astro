@@ -4,7 +4,7 @@ title: Members
 pubDate: 2022-11-11T16:57:46+00:00
 author: siteadac
 layout: page
-guid: 'https://www.fjelltopp.org/?page_id=110'
+guid: "https://www.fjelltopp.org/?page_id=110"
 ---
 
 Welcome to the Fjelltopp Team Members page. Here we provide some internal documentation and details that are relevant to all team members of the company.
@@ -37,7 +37,7 @@ Fjelltopp Ltd will ask each consultant to sign an “Agreement for Performance o
 
 For instructions on how to invoice the company for your work, please read the covering letter of your contract. A sample invoice with explanatory notes containing all the necessary information to process payment quickly can be found below.
 
- [Sample Invoice Template](https://docs.google.com/document/d/1GQc33DY0jLbapbq1LqRu8vXbBi8LIQKSOFiKyM4KYXo/edit?usp=sharing)
+[Sample Invoice Template](https://docs.google.com/document/d/1GQc33DY0jLbapbq1LqRu8vXbBi8LIQKSOFiKyM4KYXo/edit?usp=sharing)
 
 **Company Policy**
 
@@ -65,7 +65,7 @@ Chas Nelson – Research, Data &amp; AI Director
 
 **Communication**
 
-Fjelltopp communicates internally through a slack server, which you should have been invited to join. Our video conferences are managed by Google Teams. Weekly dev team meetings are co-ordinated through Slack, so please try to make yourself available for these. As a Fjelltopp consultant you are entitled to a Fjelltopp email address upon request. Please contact the COO about this. All code is managed through our Github organisation, where we keep track of issues and review each others code using pull requests. Our issues tracking and team wide wiki pages are held in the private Meerkat\_issues repository. If you do not have access to our private repositories please contact the CTO.
+Fjelltopp communicates internally through a slack server, which you should have been invited to join. Our video conferences are managed by Google Teams. Weekly dev team meetings are co-ordinated through Slack, so please try to make yourself available for these. As a Fjelltopp consultant you are entitled to a Fjelltopp email address upon request. Please contact the COO about this. All code is managed through our Github organisation, where we keep track of issues and review each others code using pull requests. Our issues tracking and team wide wiki pages are held in the private Meerkat_issues repository. If you do not have access to our private repositories please contact the CTO.
 
 <https://fjelltopp.slack.com>
 

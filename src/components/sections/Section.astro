@@ -4,14 +4,15 @@ type Props = {
   bg?: string;
 };
 
-const {
-    id,
-    bg
-} = Astro.props;
+const { id, bg } = Astro.props;
 ---
 
-<section id={id} class={`px-5 flex justify-center overflow-hidden lg:block`} style={bg ? `background-color: ${bg};` : ''}>
-  <div class="w-full max-w-[1280px] mx-auto">
+<section
+  id={id}
+  class={`py-5 px-5 flex justify-center overflow-hidden lg:block`}
+  style={bg ? `background-color: ${bg};` : ""}
+>
+  <div class="mx-auto w-full max-w-[1280px]">
     <slot />
   </div>
 </section>
