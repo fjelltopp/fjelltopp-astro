@@ -13,14 +13,14 @@ tags: []
 
 In February 2024, the directors of INGO ME and Fjelltopp convened in Helsinki, Finland, to engage in a strategic dialogue focused on the advancement of data engineering projects for sustainable development. This summit, spanning from the 15th to the 17th, marked a significant step in our collaborative journey, emphasising innovation and future opportunities for our partnership.
 
-<Image class="place-self-start w-full max-h-120 object-cover object-center pb-5 pr-5" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/tapio-haaja-I9SWvZ9sO2U-unsplash_letterbox.jpg" alt="TODO"/>
+<Image class="place-self-start w-full max-h-120 object-cover object-center pr-5" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/tapio-haaja-I9SWvZ9sO2U-unsplash_letterbox.jpg" alt="TODO"/>
 
 ## About INGO ME
 
 [INGO ME](https://ingome.pro/), established in 2022 by Taavi Erkkola, is a private consultancy firm based in Helsinki, Finland. It specialises in data systems development, monitoring, and evaluation for international, governmental, and non-governmental organisations, with a strong focus on the health sector. The company brings together a team of experts with vast international experience in development, under Taavi’s leadership. Prior to founding Ingo Me, Taavi spent 20 years working with UNAIDS, finishing at their global HQ in Geneva as _Chief of Strengthening National Capacities and Dissemination_. INGO ME is committed to enhancing the utilisation of data for health-sector programs, strengthening data use, monitoring, evaluation, and accountability towards partners. It leverages a broad network of international experts specialised in various aspects of public health, emphasising transparency, skill-building, management excellence, and public health impact focus in its operations.
 
-<Image class="place-self-start w-1/3 max-h-120 object-cover object-center pb-5 pr-5 float-left" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/library.jpg" alt="TODO"/>
-<Image class="place-self-start w-2/3 max-h-120 object-cover object-center pb-5 pr-5 float-right" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/working.jpg" alt="TODO"/>
+<Image class="place-self-start w-1/3 max-h-120 object-cover object-center md:ml-5 float-left" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/library.jpg" alt="TODO"/>
+<Image class="place-self-start w-2/3 max-h-120 object-cover object-center md:ml-5 float-right" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/working.jpg" alt="TODO"/>
 
 ## Key Collaborative Projects
 
@@ -31,7 +31,7 @@ Our discussions were focused upon two major initiatives that we are collaboratin
 
 ## Inspiration from Helsinki’s Technological and Sustainable Landscape
 
-<Image class="place-self-start w-1/3 h-full object-cover object-center pb-5 pr-5 float-left" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/vadim-morozov-Tt9zCFO0zfA-unsplash.jpg" alt="TODO"/>
+<Image class="place-self-start w-1/3 h-full object-cover object-center md:ml-5 float-left" src="/fjelltopp-astro/src/assets/summits/2024-helsinki/vadim-morozov-Tt9zCFO0zfA-unsplash.jpg" alt="TODO"/>
 
 The Helsinki summit agenda was structured to blend focussed work sessions with cultural engagements. This enabled us to build a stronger sense of team and also create space for creativity. Our strategic discussions took place at the [Oodi Central Library](https://oodihelsinki.fi/en/), an icon of modern architecture and innovation in Helsinki. Oodi’s dynamic environment supported our focus on key projects like the WHO Afro Data Hub and the UNICEF Zambia Research Repository, offering spaces that inspired creativity and collaboration. Alongside our meetings, we immersed ourselves in Helsinki’s culture, visiting the [Ryoji Ikeda exhibition at Amos Rex](https://amosrex.fi/en/), enjoying a [traditional Finnish sauna](https://www.loylyhelsinki.fi/en), and dining at sustainability-focused restaurants. This blend of productivity and local exploration fostered a unique and fruitful dialogue, underlining the summit’s success.
 

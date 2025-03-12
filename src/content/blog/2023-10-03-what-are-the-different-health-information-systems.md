@@ -22,7 +22,7 @@ RHIS is an umbrella term used to refer to all systems that are designed to colle
 
 In theory an RHIS could be constructed from a set of tools that are as simple as Excel files, Word documents and emails. Many of our clients collect, report and exchange health data in this manner. However, it is generally impractical to scale such a manual arrangement to a national or international level. Because of this, there are a large number of RHIS software solutions being developed, including several open source projects funded and developed for the international development sector.
 
-<Image class="w-full md:float-left md:w-1/3 mt-0 pb-5 pr-5" src="/fjelltopp-astro/src/assets/product/fjelltopp-mock-up-1.jpg" alt="TODO"/>
+<Image class="w-full md:float-left md:w-1/3 md:mr-5" src="/fjelltopp-astro/src/assets/product/fjelltopp-mock-up-1.jpg" alt="TODO"/>
 
 The aim of these software systems is to improve…
 
@@ -60,7 +60,7 @@ In Fjelltopp’s experience, despite the system’s popularity, it is not withou
 
 [OpenEMR](https://www.open-emr.org/) is an open-source cloud-based solution for “Electronic Medical Records”. It differs from DHIS2 in that its primary function is to support medical practices to manage and record the outcomes of their patient appointments. Medical records are the notes kept during a patient appointment for retrospective review in future appointments.
 
-<Image class="w-full md:float-right md:w-2/5 mt-0 px-5" src="/fjelltopp-astro/src/assets/dots/dots5.jpg" alt="TODO"/>
+<Image class="w-full md:float-right md:w-2/5 md:ml-5" src="/fjelltopp-astro/src/assets/dots/dots5.jpg" alt="TODO"/>
 
 However, OpenEMR also includes tools to aid appointment scheduling, prescribing of medicines, billing, lab integration, implementation of clinical algorithms and more. The breadth of scope leads to a somewhat more complicated user experience.
 
@@ -92,7 +92,7 @@ This low-cost rapidly deployable solution was also adopted as part of WHO’s re
 
 ### Health Information System 5: OpenLMIS
 
-<Image class="w-full md:float-right md:w-2/5 mt-0 px-5" src="/fjelltopp-astro/src/assets/dots/dots2.jpg" alt="TODO"/>
+<Image class="w-full md:float-right md:w-2/5 md:ml-5" src="/fjelltopp-astro/src/assets/dots/dots2.jpg" alt="TODO"/>
 
 [OpenLMIS](https://openlmis.org/) is a little different to the systems discussed so far. It is a logistics management system that is built specifically for the health sector. It helps tackle the complexity of managing health commodity supply chains. On this health information system, you can handle:
 

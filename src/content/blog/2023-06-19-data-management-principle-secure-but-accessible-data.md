@@ -20,7 +20,7 @@ Balancing data availability with data security is a real challenge, especially f
 
 LMICs often work with multiple national and international partners all of whom require access to such data in order to support the country’s fight against diseases such as Tuberculosis, HIV, Malaria and Polio. On the other hand, health data, particularly patient-identifiable data, is highly sensitive and requires the highest levels of security.
 
-<Image class="w-full md:w-1/3 md:float-right py-5 md:pl-5" src="/fjelltopp-astro/src/assets/product/fjelltopp-mock-up-1.jpg" alt="TODO" />
+<Image class="w-full md:w-1/3 md:float-right md:ml-5" src="/fjelltopp-astro/src/assets/product/fjelltopp-mock-up-1.jpg" alt="TODO" />
 
 ### The Problem
 
@@ -50,7 +50,7 @@ Many projects lack clear adherence to a data protection policy, meaning a pragma
 - **Modern up-to-date software and standards.** There is a continuous battle to identify and fix security vulnerabilities in software. The software built for your project will depend upon many other third-party software modules. New versions of these “dependencies” are frequently released to fix recently identified vulnerabilities. It is important to ensure there is time and funding to keep these dependencies up-to-date, even though this work may yield no noticeable improvement to the user experience.
 - **Use password and secret managers.** Strong passwords are long and random lists of upper and lower case letters, numbers and special characters. They are not memorable! Use a password manager, such as [Bitwarden](https://bitwarden.com/) or [Dashlane](https://www.dashlane.com/), to store a different strong password for every system you use. Never share passwords between systems. Your software engineers should be using a similar solution to store secrets for the software they are building e.g. encryption keys and database passwords. Fjelltopp uses and recommends [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) for this purpose.
 
-<Image class="w-full md:w-1/3 md:float-right py-5 md:pl-5" src="/fjelltopp-astro/src/assets/dots/dots9.jpg" alt="TODO" />
+<Image class="w-full md:w-1/3 md:float-right md:ml-5" src="/fjelltopp-astro/src/assets/dots/dots9.jpg" alt="TODO" />
 
 ## Some questions to ponder:
 

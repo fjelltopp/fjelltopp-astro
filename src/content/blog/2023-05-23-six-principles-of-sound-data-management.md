@@ -16,7 +16,7 @@ authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie
 
 Whatever sector you work in, data should always be driving decision making, growth and innovation. The more complete, reliable, intelligible and available that data is; the greater the growth. However, curating high-quality data is hard, especially where that data has been collected by an error-prone person instead of a machine.
 
-<Image class="w-full md:w-1/3 md:float-right py-5 md:pl-5" src="/fjelltopp-astro/src/assets/pics/team-at-who-jordan.jpg" alt="TODO"/>
+<Image class="w-full md:w-1/3 md:float-right md:ml-5" src="/fjelltopp-astro/src/assets/pics/team-at-who-jordan.jpg" alt="TODO"/>
 
 ## What guiding principles can be identified that will lead us towards sound data management?
 

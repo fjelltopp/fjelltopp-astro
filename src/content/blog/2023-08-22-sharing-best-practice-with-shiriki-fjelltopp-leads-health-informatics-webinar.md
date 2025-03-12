@@ -23,7 +23,7 @@ Shiriki is an informal community of people who work in global public health info
 
 Fjelltopp has struggled to find professional communities within the public health informatics sector. Shiriki has been a great place for us to learn and network with others. Please do [get in touch](/fjelltopp-astro/#contact) and tell us about any relevant professional communities you are part of.
 
-<Image class="w-full md:float-left md:w-1/3 mt-0 pb-5 pr-5" src="/fjelltopp-astro/src/assets/product/malawi-mock-up-3.jpg" alt="TODO"/>
+<Image class="w-full md:float-left md:w-1/3 md:mr-5" src="/fjelltopp-astro/src/assets/product/malawi-mock-up-3.jpg" alt="TODO"/>
 
 ### What was the webinar about?
 

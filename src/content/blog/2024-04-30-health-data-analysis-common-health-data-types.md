@@ -24,30 +24,21 @@ On a national level, decisions made concerning health systems have a far-reachin
 
 At Fjelltopp, we are passionate about collecting, managing and understanding health-related data, especially public health data. Better data leads to better analysis, which leads to better decisions and better health for people worldwide. Good data analysis starts with great data collection.
 
-<Image class="place-self-start w-full pb-5 pr-5" src="/fjelltopp-astro/src/assets/product/fjelltopp-mock-up-3.jpg" alt="TODO"/>
+<Image class="place-self-start w-full pr-5" src="/fjelltopp-astro/src/assets/product/fjelltopp-mock-up-3.jpg" alt="TODO"/>
 
 ## The types of data we collect for health data analysis
 
 The quality of the health data analysis depends significantly on the quality of the underlying health data. Here are the different types of public health data we work with at Fjelltopp:
 
 - **Survey data –** This data comes from large-scale surveys that take place periodically and offer highly reliable snapshots of a population. Due to the size and cost of these surveys, other data sources are required, alongside statistical estimation methods, to answer many research questions.
-
 - **Medical records data –** Medical records should store a detailed account of a patient’s interactions with a health system. The primary aim of medical records is to facilitate smooth clinical patient pathways through the health system, but case-based data can also be effectively extracted from them.
-
 - **Case-based data –** Health data collected on a case-by-case basis (e.g. per consultation), including detailed information about an individual’s demographics, symptoms, diagnosis and prescribed treatments. Unlike medical records, the data is often anonymised and sent to a central institution for analysis. In many ways, this is the gold standard of public health surveillance because it captures the highest level of data detail but is also the most challenging to implement effectively.
-
 - **Aggregate data –** Where the resources don’t exist to collect data on a case-by-case basis, the alternative approach is to collect pre-aggregated data from health facilities. Health facilities count and submit numbers of interest, e.g. number of consultations, diagnoses, and prescriptions that week. Whilst this is much cheaper and simpler to implement, you can’t disaggregate to understand more detailed trends in the data.
-
 - **Programmatic data –** This is typically aggregated data collected or organised by “health programme” where patients with a specific disease are treated and monitored with data collected routinely. The data often contributes to international programmes responding to specific diseases such as malaria or HIV. Read our [UNAIDS case study](/fjelltopp-astro/projects/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/) to put this into context.
-
 - **Laboratory data –** Diagnoses may often be confirmed by a test that requires laboratory equipment. This testing process can produce important public health data, but laboratory test results often take time to process.
-
 - **Civil registration data –** Accurate registration of births, deaths and vital statistics is essential in understanding a country’s population. Many low and middle-income countries struggle to collect and manage this data.
-
 - **Research data –** Data may be collected to address specific public health research questions that can’t be answered with pre-existing data. Such data is typically associated with a journal or published report.
-
 - **Other reference data –** Many other sources of data may prove crucial in public health data analysis. Examples include population, geographic, climate and weather data, animal/veterinary data, and economic data. More recently, we have become increasingly interested in unstructured data such as social media posts, or news articles scraped from the web, which may provide further insight into particular types of analyses. Epidemiological Intelligence From Open Sources (EIOS) is a WHO tool to collect such data.
-
 - **Surveillance data –** Public health surveillance is a broad umbrella term that includes much of the above. On their website, [CDC](https://www.cdc.gov/) quotes the book “Field Epidemiology” to define public health surveillance as the ongoing, systematic collection, analysis, and interpretation of health-related data essential to planning, implementing, and evaluating public health practice.
 
 At Fjelltopp, we help you collect the best public health data possible using our technical know-how and experience with large-scale public health research. Just take a look at our [previous projects](/fjelltopp-astro/projects/). We’ll be writing some more blog posts about health data and health data analysis. Stay tuned for part two of this blog!

@@ -25,7 +25,7 @@ The “[Gartner Ascendancy Model of Analytics](https://images.app.goo.gl/es3tBv3
 
 Implementing these types of analysis helps organisations and governments make big decisions regarding public health that are rooted in evidence.
 
-<Image class="place-self-start w-full max-h-120 object-cover object-center pb-5 pr-5" src="/fjelltopp-astro/src/assets/dots/dots4.jpg" alt="TODO"/>
+<Image class="place-self-start w-full max-h-120 object-cover object-center pr-5" src="/fjelltopp-astro/src/assets/dots/dots4.jpg" alt="TODO"/>
 
 ## How can Fjelltopp help?
 

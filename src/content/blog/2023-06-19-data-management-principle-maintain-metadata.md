@@ -37,7 +37,7 @@ At the time of dataset creation and first-use, the answer to these questions may
 
 Metadata has been broadly defined by IEEE and the Dublin Core Metadata Initiative as [“structured data about data”.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.5042&rep=rep1&type=pdf) Note that the emphasis in this definition is on the structuring of data. Related documentation, standard operating procedures, research papers (or even podcasts and other media) may contain plenty of “data about data”. Whilst these mediums may be engaging, they are unlikely to provide a complete reference for rapid comprehension of the dataset.
 
-<Image class="w-full md:w-1/3 md:float-left py-5 md:pr-5" src="/fjelltopp-astro/src/assets/dots/dots5.jpg" alt="" />
+<Image class="w-full md:w-1/3 md:float-left md:mr-5" src="/fjelltopp-astro/src/assets/dots/dots5.jpg" alt="" />
 
 By comparison, structured data is predictable, consistent, and organised, making it easier and quicker to browse and understand. Well-structured data is ideally machine readable and searchable, thereby promoting data:
 
@@ -88,7 +88,7 @@ A study undertaken in Fjelltopp’s sector of epidemiology and public health imp
 
 ---
 
-<Image class="h-200 w-full md:w-1/3 md: float-right py-5 md:pl-5 object-cover object-center" src="/fjelltopp-astro/src/assets/pics/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg" alt="TODO" />
+<Image class="h-200 w-full md:w-1/3 md: float-right md:ml-5 object-cover object-center" src="/fjelltopp-astro/src/assets/pics/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg" alt="TODO" />
 
 ### Dos & Don'ts for Metadata Management
 

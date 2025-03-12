@@ -36,7 +36,7 @@ Humans may interact with data in ways that wouldn’t immediately be thought of 
 
 “Unknown entities” aren’t always easily identified as humans. Code that generates or acts upon data may be an unknown entity as well (because it has been written by a human). Each time a human interacts with the code, they interact with the data. In this case, appropriate validation actually looks like software testing to “validate” the code change. When using third-party code you have to consider the degree to which you trust the developers. In some cases it may be appropriate to treat the code as an “unknown entity” and validate the results of the code.
 
-<Image class="w-full md:w-1/4 md:float-right py-5 pl-5" src="/fjelltopp-astro/src/assets/team/team-at-laptop.jpg" alt="TODO" />
+<Image class="w-full md:w-1/4 md:float-right pl-5" src="/fjelltopp-astro/src/assets/team/team-at-laptop.jpg" alt="TODO" />
 
 ## Validate Often
 
@@ -50,7 +50,7 @@ It is very repetitive. However, broadly speaking, the more you validate, the mor
 
 Based on our experience at Fjelltopp we have identified four different dimensions to data validation. A good validation strategy will consider:
 
-<Image class="w-full md:w-1/4 md:float-left py-5 pr-5 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots13.png" alt="TODO" height=1000 />
+<Image class="w-full h-165 md:w-1/4 md:float-left md:mr-5 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots13.png" alt="TODO" height=1000 />
 
 **\[1\] Column constraints**
 
@@ -74,7 +74,7 @@ There is a difference between validation errors and warnings – the former shou
 
 A good validation engine ideally has the flexibility to distinguish between many levels of severity. We envisage something similar to the Python logging framework: issues are ranked by severity, and thresholds set at “runtime” to identify them as _blocking_, _non-blocking_ or _ignored_. If you ever find a tool capable of this, please let us know!
 
-<Image class="w-fullh-120 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots12.png" alt="TODO" />
+<Image class="w-full h-120 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots12.png" alt="TODO" />
 
 ## Tools that you may be interested in
 

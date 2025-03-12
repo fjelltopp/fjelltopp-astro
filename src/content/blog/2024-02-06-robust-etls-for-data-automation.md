@@ -20,7 +20,7 @@ Extract Transform Load (ETL) pipelines are a common architectural pattern in dat
 
 Fjelltopp have worked upon many different ETL solutions for our clients, including multiple solutions that push data into, and pull data out of, the [DHIS2 platform](https://dhis2.org) – an open-source health information system used widely across Africa. We have also built ETLs that pull data from source into PowerBI dashboards, or that automate aggregation, cleaning and validation processes upon data uploaded to a CKAN instance.
 
-<Image class="place-self-start w-full max-h-240 object-cover object-center pb-5 pr-5" src="/fjelltopp-astro/src/assets/team/team-at-laptop.jpg" alt="TODO"/>
+<Image class="place-self-start w-full max-h-240 object-cover object-center pr-5" src="/fjelltopp-astro/src/assets/team/team-at-laptop.jpg" alt="TODO"/>
 
 ## ETLs vs ELTs
 
@@ -34,7 +34,7 @@ In a similar way you will also need to ensure that you have machine access to th
 
 Finally you will need a framework to host and orchestrate your ETL. Each ETL is a piece of software built to automate a particular workflow. These typically need to be run from a PC, or server, in an asynchronous manner and often as background jobs. On many occasions they need to be scheduled to run on a periodic basis, or triggered to run by specific events. When an ETL fails, we need proper logs and notifications to be raised, so that further action can be taken to make a fix. There are many frameworks out there to help with this challenge of ETL orchestration, e.g. [AWS Glue](https://aws.amazon.com/glue/), [Azure Data Factory](https://azure.microsoft.com/en-gb/products/data-factory) and the popular open source solution [Apache Airflow](https://airflow.apache.org/).
 
-<Image class="place-self-start w-1/3 float-left object-cover object-center pb-5 pr-5" src="/fjelltopp-astro/src/assets/dots/dots11.jpg" alt="TODO"/>
+<Image class="place-self-start w-1/3 float-left object-cover object-center pr-5" src="/fjelltopp-astro/src/assets/dots/dots11.jpg" alt="TODO"/>
 
 ## Six marks of a robust ETL
 
@@ -51,7 +51,7 @@ Using our experience we have put together what we call our “six marks of a rob
 
 For further information consider reading our blog post entitled [“Principle: #3 Automate wherever possible”](/fjelltopp-astro/articles/2023-06-19-data-management-principle-automate-wherever-possible/).
 
-<Image class="place-self-start w-1/3 float-right object-cover object-center pb-5 pr-5" src="/fjelltopp-astro/src/assets/team/team-discussing-in-corridor.jpg" alt="TODO"/>
+<Image class="place-self-start w-1/3 float-right object-cover object-center pr-5" src="/fjelltopp-astro/src/assets/team/team-discussing-in-corridor.jpg" alt="TODO"/>
 
 ## We’d love to know what you think…
 

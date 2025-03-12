@@ -34,7 +34,7 @@ Cards on the table: we don’t like showing off or being the centre of attention
 
 ### And why should you care?
 
-<Image class="place-self-start sm:w-full md:float-left md:w-md pb-5 pr-5" src="/fjelltopp-astro/src/assets/dots/dots2.jpg" alt="TODO"/>
+<Image class="w-full md:float-left md:w-md md:mr-5" src="/fjelltopp-astro/src/assets/dots/dots2.jpg" alt="TODO"/>
 
 > _It’s not just about work in progress – the unknowns of data needs and global public health needs – but being in constant progress, staying ahead, testing, challenging and always learning and developing._
 

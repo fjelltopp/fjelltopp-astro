@@ -30,7 +30,7 @@ In software and data engineering the most popular tool used for this purpose is 
 
 Whilst Fjelltopp uses Git extensively, in our experience, many of our clients would not benefit from its complexity. For the most part a much simpler feature-set will suffice. We like how Google Drive/Docs does versioning. It records a linear list of revisions made to the document, including the author and time of the revision, allowing you to tag, filter and revert to revisions as desired. This is the approach we have implemented in our [CKAN](/fjelltopp-astro/services/data-catalogues-and-hubs) and [Health Data Hubs ](/fjelltopp-astro/services/data-catalogues-and-hubs)solutions.
 
-<Image class="w-full md:float-right md:w-1/3 pb-5 pl-5" src="/fjelltopp-astro/src/assets/product/malawi-mock-up-1.png" alt="TODO"/>
+<Image class="w-full md:float-right md:w-1/3 pl-5" src="/fjelltopp-astro/src/assets/product/malawi-mock-up-1.png" alt="TODO"/>
 
 ### Why should you Version?
 
@@ -53,7 +53,7 @@ Fjelltopp builds metadata version control into our data projects as a founding p
 
 ### How should you version?
 
-<Image class="h-100 w-full md:float-left md:w-1/4 py-5 pr-5 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots2.jpg" alt="TODO"/>
+<Image class="h-100 w-full md:float-left md:w-1/4 md:mr-5 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots2.jpg" alt="TODO"/>
 
 **\[1\] Ensure you and your team are familiar with your versioning tools.**
 

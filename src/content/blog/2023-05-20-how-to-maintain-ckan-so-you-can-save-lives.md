@@ -22,7 +22,7 @@ That’s in theory.
 
 To get it to function this way it takes some technical know-how and maintenance, but more on that later.
 
-<Image class="place-self-start sm:w-full md:float-right md:w-md pb-5 pr-5" src="/fjelltopp-astro/src/assets/product/malawi-mock-up-1.png" alt="TODO"/>
+<Image class="place-self-start sm:w-full md:float-right md:w-md pr-5" src="/fjelltopp-astro/src/assets/product/malawi-mock-up-1.png" alt="TODO"/>
 
 ## Why should you use CKAN if you’ve just got to work to maintain it?
 
