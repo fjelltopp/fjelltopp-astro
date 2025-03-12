@@ -3,9 +3,6 @@ title: 'Health Data Analysis: Common Health Data Types'
 pubDate: 2024-04-30T21:02:57+01:00
 author: 'Dr Jonathan Berry'
 summary: "Health data analysis is the extraction of meaning from the health data, which is then used to make better-informed decisions concerning the management of an individual’s or population’s health.\_"
-
-guid: 'https://www.fjelltopp.org/?p=2094'
-permalink: /health-data-analysis-common-health-data-types/
 coverImage: ../../assets/dots/dots9.jpg
 type: "Article"
 language: "en"
@@ -13,9 +10,7 @@ authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie
 tags: []
 ---
 
-**“It is a capital mistake to theorise before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.” – Sherlock Holmes.**
-
----
+> It is a capital mistake to theorise before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.” – Sherlock Holmes.
 
 It can be easy to fall into the trap of confirmation bias, and alter data finding to fit previously agreed theories. In the health sector, this approach can and does result in death, which is why collecting health data and conducting unbiased health data analysis is vital.
 
@@ -29,7 +24,9 @@ On a national level, decisions made concerning health systems have a far-reachin
 
 At Fjelltopp, we are passionate about collecting, managing and understanding health-related data, especially public health data. Better data leads to better analysis, which leads to better decisions and better health for people worldwide. Good data analysis starts with great data collection.
 
-<figure class="wp-block-image size-large">![](https://www.fjelltopp.org/media/Coffee-Cup-Home-edited-1200x675.jpg)</figure><div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex"><div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"></div><div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%"></div></div># The types of data we collect for health data analysis
+<Image class="place-self-start w-full pb-5 pr-5" src="/fjelltopp-astro/src/assets/product/fjelltopp-mock-up-3.jpg" alt="TODO"/>
+
+## The types of data we collect for health data analysis
 
 The quality of the health data analysis depends significantly on the quality of the underlying health data. Here are the different types of public health data we work with at Fjelltopp:
 

@@ -3,9 +3,6 @@ title: 'Health Data Analysis: Four types of analysis'
 pubDate: 2024-04-30T21:03:22+01:00
 author: 'Dr Jonathan Berry'
 summary: 'The “Gartner Ascendancy Model of Analytics” is a helpful way of framing four different sorts of analytics that should be applied to health data. Let’s break it down.'
-
-guid: 'https://www.fjelltopp.org/?p=2092'
-permalink: /health-data-analysis-four-types-of-analysis/
 coverImage: ../../assets/dots/dots7.png
 type: "Article"
 language: "en"
@@ -13,7 +10,7 @@ authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie
 tags: []
 ---
 
-**If you haven’t already, take a look at [part one of this blog](https://fjelltopp.org/health-data-analysis-common-health-data-types) to find out what health data analysis is and what types of data we commonly work with.**
+_If you haven’t already, take a look at [part one of this blog](https://fjelltopp.org/health-data-analysis-common-health-data-types) to find out what health data analysis is and what types of data we commonly work with._
 
 ---
 
@@ -31,7 +28,9 @@ The “[Gartner Ascendancy Model of Analytics](https://images.app.goo.gl/es3tBv3
 
 Implementing these types of analysis helps organisations and governments make big decisions regarding public health that are rooted in evidence.
 
-<figure class="wp-block-image size-large">![](https://www.fjelltopp.org/media/Fjelltopp-Homepage-1-1200x514.jpg)</figure><div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex"><div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"></div><div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%"></div></div># How can Fjelltopp help?
+<Image class="place-self-start w-full max-h-120 object-cover object-center pb-5 pr-5" src="/fjelltopp-astro/src/assets/dots/dots4.jpg" alt="TODO"/>
+
+## How can Fjelltopp help?
 
 Introducing our Director of Research, Data and AI, [Dr Chas Nelson.](https://www.fjelltopp.org/about/chas-nelson/) His academic and industry background mixes computer science with life sciences. Before joining Fjelltopp he was the CTO of and AI Medical Data startup. He’s familiar with a wide range of analytical approaches and tools and how they can be used with the whole gamut of health data. Between Dr Chas Nelson, our Managing Director, [Dr Jonathan Berry](https://www.fjelltopp.org/about/dr-jonathan-s-berry/), and our wider team we offer highly qualified data analysis and evaluation services for both research and operational projects.
 

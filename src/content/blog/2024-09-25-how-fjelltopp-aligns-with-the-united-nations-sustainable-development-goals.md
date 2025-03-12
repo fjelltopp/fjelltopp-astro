@@ -22,7 +22,9 @@ In collaboration with UNAIDS, Fjelltopp has supported the development of the UNA
 
 The impact of our work is felt especially in low- and middle-income countries, where access to robust health infrastructure is often limited. By creating affordable, scalable solutions, we help bridge gaps in healthcare data, empowering governments to make informed, timely decisions that improve health outcomes for their populations.
 
-<figure class="wp-block-image size-large">![](https://www.fjelltopp.org/media/Fjelltopp-Homepage-1-1200x514.jpg)</figure><div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex"><div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%"></div><div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%"></div></div># SDG 17: Partnerships for the Goals
+<Image class="h-120 w-full object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots4.jpg" alt="TODO"/>
+
+## SDG 17: Partnerships for the Goals
 
 Achieving the SDGs is only possible through collaboration and strong partnerships, as emphasised in SDG 17. At Fjelltopp, we pride ourselves on our partnerships with international organisations such as the WHO, FAO, UNICEF, and UNAIDS, as well as local Ministries.
 

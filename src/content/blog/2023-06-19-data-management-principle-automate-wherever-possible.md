@@ -4,8 +4,8 @@ pubDate: 2023-06-19T14:49:15+01:00
 author: 'Dr Jonathan Berry'
 summary: 'There are so many reasons to automate data management processes beyond the savings made in time and resources. '
 
-guid: 'https://www.fjelltopp.org/?p=1531'
-permalink: /data-management-principle-automate-wherever-possible/
+
+
 coverImage: ../../assets/dots/dots5.jpg
 type: "Article"
 language: "en"
@@ -28,7 +28,9 @@ Before such tools existed, just consider the amount of manual work involved in s
 
 Wherever people are repeating themselves, automation should be introduced. This repetition may occur over time or space. Perhaps multiple people are having to perform the same task with your data, or perhaps the same person is having to perform the same task several times a week.
 
-<div class="wp-block-image"><figure class="aligncenter size-full">![](https://www.fjelltopp.org/media/unnamed.png)</figure></div>## **Why Automate?**
+<img class="mx-auto" src="https://imgs.xkcd.com/comics/is_it_worth_the_time.png"/>
+
+## Why Automate?
 
 Whilst the xkcd comic is insightful, there are more reasons to automate than simply saving time and money (which in itself is an excellent reason). You should probably consider automation even when the time saved will not necessarily match the time invested. Here’s why:
 
@@ -49,7 +51,9 @@ Building and orchestrating reliable and extendable ETLs is an art form. We recom
 
 Consider automating important data management tasks that users don’t want to complete themselves. Your data management system should incorporate automation to support easy metadata creation, versioning, validation, archiving, and access management. Fjelltopp has found that a significant proportion of the desired metadata can be auto-filled in our systems with the right tweaks to the software. Furthermore we have created dataset templates that users can use when uploading their data. These templates provide sensible default metadata that can then be updated by the user with further detail.
 
-<div aria-hidden="true" class="wp-block-spacer" style="height:0px"></div><div aria-hidden="true" class="wp-block-spacer" style="height:37px"></div><figure class="wp-block-image">![](https://www.fjelltopp.org/media/fjelltopp-service_header_new_04-2.jpg)</figure>## **Evaluating Automation**
+<Image class="w-full" src="/fjelltopp-astro/src/assets/summits/2022-krakow/team-in-discussion.jpg" alt="TODO" />
+
+## Evaluating Automation
 
 If you or your contractors have built a module of automation it is important to properly evaluate the work. For each automated process you are responsible for, consider the following questions:
 
@@ -61,4 +65,4 @@ If you or your contractors have built a module of automation it is important to 
 
 The team here at Fjelltopp would be delighted to discuss any of the above points with you – you can set up a free meeting with us [here](https://docs.google.com/forms/d/e/1FAIpQLSdzzKi5MGz4I45KUxFhOfdwXAr9gNzWs5CRi9REblm3LVI0Hg/viewform).
 
-<div aria-hidden="true" class="wp-block-spacer" style="height:35px"></div><div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex"><div class="wp-block-button">[Read Principle #4 Validate early and often](/data-management-principle-validate-early-often/)</div></div><div aria-hidden="true" class="wp-block-spacer" style="height:35px"></div>
+[Read Principle #4 Validate early and often](/data-management-principle-validate-early-often/)

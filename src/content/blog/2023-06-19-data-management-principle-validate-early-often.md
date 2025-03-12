@@ -1,18 +1,14 @@
 ---
-title: 'Principle #4 Validate early &#038; often'
+title: 'Principle #4 Validate early & often'
 pubDate: 2023-06-19T15:10:47+01:00
 author: 'Dr Jonathan Berry'
 summary: 'Validation builds confidence in your data.  It should be automated and happen early in data workflows.'
-
-guid: 'https://www.fjelltopp.org/?p=1537'
-permalink: /data-management-principle-validate-early-often/
 coverImage: ../../assets/dots/dots9.jpg
 type: "Article"
 language: "en"
 tags:
     - 6Principles
     - DataManagement
-
 authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
 ---
 
@@ -36,11 +32,13 @@ Validation should take place wherever there is an “unknown entity” interacti
 
 In most public-health cases it is therefore essential to validate at the point of “data entry”. In many of Fjelltopp’s projects data is submitted by humans using an electronic form. Implementing sound input validation as part of the form’s user interface is essential. In Fjelltopp’s project [“The AIDS Data Repository”](https://www.fjelltopp.org/project/the-aids-data-repository-for-unaids-geneva/) users prepare and submit data tables to our data repository. Each table receives comprehensive validation every single time a new version is uploaded to our system.
 
-<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-image-fill" style="grid-template-columns:auto 37%"><div class="wp-block-media-text__content">Humans may interact with data in ways that wouldn’t immediately be thought of as “data entry” e.g. data approval, review, and transformation. After each interaction, the data should be revalidated.
+Humans may interact with data in ways that wouldn’t immediately be thought of as “data entry” e.g. data approval, review, and transformation. After each interaction, the data should be revalidated.
 
 “Unknown entities” aren’t always easily identified as humans. Code that generates or acts upon data may be an unknown entity as well (because it has been written by a human). Each time a human interacts with the code, they interact with the data. In this case, appropriate validation actually looks like software testing to “validate” the code change. When using third-party code you have to consider the degree to which you trust the developers. In some cases it may be appropriate to treat the code as an “unknown entity” and validate the results of the code.
 
-</div><figure class="wp-block-media-text__media" style="background-image:url(https://www.fjelltopp.org/media/fjelltopp-about_our_experts_new_01-1174x1200.jpg);background-position:50% 50%">![](https://www.fjelltopp.org/media/fjelltopp-about_our_experts_new_01-1174x1200.jpg)</figure></div>## **Validate Often**
+<Image class="w-full md:w-1/4 md:float-right py-5 pl-5" src="/fjelltopp-astro/src/assets/team/team-at-laptop.jpg" alt="TODO" />
+
+## Validate Often
 
 That may sound like a whole lot of validation. If you are currently checking data manually, you are probably thinking that the proposal above is unrealistic. And you would be correct!
 
@@ -52,7 +50,9 @@ It is very repetitive. However, broadly speaking, the more you validate, the mor
 
 Based on our experience at Fjelltopp we have identified four different dimensions to data validation. A good validation strategy will consider:
 
-<div aria-hidden="true" class="wp-block-spacer" style="height:25px"></div><div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill" style="grid-template-columns:30% auto"><figure class="wp-block-media-text__media" style="background-image:url(https://www.fjelltopp.org/media/Untitled-design-43-1200x1013.png);background-position:50% 50%">![](https://www.fjelltopp.org/media/Untitled-design-43-1200x1013.png)</figure><div class="wp-block-media-text__content">**\[1\] Column constraints**
+<Image class="w-full md:w-1/4 md:float-left py-5 pr-5 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots13.png" alt="TODO" height=1000 />
+
+**\[1\] Column constraints**
 
 *These simple constraints only relate to a single field or column in a data record. Examples include checking the data type, making the field required/not required, restricting the possible values, ensuring numbers are within a certain range, or text is under a certain character limit.*
 
@@ -68,24 +68,26 @@ Based on our experience at Fjelltopp we have identified four different dimension
 
 *Some constraints can actually concern multiple tables. The most common dataset-level constraint is the foreign key check – ensuring that all values in a given column are also found in a column from a different table. This is a common requirement in relational database design. Another example of a dataset-level constraint is to simply require that certain data tables are included in your dataset.*
 
-</div></div><div aria-hidden="true" class="wp-block-spacer" style="height:25px"></div>## **Errors vs Warnings**
+## Errors vs Warnings
 
 There is a difference between validation errors and warnings – the former should block the data workflow, the latter should raise awareness but not actually block the workflow. It is important to consider carefully what should be an error or a warning. In our experience, if you are at all unsure it is best to err on the side of “non-blocking” – make the issue a warning until you are confident it can be treated as an error.
 
 A good validation engine ideally has the flexibility to distinguish between many levels of severity. We envisage something similar to the Python logging framework: issues are ranked by severity, and thresholds set at “runtime” to identify them as *blocking*, *non-blocking* or *ignored*. If you ever find a tool capable of this, please let us know!
 
-<figure class="wp-block-image size-large">![Fjelltopp Home Header](https://www.fjelltopp.org/media/Fjelltopp-Home-Header-e1669718187227-1200x495.jpg)</figure>## **Tools that you may be interested in**
+<Image class="w-fullh-120 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots12.png" alt="TODO" />
+
+## Tools that you may be interested in
 
 There are a number of open-source tools out there to help you validate your data. Here are just a few examples we have found to be most interesting:
 
 - [**XLSForms**](https://xlsform.org/en/) is an Excel based syntax for defining electronic forms for data entry using the [XForm](https://www.w3.org/TR/xforms11/) standard. It includes a range of validation features to ensure data input is clean.
-- **[Frictionless Data](https://frictionlessdata.io/)** is a Python &amp; R based framework providing tools for validation of data tables and packages along all four validation dimensions.
+- **[Frictionless Data](https://frictionlessdata.io/)** is a Python & R based framework providing tools for validation of data tables and packages along all four validation dimensions.
 - **[Pandera](https://pandera.readthedocs.io/en/stable/)** is a Python tool for validating Pandas dataframes.
 - **[R Validate Package](https://cran.r-project.org/web/packages/validate/index.html)** is an R tool for validating R data frames.
 
 ---
 
-###We’d love to know what you think…
+### We’d love to know what you think…
 
 Set up a meeting with us [here](https://docs.google.com/forms/d/e/1FAIpQLSdzzKi5MGz4I45KUxFhOfdwXAr9gNzWs5CRi9REblm3LVI0Hg/viewform). We’ve got some questions to get you thinking:
 
@@ -95,4 +97,4 @@ Set up a meeting with us [here](https://docs.google.com/forms/d/e/1FAIpQLSdzzKi5
 - Which of the four dimensions of validation are relevant?
 - Should your validation checks block the data workflow?
 
-<div aria-hidden="true" class="wp-block-spacer" style="height:31px"></div><div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex"><div class="wp-block-button">[Read Principle #5 Version Everything](/data-management-principle-version-everything/)</div></div><div aria-hidden="true" class="wp-block-spacer" style="height:29px"></div>
+[Read Principle #5 Version Everything](/data-management-principle-version-everything/)
