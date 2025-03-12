@@ -3,7 +3,7 @@ title: "A new mountain to climb"
 pubDate: 2023-02-03T15:02:02+00:00
 author: "Dr Jonathan Berry"
 summary: "Since 2015, our goal has been to strive for higher ground and gain deeper insight of the most challenging issues in public health."
-image: ../../assets/dots/dots1.png
+coverImage: ../../assets/dots/dots1.png
 type: "Article"
 language: "en"
 authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"

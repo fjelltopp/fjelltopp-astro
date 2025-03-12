@@ -6,7 +6,7 @@ summary: 'Balancing data availability with data security is a real challenge.  W
 
 guid: 'https://www.fjelltopp.org/?p=1512'
 permalink: /data-management-principle-secure-but-accessible-data/
-image: ../../assets/dots/dots7.png
+coverImage: ../../assets/dots/dots7.png
 type: "Article"
 language: "en"
 tags:

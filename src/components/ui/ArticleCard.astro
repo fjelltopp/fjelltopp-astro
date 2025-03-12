@@ -4,6 +4,7 @@ import type { CollectionEntry } from "astro:content";
 import ArticleIcon from "../../components/Icons/ArticleIcon.astro";
 import VideoIcon from "../../components/Icons/VideoIcon.astro";
 import Card from "../ui/Card.astro";
+import { Image } from "astro:assets";
 
 const { article } = Astro.props;
 
@@ -20,8 +21,9 @@ interface Props {
       </span>
       <span class="text-sm">{formatDate(article.data.pubDate)}</span>
   </div>
-  <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">{article.data.title}</h2>
-  <p class="mb-5 font-light text-gray-500" style="white-space: pre-line">{article.data.summary}</p>
+  <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 h-16">{article.data.title}</h2>
+  <Image class="mb-5 h-full max-h-24 md:max-h-48 object-cover" src={article.data.coverImage} alt={article.data.title + " cover"} />
+  <p class="mb-5 font-light text-gray-500 line-clamp-3 h-20" style="white-space: pre-line">{article.data.summary}</p>
   <div class="flex justify-between items-center">
       <div class="flex items-center space-x-4">
         <img class="w-7 h-7 rounded-full" src={article.data.authImage} alt={article.data.author + " cover"} />

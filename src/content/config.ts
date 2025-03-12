@@ -8,7 +8,7 @@ const blog = defineCollection({
     pubDate: z.date(),
     author: z.string(),
     authImage: z.string(),
-    image: image(),
+    coverImage: image(),
     tags: z.array(z.string()),
     summary: z.string(),
     type: z.enum(["Article", "Tutorial"]),

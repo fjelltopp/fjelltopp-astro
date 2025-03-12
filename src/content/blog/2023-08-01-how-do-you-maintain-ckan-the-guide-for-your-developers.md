@@ -6,7 +6,7 @@ summary: 'We’ve put together our top CKAN maintenance tips to keep everything 
 
 guid: 'https://www.fjelltopp.org/?p=1849'
 permalink: /how-do-you-maintain-ckan-the-guide-for-your-developers/
-image: ../../assets/dots/dots10.png
+coverImage: ../../assets/dots/dots10.png
 type: "Article"
 language: "en"
 tags:

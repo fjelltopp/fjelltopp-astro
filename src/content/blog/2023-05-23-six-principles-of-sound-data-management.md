@@ -6,7 +6,7 @@ summary: 'Improving data management increases data impact, driving decision maki
 
 guid: 'https://www.fjelltopp.org/?p=1266'
 permalink: /six-principles-of-sound-data-management/
-image: ../../assets/pics/6principles.jpg
+coverImage: ../../assets/pics/6principles.jpg
 type: "Article"
 language: "en"
 tags:

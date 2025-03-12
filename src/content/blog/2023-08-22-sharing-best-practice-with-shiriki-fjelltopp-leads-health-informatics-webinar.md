@@ -6,7 +6,7 @@ summary: 'Recently Jonathan was a speaker for a webinar hosted by Shiriki.'
 
 guid: 'https://www.fjelltopp.org/?p=1903'
 permalink: /sharing-best-practice-with-shiriki-fjelltopp-leads-health-informatics-webinar/
-image: ../../assets/dots/dots1.png
+coverImage: ../../assets/dots/dots1.png
 type: "Article"
 language: "en"
 tags:
