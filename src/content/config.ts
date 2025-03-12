@@ -2,13 +2,13 @@ import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
 
 const blog = defineCollection({
-  loader: glob({ pattern: "*.md", base: "src/content/blog" }),
-  schema: z.object({
+  loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/blog" }),
+  schema: ({ image }) => z.object({
     title: z.string(),
     pubDate: z.date(),
     author: z.string(),
     authImage: z.string(),
-    image: z.string(),
+    image: image(),
     tags: z.array(z.string()),
     summary: z.string(),
     type: z.enum(["Article", "Tutorial"]),
@@ -17,7 +17,7 @@ const blog = defineCollection({
 });
 
 const industries = defineCollection({
-  loader: glob({ pattern: "*.md", base: "src/content/industries" }),
+  loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/industries" }),
   schema: z.object({
     title: z.string(),
     image: z.string(),
@@ -27,7 +27,7 @@ const industries = defineCollection({
 });
 
 const projects = defineCollection({
-  loader: glob({ pattern: "*.md", base: "src/content/projects" }),
+  loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/projects" }),
   schema: z.object({
     title: z.string(),
     image: z.string(),
@@ -49,7 +49,7 @@ const services = defineCollection({
 });
 
 const teams = defineCollection({
-  loader: glob({ pattern: "[^_]*.md", base: "src/content/team" }),
+  loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/team" }),
   schema: z.object({
     author: z.string(),
     image: z.string(),

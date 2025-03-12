@@ -1,28 +1,29 @@
 ---
-import MainLayout from "../../layouts/MainLayout.astro";
-import Tags from "../../components/ui/Tags.astro";
+import { Image } from "astro:assets";
 import { getCollection, getEntry, render } from "astro:content";
+import Tags from "../../components/ui/Tags.astro";
+import MainLayout from "../../layouts/MainLayout.astro";
 import { formatDate } from "../../utils/formatDate";
 
 import "../../styles/global.css";
 
 export async function getStaticPaths() {
-  const allBlogArticles = await getCollection('blog');
-  return allBlogArticles.map(article => ({
-    params: { slug: article.id }
+  const allBlogArticles = await getCollection("blog");
+  return allBlogArticles.map((article) => ({
+    params: { slug: article.id },
   }));
 }
 
 const { slug } = Astro.params;
 
-if(slug === undefined) {
-  throw new Error('Slug is required');
+if (slug === undefined) {
+  throw new Error("Slug is required");
 }
 
-const entry = await getEntry('blog', slug);
+const entry = await getEntry("blog", slug);
 
-if(entry === undefined) {
-  return Astro.redirect('/404');
+if (entry === undefined) {
+  return Astro.redirect("/404");
 }
 
 const { Content } = await render(entry);
@@ -44,11 +45,13 @@ const { Content } = await render(entry);
                   <h3 class="text-lg mb-2">Written by {entry.data.author} on {formatDate(entry.data.pubDate)}</h3>
                   <Tags tags={entry.data.tags} />
                   <img src={'/blog/' + entry.data.image} alt="Article Image" class="w-full h-auto rounded-xl my-6" />
-                  <div class="content">
+                  <div class="content prose lg:prose-xl max-w-none prose-blockquote:border-l-0">
                     <Content/>
                   </div>
               </div>
           </div>
-      </section>
-	</main>
+        </div>
+      </div>
+    </section>
+  </main>
 </MainLayout>
