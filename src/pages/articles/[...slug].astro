@@ -64,7 +64,7 @@ const { Content } = await render(entry);
             Written by {entry.data.author} on {formatDate(entry.data.pubDate)}
           </h3>
           <Tags tags={entry.data.tags} />
-          <img
+          <Image
             src={entry.data.coverImage}
             alt="Article Image"
             class="my-6 h-auto max-h-96 w-full rounded-xl object-cover object-center"
