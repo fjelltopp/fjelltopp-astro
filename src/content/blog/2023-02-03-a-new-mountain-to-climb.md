@@ -10,7 +10,7 @@ authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie
 tags: []
 ---
 
-Since 2015, our goal has been to strive for higher ground and gain deeper insight of the most challenging issues in public health. So far, Fjelltopp has grown organically, and we’re proud of the [impact](https://www.fjelltopp.org/projects/) we’ve been able to have on world health data to date. For us, it’s not just about the data. It’s also about how effectively it can be communicated and understood, that’s what brings about real, positive change.
+Since 2015, our goal has been to strive for higher ground and gain deeper insight of the most challenging issues in public health. So far, Fjelltopp has grown organically, and we’re proud of the [impact](/fjelltopp-astro/projects/) we’ve been able to have on world health data to date. For us, it’s not just about the data. It’s also about how effectively it can be communicated and understood, that’s what brings about real, positive change.
 
 We needed to do some work on ourselves to better communicate our purpose – not only **what** we do, but **how** and **why**. We have to make sure we’re always in the best position to make the biggest impact on the most people by helping to harmonise the world’s health data.
 
@@ -30,7 +30,7 @@ Data and technology are constantly evolving. Public health issues and responses 
 
 To be honest, we’d never undertaken anything like this before. All our growth had happened organically over the last 7 years. Although we’re immensely proud of how far we’ve come as a business, it was time to get serious about our messages. We needed to be sure that we were staying relevant, not just because we wanted a new, good-looking website, but to make sure our key messages were clear, and at the heart of everything we do.
 
-Cards on the table: we don’t like showing off or being the centre of attention, but it was important to showcase some of the more [impactful work](https://www.fjelltopp.org/timeline/) that we’d been a part of. Frankly, we need a seat at the table to make sure we get our voice heard and have the maximum impact on global health data that we know we can.
+Cards on the table: we don’t like showing off or being the centre of attention, but it was important to showcase some of the more [impactful work](/fjelltopp-astro/about#timeline/) that we’d been a part of. Frankly, we need a seat at the table to make sure we get our voice heard and have the maximum impact on global health data that we know we can.
 
 ### And why should you care?
 
@@ -38,9 +38,9 @@ Cards on the table: we don’t like showing off or being the centre of attention
 
 > _It’s not just about work in progress – the unknowns of data needs and global public health needs – but being in constant progress, staying ahead, testing, challenging and always learning and developing._
 
-We’ve worked with UN field experts including WHO, UNICEF, UNAIDS, FAO, Ministries of Health, and other local [partners across the globe](https://www.fjelltopp.org/projects/). Redefining our brand wasn’t just about changing our logo and making a load of noise, it was about increasing the opportunity to make real lasting impacts on the world’s health data, driven by social objectives.
+We’ve worked with UN field experts including WHO, UNICEF, UNAIDS, FAO, Ministries of Health, and other local [partners across the globe](/fjelltopp-astro/projects/). Redefining our brand wasn’t just about changing our logo and making a load of noise, it was about increasing the opportunity to make real lasting impacts on the world’s health data, driven by social objectives.
 
-Although we’re data scientists and software engineers, our business is ultimately all about real people, not just numbers. [We’re proud of our people](https://www.fjelltopp.org/about/) and we want to showcase the values that demonstrate what Fjelltopp is all about.
+Although we’re data scientists and software engineers, our business is ultimately all about real people, not just numbers. [We’re proud of our people](/fjelltopp-astro/#team/) and we want to showcase the values that demonstrate what Fjelltopp is all about.
 
 > _We’re on a mission to help harmonise the world’s public health data so that countries can provide the best possible health services to their people and communities._
 

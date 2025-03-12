@@ -21,13 +21,13 @@ Recently Jonathan was a speaker for a webinar hosted by Shiriki entitled ‘Data
 
 Shiriki is an informal community of people who work in global public health informatics. There is a particular focus on HIV and TB, and therefore also a focus on low and middle income countries where these diseases tend to be most prevalent. The community is coordinated by [CDC Atlanta](http://www.cdc.gov) but comprises individuals from around the globe working with Ministries of Health, NGOs, IGOs, as well as private sector partners such as Fjelltopp. Regular online webinars offer a platform for the community to meet, though other communications and regular newsletters are shared via their mailing list.
 
-Fjelltopp has struggled to find professional communities within the public health informatics sector. Shiriki has been a great place for us to learn and network with others. Please do [get in touch](https://www.fjelltopp.org/contact/) and tell us about any relevant professional communities you are part of.
+Fjelltopp has struggled to find professional communities within the public health informatics sector. Shiriki has been a great place for us to learn and network with others. Please do [get in touch](/fjelltopp-astro/#contact) and tell us about any relevant professional communities you are part of.
 
 <Image class="w-full md:float-left md:w-1/3 mt-0 pb-5 pr-5" src="/fjelltopp-astro/src/assets/product/malawi-mock-up-3.jpg" alt="TODO"/>
 
 ### What was the webinar about?
 
-Jonathan led a webinar concerning our recent case study implementing a [Document Management System for the Department of HIV and AIDS for the Malawi Ministry of Health (MOH).](https://www.fjelltopp.org/project/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/)
+Jonathan led a webinar concerning our recent case study implementing a [Document Management System for the Department of HIV and AIDS for the Malawi Ministry of Health (MOH).](/fjelltopp-astro/projects/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/)
 
 Time and time again we have seen that a lack of data dissemination infrastructure has been obstructing progress towards better global health. But the process of data dissemination is still generally a very laborious, manual effort that places a huge pressure on already overloaded data management teams.
 
@@ -55,7 +55,7 @@ Here’s the 5 key takeaways from this webinar:
 
 CEO Jonathan really enjoyed delivering this webinar and talking about some of the work we’ve done at Fjelltopp in partnerships. Because at the end of the day, we just want to help make a better world for everyone when it comes to global health.
 
-If you’d like Jonathan to talk about any of our other projects, experience and work in a webinar – or if you’d just like to pick the Fjelltopp hive mind to see if we can help with your health data issue, please don’t hesitate to [get in touch](https://www.fjelltopp.org/contact/). No strings attached.
+If you’d like Jonathan to talk about any of our other projects, experience and work in a webinar – or if you’d just like to pick the Fjelltopp hive mind to see if we can help with your health data issue, please don’t hesitate to [get in touch](/fjelltopp-astro/#contact). No strings attached.
 
 You don’t need to sit wondering how to maintain CKAN, we’re here to help however little or as much as you may need. The goal is to harmonise your health data no matter how you get there.
 

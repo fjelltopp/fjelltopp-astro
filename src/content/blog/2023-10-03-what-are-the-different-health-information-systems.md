@@ -130,4 +130,4 @@ At Fjelltopp, we can support you with:
 
 We don’t just set you up and go, we’ll stick around until you no longer need us.
 
-So that’s a \*brief\* introduction to health information systems. Now it’s time to have a chat. Please don’t hesitate to get in touch for a free, no strings attached catch up. Let’s find a solution for you. Get in touch [here](https://www.fjelltopp.org/contact/).
+So that’s a \*brief\* introduction to health information systems. Now it’s time to have a chat. Please don’t hesitate to get in touch for a free, no strings attached catch up. Let’s find a solution for you. Get in touch [here](/fjelltopp-astro/#contact).

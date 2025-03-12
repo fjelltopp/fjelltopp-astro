@@ -10,7 +10,7 @@ authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie
 tags: []
 ---
 
-_If you haven’t already, take a look at [part one of this blog](https://fjelltopp.org/health-data-analysis-common-health-data-types) to find out what health data analysis is and what types of data we commonly work with._
+_If you haven’t already, take a look at [part one of this blog](/fjelltopp-astro/articles/2024-04-30-health-data-analysis-common-health-data-types) to find out what health data analysis is and what types of data we commonly work with._
 
 ---
 
@@ -19,11 +19,8 @@ _If you haven’t already, take a look at [part one of this blog](https://fjellt
 The “[Gartner Ascendancy Model of Analytics](https://images.app.goo.gl/es3tBv3wK2k8HBbc9)” is a helpful way of framing four different sorts of analytics that should be applied to health data. Let’s break it down:
 
 - **Descriptive analytics – What did happen?** This includes dashboards and reports containing key indicators, charts, and tables assembled from the data that simply describe _what has happened_. E.g. X number of people have been put on treatment for a disease, or Y number of people have been diagnosed with a disease. Such analytics are ubiquitous across the public health sector, especially as part of health information systems.
-
 - **Diagnostic analytics – Why did it happen?** Researchers that go a further step might start to gather evidence for “causality” – what causes a specific outcome of interest. They do this by examining and quantifying the relationship between the outcome and any variables they believe might be related. In practice, it can be hard to prove causality unequivocally. Still, with the right analysis and an understanding of the science, it’s possible to build up a bank of evidence that is hard for the unbiased mind to reject.
-
 - **Predictive Analytics – What will happen?** By looking at what has happened, we can build up evidence to support our best guess of what is happening and what will happen next using mathematical models built by epidemiologists. It’s an equation built to calculate a _best_ _estimate_ of something using measurements of other things. Models can be built to estimate the value using various sources of data. Modelling is an imprecise science – it takes great expertise to build the most accurate models, but by definition, no model is perfect.
-
 - **Prescriptive analytics – How can we make it happen?** Mathematical models can also be used to estimate the impact of public health interventions, giving insight into how public health targets and goals may be reached. For instance, if you hear about a new treatment to fight a disease, you may use research data that measures the efficacy of that treatment alongside your estimates of the number living with the disease to model the cost and impact of treating the given population. You may then decide the impact is too small for the cost, or vice-versa. This way, public health analysis can tell us how to meet key targets.
 
 Implementing these types of analysis helps organisations and governments make big decisions regarding public health that are rooted in evidence.
@@ -32,8 +29,8 @@ Implementing these types of analysis helps organisations and governments make bi
 
 ## How can Fjelltopp help?
 
-Introducing our Director of Research, Data and AI, [Dr Chas Nelson.](https://www.fjelltopp.org/about/chas-nelson/) His academic and industry background mixes computer science with life sciences. Before joining Fjelltopp he was the CTO of and AI Medical Data startup. He’s familiar with a wide range of analytical approaches and tools and how they can be used with the whole gamut of health data. Between Dr Chas Nelson, our Managing Director, [Dr Jonathan Berry](https://www.fjelltopp.org/about/dr-jonathan-s-berry/), and our wider team we offer highly qualified data analysis and evaluation services for both research and operational projects.
+Introducing our Director of Research, Data and AI, [Dr Chas Nelson.](/fjelltopp-astro/team/chas-nelson/) His academic and industry background mixes computer science with life sciences. Before joining Fjelltopp he was the CTO of and AI Medical Data startup. He’s familiar with a wide range of analytical approaches and tools and how they can be used with the whole gamut of health data. Between Dr Chas Nelson, our Managing Director, [Dr Jonathan Berry](/fjelltopp-astro/team/dr-jonathan-s-berry/), and our wider team we offer highly qualified data analysis and evaluation services for both research and operational projects.
 
 Why not book a chat with Dr Chas Nelson [here](https://calendly.com/chas-fjelltopp/meeting-with-chas-fjelltopp).
 
-In previous projects, we’ve partnered with world-leading epidemiologists at Imperial College London, the [University of Glasgow](https://www.fjelltopp.org/project/university-of-glasgow-digital-monitoring-of-rabies-risk-cases-across-species/) and the Norwegian Public Health Institute. Whether you’re undertaking a large-scale piece of public health research or a data engineering project to support more advanced analytics, Fjelltopp can draw on this expertise where necessary and propose partnerships as appropriate to the project in question. We’re ready to get on board. If you have any questions about health data analysis or anything related to public health data, [get in touch](https://www.fjelltopp.org/contact/), and we’ll lend a listening ear.
+In previous projects, we’ve partnered with world-leading epidemiologists at Imperial College London, the [University of Glasgow](/fjelltopp-astro/projects/university-of-glasgow-digital-monitoring-of-rabies-risk-cases-across-species/) and the Norwegian Public Health Institute. Whether you’re undertaking a large-scale piece of public health research or a data engineering project to support more advanced analytics, Fjelltopp can draw on this expertise where necessary and propose partnerships as appropriate to the project in question. We’re ready to get on board. If you have any questions about health data analysis or anything related to public health data, [get in touch](/fjelltopp-astro/#contact), and we’ll lend a listening ear.

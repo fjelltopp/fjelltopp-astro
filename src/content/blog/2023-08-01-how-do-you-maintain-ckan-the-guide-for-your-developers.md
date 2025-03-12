@@ -16,11 +16,11 @@ Just like all software systems, CKAN requires active ongoing maintenace We’ve 
 
 ---
 
-In [our previous blog](https://www.fjelltopp.org/how-to-maintain-ckan-so-you-can-save-lives/) we took a look at what CKAN is and why you should be using it. Just to recap…
+In [our previous blog](/fjelltopp-astro/articles/2023-05-20-how-to-maintain-ckan-so-you-can-save-lives/) we took a look at what CKAN is and why you should be using it. Just to recap…
 
 CKAN is an Open Source Platform for you to store all of your health data in an organised and accessible way. When used and maintained properly, CKAN helps to optimise your data so that it’s in the best possible shape for making vital decisions.
 
-As we said in our [previous blog,](https://www.fjelltopp.org/how-to-maintain-ckan-so-you-can-save-lives/) in order to get the most out of your data and CKAN it has to be properly maintained. Since this is [one of our expertise,](https://www.fjelltopp.org/service/ckan-support-service/) we’ve put together our top tips to keep CKAN running smoothly which you can use with your developers to make sure everything is in tip top shape.
+As we said in our [previous blog,](/fjelltopp-astro/articles/2023-05-20-how-to-maintain-ckan-so-you-can-save-lives/) in order to get the most out of your data and CKAN it has to be properly maintained. Since this is [one of our expertise,](/fjelltopp-astro/services/data-catalogues-and-hubs/) we’ve put together our top tips to keep CKAN running smoothly which you can use with your developers to make sure everything is in tip top shape.
 
 <Image class="w-full md:w-1/3 md:float-left pb-5 md:pr-5" src="/fjelltopp-astro/src/assets/dots/dots2.jpg" alt="TODO"/>
 
@@ -32,7 +32,7 @@ Security patching is perhaps the most urgent reason to undertake active maintena
 
 ## Any top tips for maintaining CKAN instances?
 
-As it happens, at Fjelltopp we’ve got quite a lot of [experience using CKAN](https://www.fjelltopp.org/project/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/). So we’ve put together our top maintenance tips to keep everything running smoothly…
+As it happens, at Fjelltopp we’ve got quite a lot of [experience using CKAN](/fjelltopp-astro/projects/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/). So we’ve put together our top maintenance tips to keep everything running smoothly…
 
 ---
 
@@ -66,7 +66,7 @@ They can provide information on troubleshooting particular issues and new prepar
 
 ---
 
-These are just a few of our top tips for how to maintain CKAN. Keeping on top of these steps should help you to keep CKAN well maintained and your data in shipshape, but it doesn’t stop there. If you want to have a chat about CKAN maintenance and how to do it right, please [get in touch](https://www.fjelltopp.org/contact/) with the Fjelltopp team today.
+These are just a few of our top tips for how to maintain CKAN. Keeping on top of these steps should help you to keep CKAN well maintained and your data in shipshape, but it doesn’t stop there. If you want to have a chat about CKAN maintenance and how to do it right, please [get in touch](/fjelltopp-astro/#contact) with the Fjelltopp team today.
 
 ### We’re here to help
 

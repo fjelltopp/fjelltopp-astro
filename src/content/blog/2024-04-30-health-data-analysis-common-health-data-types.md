@@ -38,7 +38,7 @@ The quality of the health data analysis depends significantly on the quality of 
 
 - **Aggregate data –** Where the resources don’t exist to collect data on a case-by-case basis, the alternative approach is to collect pre-aggregated data from health facilities. Health facilities count and submit numbers of interest, e.g. number of consultations, diagnoses, and prescriptions that week. Whilst this is much cheaper and simpler to implement, you can’t disaggregate to understand more detailed trends in the data.
 
-- **Programmatic data –** This is typically aggregated data collected or organised by “health programme” where patients with a specific disease are treated and monitored with data collected routinely. The data often contributes to international programmes responding to specific diseases such as malaria or HIV. Read our [UNAIDS case study](https://www.fjelltopp.org/project/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/) to put this into context.
+- **Programmatic data –** This is typically aggregated data collected or organised by “health programme” where patients with a specific disease are treated and monitored with data collected routinely. The data often contributes to international programmes responding to specific diseases such as malaria or HIV. Read our [UNAIDS case study](/fjelltopp-astro/projects/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/) to put this into context.
 
 - **Laboratory data –** Diagnoses may often be confirmed by a test that requires laboratory equipment. This testing process can produce important public health data, but laboratory test results often take time to process.
 
@@ -50,6 +50,6 @@ The quality of the health data analysis depends significantly on the quality of 
 
 - **Surveillance data –** Public health surveillance is a broad umbrella term that includes much of the above. On their website, [CDC](https://www.cdc.gov/) quotes the book “Field Epidemiology” to define public health surveillance as the ongoing, systematic collection, analysis, and interpretation of health-related data essential to planning, implementing, and evaluating public health practice.
 
-At Fjelltopp, we help you collect the best public health data possible using our technical know-how and experience with large-scale public health research. Just take a look at our [previous projects](https://www.fjelltopp.org/). We’ll be writing some more blog posts about health data and health data analysis. Stay tuned for part two of this blog!
+At Fjelltopp, we help you collect the best public health data possible using our technical know-how and experience with large-scale public health research. Just take a look at our [previous projects](/fjelltopp-astro/projects/). We’ll be writing some more blog posts about health data and health data analysis. Stay tuned for part two of this blog!
 
-In the meantime, if you have any questions or need a sounding board for your own health data problem, please [get in touch](https://www.fjelltopp.org/contact/).
+In the meantime, if you have any questions or need a sounding board for your own health data problem, please [get in touch](/fjelltopp-astro/#contact).

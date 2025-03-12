@@ -59,6 +59,6 @@ Consider the following questions:
 - Put yourself in the position of someone questioning a decision made with your data – what metadata do they need to retrace the decision making process?
 - Is the availability of archived data proportional to the impact of that data’s _use_?
 
-Fjelltopp would be delighted to discuss any of the above points with you – you can set up a free meeting with us [here](https://www.fjelltopp.org/contact/).
+Fjelltopp would be delighted to discuss any of the above points with you – you can set up a free meeting with us [here](/fjelltopp-astro/#contact).
 
 <Image src="/fjelltopp-astro/src/assets/summits/2022-krakow/team.jpg" alt="TODO"/>

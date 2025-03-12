@@ -47,8 +47,8 @@ And because as the saying goes, anything worth having in life is worth working f
 
 ### You’re not alone with CKAN, we’re here to help you with setup, maintenance and beyond
 
-Fjelltopp has great experience with CKAN after working with it on many different projects. We can help set you up with a fully hosted and maintained CKAN instance with our [CKAN support service](https://www.fjelltopp.org/service/ckan-support-service/). When you work with us you also benefit from our wider related experience which we’ve gained from [multiple other projects](https://www.fjelltopp.org/projects/) looking at sound health data management in low and middle income countries.
+Fjelltopp has great experience with CKAN after working with it on many different projects. We can help set you up with a fully hosted and maintained CKAN instance with our [CKAN support service](/fjelltopp-astro/services/data-catalogues-and-hubs). When you work with us you also benefit from our wider related experience which we’ve gained from [multiple other projects](/fjelltopp-astro/projects/) looking at sound health data management in low and middle income countries.
 
-Stay tuned for our next blog – our must read guide for your developers, which will have our tips and tricks for maintaining CKAN. To make sure you don’t miss it, sign up to our newsletter at the bottom of our website [here](https://www.fjelltopp.org/).
+Stay tuned for our next blog – our must read guide for your developers, which will have our tips and tricks for maintaining CKAN. To make sure you don’t miss it, sign up to our newsletter at the bottom of our website [here](/fjelltopp-astro/articles/).
 
-To find out more about CKAN setup, maintenance and more, please don’t hesitate to [get in touch](https://www.fjelltopp.org/contact/) with the Fjelltopp team today.
+To find out more about CKAN setup, maintenance and more, please don’t hesitate to [get in touch](/fjelltopp-astro/#contact) with the Fjelltopp team today.

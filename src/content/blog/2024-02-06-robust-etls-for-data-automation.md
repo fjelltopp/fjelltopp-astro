@@ -28,7 +28,7 @@ More recently there has been a rise in the use of the term “ELT” meaning to 
 
 ### First things first – access & orchestration
 
-Before embarking on building an ETL (Extract, Transform, Load) process, you’ll need to ensure that the data you want to work with is stored in a centralised storage system with machine/programmatic access (most likely via an API). This might be an SQL database or cloud-based storage solution. Fjelltopp has particular experience working with the [CKAN platform](https://www.fjelltopp.org/service/ckan-support-service/), which provides extensive features via its API to search, read and write data and associated metadata. This is your source system, from which you will “extract” data.
+Before embarking on building an ETL (Extract, Transform, Load) process, you’ll need to ensure that the data you want to work with is stored in a centralised storage system with machine/programmatic access (most likely via an API). This might be an SQL database or cloud-based storage solution. Fjelltopp has particular experience working with the [CKAN platform](/fjelltopp-astro/services/data-catalogues-and-hubs), which provides extensive features via its API to search, read and write data and associated metadata. This is your source system, from which you will “extract” data.
 
 In a similar way you will also need to ensure that you have machine access to the target system into which you want to “load” your data. In some cases this may actually be the same as your source system.
 
@@ -49,7 +49,7 @@ Using our experience we have put together what we call our “six marks of a rob
 5. **Versioning and archiving** – It should always be possible to retrospectively identify the version of the ETL code that was run, the exact data inputs used for the run, and the outputs it generated, so that bugs can be reproduced and understood.
 6. **Security –** ETLs should use industry standard security practises to connect to data sources and targets, ensure data is always encrypted at rest and in transit, and that access to the data through any orchestration tool (e.g. Apache Airflow) is restricted and monitored.
 
-For further information consider reading our blog post entitled [“Principle: #3 Automate wherever possible”](https://www.fjelltopp.org/data-management-principle-automate-wherever-possible/).
+For further information consider reading our blog post entitled [“Principle: #3 Automate wherever possible”](/fjelltopp-astro/articles/2023-06-19-data-management-principle-automate-wherever-possible/).
 
 <Image class="place-self-start w-1/3 float-right object-cover object-center pb-5 pr-5" src="/fjelltopp-astro/src/assets/team/team-discussing-in-corridor.jpg" alt="TODO"/>
 
