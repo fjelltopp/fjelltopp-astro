@@ -6,7 +6,7 @@ summary: 'CKAN is an Open Source Platform for you to store all of your structure
 
 guid: 'https://www.fjelltopp.org/?p=1446'
 permalink: /how-to-maintain-ckan-so-you-can-save-lives/
-image: /media/Untitled-design-34-1600x685.png
+image: ../../assets/dots/dots3.png
 type: "Article"
 language: "en"
 tags:

@@ -6,7 +6,7 @@ summary: 'Validation builds confidence in your data.  It should be automated and
 
 guid: 'https://www.fjelltopp.org/?p=1537'
 permalink: /data-management-principle-validate-early-often/
-image: /media/Untitled-design-42-1600x685.png
+image: ../../assets/dots/dots9.jpg
 type: "Article"
 language: "en"
 tags:

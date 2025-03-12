@@ -6,7 +6,7 @@ summary: 'Immutable data archives are essential for transparent evidence-based d
 
 guid: 'https://www.fjelltopp.org/?p=1552'
 permalink: /data-management-principle-archive-data-upon-each-use/
-image: /media/Fjelltopp-Homepage-1-1600x685.jpg
+image: ../../assets/dots/dots4.jpg
 type: "Article"
 language: "en"
 tags:

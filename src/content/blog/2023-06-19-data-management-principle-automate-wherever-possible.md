@@ -6,7 +6,7 @@ summary: 'There are so many reasons to automate data management processes beyond
 
 guid: 'https://www.fjelltopp.org/?p=1531'
 permalink: /data-management-principle-automate-wherever-possible/
-image: /media/Untitled-design-39-1600x685.png
+image: ../../assets/dots/dots5.jpg
 type: "Article"
 language: "en"
 tags:

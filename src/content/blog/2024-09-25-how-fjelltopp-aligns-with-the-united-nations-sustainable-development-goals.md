@@ -5,7 +5,7 @@ author: 'Dr Jonathan Berry'
 summary: 'We are working for sustainable development around the globe, especially focusing on SDG3 Health and Well being, as well as SDG17 Partnership for the goals. '
 
 permalink: /how-fjelltopp-aligns-with-the-united-nations-sustainable-development-goals/
-image: /media/Untitled-design-39-1600x685.png
+image: ../../assets/dots/dots5.jpg
 type: "Article"
 language: "en"
 authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'

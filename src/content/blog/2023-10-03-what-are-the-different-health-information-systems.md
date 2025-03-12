@@ -8,7 +8,7 @@ guid: 'https://www.fjelltopp.org/?p=1928'
 permalink: /what-are-the-different-health-information-systems/
 footnotes:
     - ''
-image: /media/Untitled-design-34-1600x685.png
+image: ../../assets/dots/dots3.png
 type: "Article"
 language: "en"
 tags:

@@ -6,7 +6,7 @@ summary: 'Metadata is essential for data managed by large teams over long period
 
 guid: 'https://www.fjelltopp.org/?p=1523'
 permalink: /data-management-principle-maintain-metadata/
-image: /media/Untitled-design-40-1600x685.png
+image: ../../assets/dots/dots6.png
 type: "Article"
 language: "en"
 tags:

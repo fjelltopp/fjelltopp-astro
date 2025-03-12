@@ -6,7 +6,7 @@ summary: 'Understanding how to build robust ETL (Extract, Transform, Load) proce
 
 guid: 'https://www.fjelltopp.org/?p=2015'
 permalink: /robust-etls-for-data-automation/
-image: /media/Untitled-design-40-1-1600x685.png
+image: ../../assets/dots/dots6.png
 type: "Article"
 language: "en"
 authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'

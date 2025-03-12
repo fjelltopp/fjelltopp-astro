@@ -6,7 +6,7 @@ summary: "Health data analysis is the extraction of meaning from the health data
 
 guid: 'https://www.fjelltopp.org/?p=2094'
 permalink: /health-data-analysis-common-health-data-types/
-image: /media/Untitled-design-42-1600x685.png
+image: ../../assets/dots/dots9.jpg
 type: "Article"
 language: "en"
 authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'

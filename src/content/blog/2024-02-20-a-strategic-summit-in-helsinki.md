@@ -6,7 +6,7 @@ summary: 'The directors of INGO ME and Fjelltopp convened in Helsinki for a stra
 
 guid: 'https://www.fjelltopp.org/?p=2039'
 permalink: /a-strategic-summit-in-helsinki/
-image: /media/tom-brunberg-ohD7kQxykho-unsplash_featured_image-1600x685.jpg
+image: ../../assets/summits/tom-brunberg-ohD7kQxykho-unsplash_featured_image.jpg
 type: "Article"
 language: "en"
 authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'

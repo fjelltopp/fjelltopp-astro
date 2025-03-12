@@ -6,7 +6,7 @@ summary: 'Without version control you risk losing everything. It ensures you hav
 
 guid: 'https://www.fjelltopp.org/?p=1543'
 permalink: /data-management-principle-version-everything/
-image: /media/Fjelltopp-Home-1-1600x685.jpg
+image: ../../assets/dots/dots8.jpg
 type: "Article"
 language: "en"
 tags:

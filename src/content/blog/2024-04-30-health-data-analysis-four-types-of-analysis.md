@@ -6,7 +6,7 @@ summary: 'The “Gartner Ascendancy Model of Analytics” is a helpful way of fr
 
 guid: 'https://www.fjelltopp.org/?p=2092'
 permalink: /health-data-analysis-four-types-of-analysis/
-image: /media/Untitled-design-41-1-1600x685.png
+image: ../../assets/dots/dots7.png
 type: "Article"
 language: "en"
 authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
