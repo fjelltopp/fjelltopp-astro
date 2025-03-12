@@ -75,11 +75,11 @@ const team = [
 ];
 ---
 
-<Section id="about">
+<Section id="team">
   <div class="mt-[140px]">
     <SectionTitle sectionTitle="Team" description={description} />
     <div
-      class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-2 gap-10"
+      class="grid grid-cols-1 grid-rows-2 gap-10 md:grid-cols-2 xl:grid-cols-3"
     >
       {
         team.map((member, index) => (
@@ -94,7 +94,7 @@ const team = [
         ))
       }
     </div>
-    <div class="flex justify-end mt-10">
+    <div class="mt-10 flex justify-end">
       <button class="btn-primary">See all team</button>
     </div>
   </div>

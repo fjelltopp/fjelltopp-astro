@@ -5,19 +5,37 @@ import HeroIlust from "../../assets/hero/hero-mountainside-dot.png";
 ---
 
 <Section id="home">
-<div class="relative flex flex-col-reverse items-center md:flex-row mt-[50px]" id="hero">
+  <div
+    class="relative mt-[50px] flex flex-col-reverse items-center md:flex-row"
+    id="hero"
+  >
     <div class="row items-center py-5 md:w-6/12 md:pb-20 md:pt-10">
-        <div class="text-left space-y-3">
-            <h1 class="text-4xl font-medium leading-none md:text-6xl text-center md:text-left">Harmonising data<br/>for public good</h1>
-            <p class="mt-6 mb-8 text-lg font-normal leading-7 sm:mb-12 text-center md:text-left md:pr-12">Our agency helps your organisation better understand, organise and use your data.<br/>Because better data means better decisions and better decisions means a better quality of life for everyone.</p>
-            <div class="w-full justify-center md:justify-start items-center inline-flex">
-                <a href="#contact" class="px-8 py-5 bg-zinc-900 hover:bg-white rounded-2xl text-center text-white hover:text-black border text-xl font-normal leading-7">Book a consultation
-                </a>
-            </div>
+      <div class="space-y-3 text-left">
+        <h1
+          class="text-center text-4xl font-medium leading-none md:text-left md:text-6xl"
+        >
+          Harmonising data<br />for public good
+        </h1>
+        <p
+          class="mb-8 mt-6 text-center text-lg font-normal leading-7 sm:mb-12 md:pr-12 md:text-left"
+        >
+          Our agency helps your organisation better understand, organise and use
+          your data.<br />Because better data means better decisions and better
+          decisions means a better quality of life for everyone.
+        </p>
+        <div
+          class="inline-flex w-full items-center justify-center md:justify-start"
+        >
+          <a
+            href="#contact"
+            class="rounded-2xl border bg-zinc-900 px-8 py-5 text-center text-xl font-normal leading-7 text-white hover:bg-white hover:text-black"
+            >Book a consultation
+          </a>
         </div>
+      </div>
     </div>
     <div class="flex items-center py-5 md:w-6/12 md:pb-20 md:pt-10">
-        <Image src={HeroIlust} alt="Hero Ilustration" loading="eager" />
+      <Image src={HeroIlust} alt="Hero Ilustration" loading="eager" />
     </div>
-</div>
+  </div>
 </Section>

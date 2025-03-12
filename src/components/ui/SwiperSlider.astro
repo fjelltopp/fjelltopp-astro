@@ -4,7 +4,7 @@ import Testimonials from "../../data/clientData.json";
 const processedTestimonials = Testimonials.map((item, index, array) => ({
   ...item,
   index: index + 1,
-  length: array.length
+  length: array.length,
 }));
 ---
 
@@ -19,7 +19,7 @@ const processedTestimonials = Testimonials.map((item, index, array) => ({
     "--swiper-pagination-bullet-horizontal-gap": "10px",
   }}
 >
-  <div class="swiper-wrapper mt-[84px] mb-[124px]" data-cursor="swipe">
+  <div class="swiper-wrapper mb-[124px] mt-[84px]" data-cursor="swipe">
     {
       processedTestimonials.map((item) => (
         <div
@@ -27,12 +27,10 @@ const processedTestimonials = Testimonials.map((item, index, array) => ({
           role="group"
           aria-label={`${item.index} / ${item.length}`}
         >
-          <div class="flex flex-col justify-center items-center py-[48px] px-6 sm:px-[52px]">
-            <p class="bubble">
-              "{item.comment}"
-            </p>
+          <div class="flex flex-col items-center justify-center px-6 py-[48px] sm:px-[52px]">
+            <p class="bubble">"{item.comment}"</p>
           </div>
-          <div class="w-full px-10 sm:px-20 ">
+          <div class="w-full px-10 sm:px-20">
             <div class="text-green font-medium">{item.name}</div>
             <div>{item.role}</div>
           </div>
@@ -40,8 +38,8 @@ const processedTestimonials = Testimonials.map((item, index, array) => ({
       ))
     }
   </div>
-  <div class="flex justify-around lg:justify-center mb-[68px] lg:gap-[189px]">
-    <div class="swiper-button-prev w-7 h-7 sm:w-10 sm:h-10">
+  <div class="mb-[68px] flex justify-around lg:justify-center lg:gap-[189px]">
+    <div class="swiper-button-prev h-7 w-7 sm:h-10 sm:w-10">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
         ><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <path
@@ -51,7 +49,7 @@ const processedTestimonials = Testimonials.map((item, index, array) => ({
       >
     </div>
     <div class="swiper-pagination"></div>
-    <div class="swiper-button-next w-7 h-7 sm:w-10 sm:h-10 rotate-180">
+    <div class="swiper-button-next h-7 w-7 rotate-180 sm:h-10 sm:w-10">
       <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 448 512">
         <path
           fill="#ffffff"

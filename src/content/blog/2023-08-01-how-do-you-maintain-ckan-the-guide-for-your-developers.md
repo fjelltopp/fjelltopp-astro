@@ -1,42 +1,38 @@
 ---
-title: 'How do you maintain CKAN? Top tips for  developers'
+title: "How do you maintain CKAN? Top tips for  developers"
 pubDate: 2023-08-01T15:05:52+01:00
-author: 'Dr Jonathan Berry'
-summary: 'We’ve put together our top CKAN maintenance tips to keep everything running smoothly.'
-
-guid: 'https://www.fjelltopp.org/?p=1849'
-permalink: /how-do-you-maintain-ckan-the-guide-for-your-developers/
-image: /media/Untitled-design-51-1600x685.png
+author: "Dr Jonathan Berry"
+summary: "We’ve put together our top CKAN maintenance tips to keep everything running smoothly."
+coverImage: ../../assets/dots/dots10.png
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
-
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+  - 6Principles
+  - DataManagement
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
-**Just like all software systems, CKAN requires active ongoing maintenace.**
+Just like all software systems, CKAN requires active ongoing maintenace We’ve got some top tips for you to consider!
 
-**We’ve got some top tips for you to consider.**
+---
 
-<div aria-hidden="true" class="wp-block-spacer" style="height:25px"></div>---
-
-In [our previous blog](https://www.fjelltopp.org/how-to-maintain-ckan-so-you-can-save-lives/) we took a look at what CKAN is and why you should be using it. Just to recap…
+In [our previous blog](/fjelltopp-astro/articles/2023-05-20-how-to-maintain-ckan-so-you-can-save-lives/) we took a look at what CKAN is and why you should be using it. Just to recap…
 
 CKAN is an Open Source Platform for you to store all of your health data in an organised and accessible way. When used and maintained properly, CKAN helps to optimise your data so that it’s in the best possible shape for making vital decisions.
 
-As we said in our [previous blog,](https://www.fjelltopp.org/how-to-maintain-ckan-so-you-can-save-lives/) in order to get the most out of your data and CKAN it has to be properly maintained. Since this is [one of our expertise,](https://www.fjelltopp.org/service/ckan-support-service/) we’ve put together our top tips to keep CKAN running smoothly which you can use with your developers to make sure everything is in tip top shape.
+As we said in our [previous blog,](/fjelltopp-astro/articles/2023-05-20-how-to-maintain-ckan-so-you-can-save-lives/) in order to get the most out of your data and CKAN it has to be properly maintained. Since this is [one of our expertise,](/fjelltopp-astro/services/data-catalogues-and-hubs/) we’ve put together our top tips to keep CKAN running smoothly which you can use with your developers to make sure everything is in tip top shape.
 
-## Why is active maintenance important?
+<Image class="w-full md:w-1/3 md:float-left md:mr-5" src="/fjelltopp-astro/src/assets/dots/dots2.jpg" alt="TODO"/>
 
-<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:37% auto"><figure class="wp-block-media-text__media">![](https://www.fjelltopp.org/media/Untitled-design-36-2.png)</figure><div class="wp-block-media-text__content">It’s an ever-changing world out there on the web. You want to ensure that you have the most secure, stable, tidy and feature rich system possible. Much like tidying your house, if you don’t keep on top of it bit-by-bit, it can quickly become an overwhelming and impossible task.
+### Why is active maintenance important?
+
+It’s an ever-changing world out there on the web. You want to ensure that you have the most secure, stable, tidy and feature rich system possible. Much like tidying your house, if you don’t keep on top of it bit-by-bit, it can quickly become an overwhelming and impossible task.
 
 Security patching is perhaps the most urgent reason to undertake active maintenance. New security vulnerabilities are discovered on a daily basis so updates are necessary to prevent data leaks and keep the system running securely. You also need to regularly check everything is backing up properly to ensure data can be restored properly in case of a system failure – you don’t want to be finding out there’s backup issues when it’s too late.
 
-</div></div>## Any top tips for maintaining CKAN instances?
+## Any top tips for maintaining CKAN instances?
 
-As it happens, at Fjelltopp we’ve got quite a lot of [experience using CKAN](https://www.fjelltopp.org/project/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/). So we’ve put together our top maintenance tips to keep everything running smoothly…
+As it happens, at Fjelltopp we’ve got quite a lot of [experience using CKAN](/fjelltopp-astro/projects/document-management-system-for-the-department-of-hiv-and-aids-malawi-moh/). So we’ve put together our top maintenance tips to keep everything running smoothly…
 
 ---
 
@@ -50,7 +46,7 @@ Minimise the number of repositories and lines of code that you are responsible f
 
 **\[3\] Adopt a better method of managing dependencies.**
 
-The default CKAN practice of using *requirements.txt* files is just not a great solution. At Fjelltopp we now use [PipEnv](https://pipenv.pypa.io/) to create a single locked set of dependencies for our CKAN projects. This helps to keep control of our dependencies across all of our development, testing and hosting environments.
+The default CKAN practice of using _requirements.txt_ files is just not a great solution. At Fjelltopp we now use [PipEnv](https://pipenv.pypa.io/) to create a single locked set of dependencies for our CKAN projects. This helps to keep control of our dependencies across all of our development, testing and hosting environments.
 
 **\[4\] Keep up to date with the latest patch versions of CKAN.**
 
@@ -70,9 +66,9 @@ They can provide information on troubleshooting particular issues and new prepar
 
 ---
 
-These are just a few of our top tips for how to maintain CKAN. Keeping on top of these steps should help you to keep CKAN well maintained and your data in shipshape, but it doesn’t stop there. If you want to have a chat about CKAN maintenance and how to do it right, please [get in touch](https://www.fjelltopp.org/contact/) with the Fjelltopp team today.
+These are just a few of our top tips for how to maintain CKAN. Keeping on top of these steps should help you to keep CKAN well maintained and your data in shipshape, but it doesn’t stop there. If you want to have a chat about CKAN maintenance and how to do it right, please [get in touch](/fjelltopp-astro/#contact) with the Fjelltopp team today.
 
-## We’re here to help
+### We’re here to help
 
 You don’t need to sit wondering how to maintain CKAN, we’re here to help however little or as much as you may need. The goal is to harmonise your health data no matter how you get there.
 

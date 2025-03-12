@@ -1,27 +1,20 @@
 ---
-title: 'Why You Should Be Using CKAN, So You Can Save Lives'
+title: "Why You Should Be Using CKAN, So You Can Save Lives"
 pubDate: 2023-05-20T15:18:00+01:00
-author: 'Dr Jonathan Berry'
-summary: 'CKAN is an Open Source Platform for you to store all of your structured and unstructured data.'
-
-guid: 'https://www.fjelltopp.org/?p=1446'
-permalink: /how-to-maintain-ckan-so-you-can-save-lives/
-image: /media/Untitled-design-34-1600x685.png
+author: "Dr Jonathan Berry"
+summary: "CKAN is an Open Source Platform for you to store all of your structured and unstructured data."
+coverImage: ../../assets/dots/dots3.png
 type: "Article"
 language: "en"
 tags:
-    - 6Principles
-    - DataManagement
-
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+  - 6Principles
+  - DataManagement
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
 
-**What’s the point in having loads of data if you can’t use it the way you need to?**  
-**That’s where CKAN comes in.**
+What’s the point in having loads of data if you can’t use it the way you need to? That’s where CKAN comes in.
 
-<div aria-hidden="true" class="wp-block-spacer" style="height:25px"></div>---
-
-## What is CKAN?
+### What is CKAN?
 
 CKAN is an Open Source Platform for you to store all of your data. Picture it like a virtual library, neatly displaying everything you’ve dumped in there – files, Excel sheets, Word docs, PDFs, links, tables and databases. All of your structured and unstructured data in one place ready for you to cherry pick whenever you need, when you need it.
 
@@ -29,9 +22,9 @@ That’s in theory.
 
 To get it to function this way it takes some technical know-how and maintenance, but more on that later.
 
-<div aria-hidden="true" class="wp-block-spacer" style="height:25px"></div>---
+<Image class="place-self-start sm:w-full md:float-right md:w-md pr-5" src="/fjelltopp-astro/src/assets/product/malawi-mock-up-1.png" alt="TODO"/>
 
-<div class="wp-block-image"><figure class="alignright size-full is-resized">![](https://www.fjelltopp.org/media/Untitled-design-35.png)</figure></div>## Why should you use CKAN if you’ve just got to work to maintain it?
+## Why should you use CKAN if you’ve just got to work to maintain it?
 
 In order for big organisations such as the UN, The Gates Foundation and other NGOs to support governments when it comes to health interventions, they need data. Not just any data, but reliable data.
 
@@ -52,14 +45,10 @@ To summarise, CKAN makes data easier. Easier to keep track of, easier to keep hi
 
 And because as the saying goes, anything worth having in life is worth working for.
 
-<div aria-hidden="true" class="wp-block-spacer" style="height:25px"></div>---
+### You’re not alone with CKAN, we’re here to help you with setup, maintenance and beyond
 
-## You’re not alone with CKAN, we’re here to help you with setup, maintenance and beyond
+Fjelltopp has great experience with CKAN after working with it on many different projects. We can help set you up with a fully hosted and maintained CKAN instance with our [CKAN support service](/fjelltopp-astro/services/data-catalogues-and-hubs). When you work with us you also benefit from our wider related experience which we’ve gained from [multiple other projects](/fjelltopp-astro/projects/) looking at sound health data management in low and middle income countries.
 
-Fjelltopp has great experience with CKAN after working with it on many different projects. We can help set you up with a fully hosted and maintained CKAN instance with our [CKAN support service](https://www.fjelltopp.org/service/ckan-support-service/). When you work with us you also benefit from our wider related experience which we’ve gained from [multiple other projects](https://www.fjelltopp.org/projects/) looking at sound health data management in low and middle income countries.
+Stay tuned for our next blog – our must read guide for your developers, which will have our tips and tricks for maintaining CKAN. To make sure you don’t miss it, sign up to our newsletter at the bottom of our website [here](/fjelltopp-astro/articles/).
 
-Stay tuned for our next blog – our must read guide for your developers, which will have our tips and tricks for maintaining CKAN. To make sure you don’t miss it, sign up to our newsletter at the bottom of our website [here](https://www.fjelltopp.org/).
-
-To find out more about CKAN setup, maintenance and more, please don’t hesitate to [get in touch](https://www.fjelltopp.org/contact/) with the Fjelltopp team today.
-
-<div aria-hidden="true" class="wp-block-spacer" style="height:37px"></div>
+To find out more about CKAN setup, maintenance and more, please don’t hesitate to [get in touch](/fjelltopp-astro/#contact) with the Fjelltopp team today.

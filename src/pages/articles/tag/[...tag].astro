@@ -25,20 +25,20 @@ const allBlogArticles: CollectionEntry<"blog">[] = (
   await getCollection("blog")
 ).sort(
   (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
-    b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+    b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
 const tagArticles = allBlogArticles.filter((article) =>
-  article.data.tags.includes(tag)
+  article.data.tags.includes(tag),
 );
 ---
 
 <MainLayout title="Search Results">
   <main class="space-y-20">
-    <div class="py-8 px-4 mx-auto max-w-(--breakpoint-xl) lg:py-16 lg:px-3">
+    <div class="max-w-(--breakpoint-xl) mx-auto px-8 py-8 lg:px-16 lg:py-16">
       <a
         href="/fjelltopp-astro/articles"
-        class="inline-flex items-center font-medium text-black hover:text-green my-4"
+        class="hover:text-green my-4 inline-flex items-center font-medium text-black"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -55,10 +55,10 @@ const tagArticles = allBlogArticles.filter((article) =>
           >
           </path>
         </svg>
-        <span class="ml-1 font-bold text-lg">All Articles</span>
+        <span class="ml-1 text-lg font-bold">All Articles</span>
       </a>
 
-      <h2 class="text-2xl pb-3">#{capitalize(tag)}</h2>
+      <h2 class="pb-3 text-2xl">#{capitalize(tag)}</h2>
       <div class="grid gap-8 lg:grid-cols-2">
         {tagArticles.map((article) => <ArticleCard article={article} />)}
       </div>

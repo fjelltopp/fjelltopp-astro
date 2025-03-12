@@ -8,8 +8,14 @@ const { pic, name, role, description, link } = Astro.props;
 
 <Card isUnderline={true}>
   <div class="p-[60px]">
-    <div class="flex flex-col sm:flex-row relative">
-      <picture><Image src={pic} alt={name} class="rounded-full w-40 h-40 object-cover object-top border-2 border-green"/></picture>
+    <div class="relative flex flex-col sm:flex-row">
+      <picture
+        ><Image
+          src={pic}
+          alt={name}
+          class="border-green h-40 w-40 rounded-full border-2 object-cover object-top"
+        /></picture
+      >
       <div class="flex flex-col justify-end sm:ml-5">
         <h3 class="text-lg font-medium">{name}</h3>
         <p class="text-sm font-normal">{role}</p>
@@ -18,7 +24,7 @@ const { pic, name, role, description, link } = Astro.props;
         ><Image src={linkd} alt="Linkedin Logo" /></a
       >
     </div>
-    <div class="w-full h-[1px] bg-black my-7"></div>
+    <div class="my-7 h-[1px] w-full bg-black"></div>
     <div>{description}</div>
   </div>
 </Card>
