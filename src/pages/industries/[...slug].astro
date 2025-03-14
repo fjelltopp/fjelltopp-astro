@@ -6,8 +6,8 @@ import "../../styles/global.css";
 
 export async function getStaticPaths() {
   const allIndustries = await getCollection("industries");
-  return allIndustries.map((service) => ({
-    params: { slug: service.id },
+  return allIndustries.map((industry) => ({
+    params: { slug: industry.id },
   }));
 }
 
