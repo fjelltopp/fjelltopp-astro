@@ -25,7 +25,7 @@ Our approach ensures best practices in data management are followed throughout t
     <li class="break-inside-avoid">
         <Image class="place-self-center" src="/fjelltopp-astro/src/assets/icons/check.png" alt="" />
         <h3>Transparent</h3>
-        <p>CThrough good practice in data management, your research is fully auditable. Published data can easily be audited and repeated by others, growing its impact.</p>
+        <p>Through good practice in data management, your research is fully auditable. Published data can easily be audited and repeated by others, growing its impact.</p>
     </li>
     <li class="break-inside-avoid">
         <Image class="place-self-center" src="/fjelltopp-astro/src/assets/icons/recycle.png" alt="" />
