@@ -1,6 +1,5 @@
 ---
 import { Image } from "astro:assets";
-import ServiceQuad from "../../components/ui/ServiceQuad.astro";
 import { getCollection, getEntry, render } from "astro:content";
 import MainLayout from "../../layouts/MainLayout.astro";
 
@@ -64,8 +63,13 @@ const { Content } = await render(entry);
           >
             <Content />
           </div>
-            <div class="inline-flex w-full items-center justify-center mt-10">
-            <a href="/fjelltopp-astro/#contact" class="rounded-2xl border bg-zinc-900 px-8 py-5 text-center text-xl font-normal leading-7 text-white hover:bg-white hover:text-black">Get in touch</a>
+          <div class="mt-10 inline-flex w-full items-center justify-center">
+            <a
+              href="/fjelltopp-astro/#contact"
+              class="rounded-2xl border bg-zinc-900 px-8 py-5 text-center text-xl font-normal leading-7 text-white hover:bg-white hover:text-black"
+              >Get in touch</a
+            >
+          </div>
         </div>
       </div>
     </section>
