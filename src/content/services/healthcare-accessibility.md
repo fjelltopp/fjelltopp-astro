@@ -1,5 +1,5 @@
 ---
-title: "Heathcare accessibility"
+title: "Healthcare accessibility"
 order: 7
 summary: "Expert data management and analysis for your public health research project."
 image: ../../assets/pics/accessibility.svg
