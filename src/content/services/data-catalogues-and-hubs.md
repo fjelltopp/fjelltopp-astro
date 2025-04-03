@@ -22,7 +22,7 @@ Using data catalogues for healthcare saves time and money, and can drive innovat
     </li>
     <li class="break-inside-avoid">
         <Image class="place-self-center" src="/fjelltopp-astro/src/assets/icons/fingerprint.png" alt="" />
-        <h3>>Accessible</h3>
+        <h3>Accessible</h3>
         <p>Control precisely which individuals and organisations can access your data and metadata. Data is encrypted at rest and in transit, meaning it is much more secure than typical email distribution methods.</p>
     </li>
     <li class="break-inside-avoid">
