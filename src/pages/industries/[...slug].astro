@@ -1,6 +1,8 @@
 ---
-import MainLayout from "../../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+import ServiceQuad from "../../components/ui/ServiceQuad.astro";
 import { getCollection, getEntry, render } from "astro:content";
+import MainLayout from "../../layouts/MainLayout.astro";
 
 import "../../styles/global.css";
 
@@ -30,36 +32,24 @@ const { Content } = await render(entry);
   <main class="mb-40 space-y-40 pt-24">
     <section class="bg-white">
       <div
-        class="mx-auto max-w-screen-xl items-center gap-16 px-4 py-8 lg:grid lg:grid-cols-1 lg:px-3 lg:py-16"
+        class="max-w-(--breakpoint-xl) mx-auto items-center gap-16 px-8 py-8 lg:grid lg:grid-cols-1 lg:px-16 lg:py-16"
       >
         <div class="font-light text-gray-500 sm:text-lg">
-          <a
-            href="/fjelltopp-astro"
-            class="hover:text-green my-4 inline-flex items-center font-medium text-black"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              class="h-6 w-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M7 16l-4-4m0 0l4-4m-4 4h18"
-              >
-              </path>
-            </svg>
-            <span class="ml-1 text-lg font-bold">Back</span>
-          </a>
           <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900">
             {entry.data.title}
           </h2>
-          <div class="content">
+          <Image
+            src={entry.data.image}
+            alt="Article Image"
+            class="my-6 h-auto max-h-96 w-full rounded-xl object-cover object-center"
+          />
+          <div
+            class="content prose prose-l prose-ul:list-inside prose-ol:list-inside prose-blockquote:border-l-0 prose-img:my-5 max-w-none"
+          >
             <Content />
           </div>
+            <div class="inline-flex w-full items-center justify-center mt-10">
+            <a href="/fjelltopp-astro/#contact" class="rounded-2xl border bg-zinc-900 px-8 py-5 text-center text-xl font-normal leading-7 text-white hover:bg-white hover:text-black">Get in touch</a>
         </div>
       </div>
     </section>
