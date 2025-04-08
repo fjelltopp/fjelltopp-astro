@@ -40,7 +40,7 @@ const projects = defineCollection({
 });
 
 const services = defineCollection({
-  loader: glob({ pattern: "*.md", base: "src/content/services" }),
+  loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/services" }),
   schema: ({ image }) =>
     z.object({
       title: z.string(),

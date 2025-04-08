@@ -11,6 +11,8 @@ tags:
   - DataManagement
 authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
+import { Image } from "astro:assets";
+import team from "../../assets/summits/2022-krakow/team.jpg";
 
 _This is the seventh and final post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“._
 
@@ -20,7 +22,7 @@ In our sector, the primary purpose of data is to support transparent, evidence-b
 
 **Each time data is used for a purpose with some lasting impact, an immutable snapshot of the data should be “archived” for the duration of that impact.**
 
-This is good data stewardship. Let’s dig into this with a few questions and answers…
+This is good data stewardship. Let's dig into this with a few questions and answers…
 
 ## What do we mean when we say a data _“use”_?
 
@@ -56,9 +58,9 @@ Consider the following questions:
 
 - How do people _use_ your data? What is the impact of that _use?_
 - Can you recall an immutable copy of the data for each time it was _used_?
-- Put yourself in the position of someone questioning a decision made with your data – what metadata do they need to retrace the decision making process?
-- Is the availability of archived data proportional to the impact of that data’s _use_?
+- Put yourself in the position of someone questioning a decision made with your data - what metadata do they need to retrace the decision making process?
+- Is the availability of archived data proportional to the impact of that data's _use_?
 
-Fjelltopp would be delighted to discuss any of the above points with you – you can set up a free meeting with us [here](/fjelltopp-astro/#contact).
+Fjelltopp would be delighted to discuss any of the above points with you - you can set up a free meeting with us [here](/fjelltopp-astro/#contact).
 
-<Image src="/fjelltopp-astro/src/assets/summits/2022-krakow/team.jpg" alt="TODO"/>
+<Image src={team} alt="TODO"/>

@@ -11,6 +11,10 @@ tags:
   - DataManagement
 authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
+import { Image } from "astro:assets";
+import teamAtLaptop from "../../assets/team/team-at-laptop.jpg";
+import dots12 from "../../assets/dots/dots12.png";
+import dots13 from "../../assets/dots/dots13.png";
 
 _This is the fifth post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“._
 
@@ -18,9 +22,9 @@ _This is the fifth post in a series that outlines “[Six principles for sound d
 
 Every data-centred system needs a comprehensive validation strategy of some sort. What is yours?
 
-This is especially important for human-generated data. Without validation you cannot have confidence in your data. Without validation, your data could actually be breaking your system and other systems that depend on it. Validation is a central part of Fjelltopp’s work towards our mission of harmonising health data.
+This is especially important for human-generated data. Without validation you cannot have confidence in your data. Without validation, your data could actually be breaking your system and other systems that depend on it. Validation is a central part of Fjelltopp's work towards our mission of harmonising health data.
 
-Health data is notoriously messy. We’ve seen it all: Microsoft Excel date formats crashing entire software systems, a health worker claiming they had vaccinated tens of thousands of individuals in a single day, countries stating that the number of people who have tested positive for a disease is larger than the number of people tested for that disease.
+Health data is notoriously messy. We've seen it all: Microsoft Excel date formats crashing entire software systems, a health worker claiming they had vaccinated tens of thousands of individuals in a single day, countries stating that the number of people who have tested positive for a disease is larger than the number of people tested for that disease.
 
 Each and every one of these validation issues undermines the data quality, thereby undermining the decisions made with that data and the wider reaching impact of those decisions. The quality of data and metadata poses the single biggest threat to health information system interoperability.
 
@@ -28,15 +32,15 @@ This article will help you design and evaluate your data validation strategy.
 
 ### Validate Early
 
-Validation should take place wherever there is an “unknown entity” interacting with your data. Furthermore it should take place _as early as possible_ after that interaction to minimise the knock on effect of poor data quality across your system. As discussed in principle [\#3 Automate where possible,](/fjelltopp-astro/articles/2023-06-19-data-management-principles-3-automate-wherever-possible/) “Computer’s don’t make mistakes; humans do.” Humans are likely to be the most common “unknown entity” in your system!
+Validation should take place wherever there is an “unknown entity” interacting with your data. Furthermore it should take place _as early as possible_ after that interaction to minimise the knock on effect of poor data quality across your system. As discussed in principle [\#3 Automate where possible,](/fjelltopp-astro/articles/2023-06-19-data-management-principles-3-automate-wherever-possible/) “Computer's don't make mistakes; humans do.” Humans are likely to be the most common “unknown entity” in your system!
 
-In most public-health cases it is therefore essential to validate at the point of “data entry”. In many of Fjelltopp’s projects data is submitted by humans using an electronic form. Implementing sound input validation as part of the form’s user interface is essential. In Fjelltopp’s project [“The AIDS Data Repository”](/fjelltopp-astro/projects/the-aids-data-repository-for-unaids-geneva/) users prepare and submit data tables to our data repository. Each table receives comprehensive validation every single time a new version is uploaded to our system.
+In most public-health cases it is therefore essential to validate at the point of “data entry”. In many of Fjelltopp's projects data is submitted by humans using an electronic form. Implementing sound input validation as part of the form's user interface is essential. In Fjelltopp's project [“The AIDS Data Repository”](/fjelltopp-astro/projects/the-aids-data-repository-for-unaids-geneva/) users prepare and submit data tables to our data repository. Each table receives comprehensive validation every single time a new version is uploaded to our system.
 
-Humans may interact with data in ways that wouldn’t immediately be thought of as “data entry” e.g. data approval, review, and transformation. After each interaction, the data should be revalidated.
+Humans may interact with data in ways that wouldn't immediately be thought of as “data entry” e.g. data approval, review, and transformation. After each interaction, the data should be revalidated.
 
-“Unknown entities” aren’t always easily identified as humans. Code that generates or acts upon data may be an unknown entity as well (because it has been written by a human). Each time a human interacts with the code, they interact with the data. In this case, appropriate validation actually looks like software testing to “validate” the code change. When using third-party code you have to consider the degree to which you trust the developers. In some cases it may be appropriate to treat the code as an “unknown entity” and validate the results of the code.
+“Unknown entities” aren't always easily identified as humans. Code that generates or acts upon data may be an unknown entity as well (because it has been written by a human). Each time a human interacts with the code, they interact with the data. In this case, appropriate validation actually looks like software testing to “validate” the code change. When using third-party code you have to consider the degree to which you trust the developers. In some cases it may be appropriate to treat the code as an “unknown entity” and validate the results of the code.
 
-<Image class="w-full md:w-1/4 md:float-right pl-5" src="/fjelltopp-astro/src/assets/team/team-at-laptop.jpg" alt="TODO" />
+<Image class="w-full md:w-1/4 md:float-right pl-5" src={teamAtLaptop} alt="TODO" />
 
 ## Validate Often
 
@@ -50,7 +54,7 @@ It is very repetitive. However, broadly speaking, the more you validate, the mor
 
 Based on our experience at Fjelltopp we have identified four different dimensions to data validation. A good validation strategy will consider:
 
-<Image class="w-full h-165 md:w-1/4 md:float-left md:mr-5 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots13.png" alt="TODO" height=1000 />
+<Image class="w-full h-165 md:w-1/4 md:float-left md:mr-5 object-cover object-center" src={dots13} alt="TODO" height="1000" />
 
 **\[1\] Column constraints**
 
@@ -66,15 +70,15 @@ _These constraints concern all records/rows in a given data table. Perhaps the m
 
 **\[4\] Dataset (or data package) constraints**
 
-_Some constraints can actually concern multiple tables. The most common dataset-level constraint is the foreign key check – ensuring that all values in a given column are also found in a column from a different table. This is a common requirement in relational database design. Another example of a dataset-level constraint is to simply require that certain data tables are included in your dataset._
+_Some constraints can actually concern multiple tables. The most common dataset-level constraint is the foreign key check - ensuring that all values in a given column are also found in a column from a different table. This is a common requirement in relational database design. Another example of a dataset-level constraint is to simply require that certain data tables are included in your dataset._
 
 ## Errors vs Warnings
 
-There is a difference between validation errors and warnings – the former should block the data workflow, the latter should raise awareness but not actually block the workflow. It is important to consider carefully what should be an error or a warning. In our experience, if you are at all unsure it is best to err on the side of “non-blocking” – make the issue a warning until you are confident it can be treated as an error.
+There is a difference between validation errors and warnings - the former should block the data workflow, the latter should raise awareness but not actually block the workflow. It is important to consider carefully what should be an error or a warning. In our experience, if you are at all unsure it is best to err on the side of “non-blocking” - make the issue a warning until you are confident it can be treated as an error.
 
 A good validation engine ideally has the flexibility to distinguish between many levels of severity. We envisage something similar to the Python logging framework: issues are ranked by severity, and thresholds set at “runtime” to identify them as _blocking_, _non-blocking_ or _ignored_. If you ever find a tool capable of this, please let us know!
 
-<Image class="w-full h-120 object-cover object-center" src="/fjelltopp-astro/src/assets/dots/dots12.png" alt="TODO" />
+<Image class="w-full h-120 object-cover object-center" src={dots12} alt="TODO" />
 
 ## Tools that you may be interested in
 
@@ -87,9 +91,9 @@ There are a number of open-source tools out there to help you validate your data
 
 ---
 
-### We’d love to know what you think…
+### We'd love to know what you think…
 
-Set up a meeting with us [here](https://docs.google.com/forms/d/e/1FAIpQLSdzzKi5MGz4I45KUxFhOfdwXAr9gNzWs5CRi9REblm3LVI0Hg/viewform). We’ve got some questions to get you thinking:
+Set up a meeting with us [here](https://docs.google.com/forms/d/e/1FAIpQLSdzzKi5MGz4I45KUxFhOfdwXAr9gNzWs5CRi9REblm3LVI0Hg/viewform). We've got some questions to get you thinking:
 
 - Where do “unknown entities” (e.g. humans) interact with your data?
 - How would you rank each point of interaction according to the risk it poses?

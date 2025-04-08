@@ -13,6 +13,8 @@ tags:
 
 authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
+import { Image } from "astro:assets";
+import teamInDiscussion from "../../assets/summits/2022-krakow/team-in-discussion.jpg";
 
 _This is the fourth post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“._
 
@@ -30,11 +32,11 @@ Wherever people are repeating themselves, automation should be introduced. This 
 
 ## Why Automate?
 
-Whilst the xkcd comic is insightful, there are more reasons to automate than simply saving time and money (which in itself is an excellent reason). You should probably consider automation even when the time saved will not necessarily match the time invested. Here’s why:
+Whilst the xkcd comic is insightful, there are more reasons to automate than simply saving time and money (which in itself is an excellent reason). You should probably consider automation even when the time saved will not necessarily match the time invested. Here's why:
 
-- **Computers don’t make mistakes; humans do.** The more complex a task is, the greater the risk of human error. It is important to consider the impact of these errors. If they incur significant damage or costs elsewhere, they should be eradicated with automation.
+- **Computers don't make mistakes; humans do.** The more complex a task is, the greater the risk of human error. It is important to consider the impact of these errors. If they incur significant damage or costs elsewhere, they should be eradicated with automation.
 - **Automation is documentation.** Where a task can be entirely performed by software, the code acts as a complete and detailed record of exactly how the task was performed. If someone later wishes to verify any aspect of how the given task was executed, they need just refer to the codebase. If a human performs the task, separate documentation needs to be created, which may itself incorporate human error.
-- **Automation unlocks the power of repetition.** Perhaps you haven’t considered the _added benefit_ of repeating a task more frequently? A task currently performed manually on an annual basis, could bring extra insight if performed weekly by some automation. Repetition can improve data accuracy, data timeliness, and facilitate cleaning data upstream at source.
+- **Automation unlocks the power of repetition.** Perhaps you haven't considered the _added benefit_ of repeating a task more frequently? A task currently performed manually on an annual basis, could bring extra insight if performed weekly by some automation. Repetition can improve data accuracy, data timeliness, and facilitate cleaning data upstream at source.
 - **Automating a process may improve the process design.** The act of automating a task offers an opportunity to review and improve the process behind that task. It may expose problems or weaknesses in the process that were embedded at the time of establishment. Maybe a data source is outdated. Maybe a data element is no longer needed, or maybe valuable data elements are being missed.
 
 ### How to Automate
@@ -47,9 +49,9 @@ A common model of automation is called an Extract-Transform-Load (ETL) pipeline.
 
 Building and orchestrating reliable and extendable ETLs is an art form. We recommend using existing technologies where appropriate, such as Pandas, PETL (Python ETL), Node-DataPumps, or Apache Airflow for orchestrating many large ETLs. Extensive content can be found across the internet concerning how to build good ETLS. This matter is beyond the scope of this article, but for further reading on the subject, here is one of our [favourite articles.](http://gtoonstra.github.io/etl-with-airflow/principles.html)
 
-Consider automating important data management tasks that users don’t want to complete themselves. Your data management system should incorporate automation to support easy metadata creation, versioning, validation, archiving, and access management. Fjelltopp has found that a significant proportion of the desired metadata can be auto-filled in our systems with the right tweaks to the software. Furthermore we have created dataset templates that users can use when uploading their data. These templates provide sensible default metadata that can then be updated by the user with further detail.
+Consider automating important data management tasks that users don't want to complete themselves. Your data management system should incorporate automation to support easy metadata creation, versioning, validation, archiving, and access management. Fjelltopp has found that a significant proportion of the desired metadata can be auto-filled in our systems with the right tweaks to the software. Furthermore we have created dataset templates that users can use when uploading their data. These templates provide sensible default metadata that can then be updated by the user with further detail.
 
-<Image class="w-full" src="/fjelltopp-astro/src/assets/summits/2022-krakow/team-in-discussion.jpg" alt="TODO" />
+<Image class="w-full" src={teamInDiscussion} alt="TODO" />
 
 ## Evaluating Automation
 
@@ -61,6 +63,6 @@ If you or your contractors have built a module of automation it is important to 
 - Are you informed when the automation fails and can you quickly access information explaining why it failed?
 - Is the automation repeatable? I.e. Do you have a record of all factors contributing to the automation results including configuration parameters, the codebase, and the source data? This metadata should be stored somewhere.
 
-The team here at Fjelltopp would be delighted to discuss any of the above points with you – you can set up a free meeting with us [here](https://docs.google.com/forms/d/e/1FAIpQLSdzzKi5MGz4I45KUxFhOfdwXAr9gNzWs5CRi9REblm3LVI0Hg/viewform).
+The team here at Fjelltopp would be delighted to discuss any of the above points with you - you can set up a free meeting with us [here](https://docs.google.com/forms/d/e/1FAIpQLSdzzKi5MGz4I45KUxFhOfdwXAr9gNzWs5CRi9REblm3LVI0Hg/viewform).
 
 [Read Principle #4 Validate early and often](/data-management-principle-validate-early-often/)

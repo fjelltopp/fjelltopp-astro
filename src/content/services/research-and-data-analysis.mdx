@@ -7,6 +7,11 @@ alt: "A duck and/or a rabbit"
 type: "Service"
 language: "en"
 ---
+import { Image } from "astro:assets";
+import clipboard from "../../assets/icons/clipboard.png";
+import check from "../../assets/icons/check.png";
+import recycle from "../../assets/icons/recycle.png";
+import world from "../../assets/icons/world.png";
 
 ## Expert data management and analysis for your public health research project
 
@@ -18,22 +23,22 @@ Our approach ensures best practices in data management are followed throughout t
 
 <ul class="columns-2 text-center" style="list-style-type: none;">
     <li class="break-inside-avoid">
-        <Image class="place-self-center" src="/fjelltopp-astro/src/assets/icons/clipboard.png" alt="" />
+        <Image class="place-self-center" src={clipboard} alt="" />
         <h3>Easy</h3>
         <p>We remove the barriers to widespread electronic data collection and analysis for complex, multi-faceted research to support public health studies. You can focus on the results, not the process</p>
     </li>
     <li class="break-inside-avoid">
-        <Image class="place-self-center" src="/fjelltopp-astro/src/assets/icons/check.png" alt="" />
+        <Image class="place-self-center" src={check} alt="" />
         <h3>Transparent</h3>
         <p>Through good practice in data management, your research is fully auditable. Published data can easily be audited and repeated by others, growing its impact.</p>
     </li>
     <li class="break-inside-avoid">
-        <Image class="place-self-center" src="/fjelltopp-astro/src/assets/icons/recycle.png" alt="" />
+        <Image class="place-self-center" src={recycle} alt="" />
         <h3>Repeatable</h3>
         <p>We make sure your public health research is repeatable, enabling you to easily collect, clean and analyse large volumes of data, again and again.</p>
     </li>
     <li class="break-inside-avoid">
-        <Image class="place-self-center" src="/fjelltopp-astro/src/assets/icons/world.png" alt="" />
+        <Image class="place-self-center" src={world} alt="" />
         <h3>Impactful</h3>
         <p>We facilitate large scale national and international public health research and analysis projects making a significant impact on world health.</p>
     </li>
@@ -54,7 +59,7 @@ Just a few examples include:
 ## How to proceed with support in research & data analysis
 
 - Book a free consultation meeting to discuss what problems we can solve for you.
-- We’ll build a work plan and budget, tailored to your needs, then get to work providing technical solutions and support.
+- We'll build a work plan and budget, tailored to your needs, then get to work providing technical solutions and support.
 - We develop study protocols, statistical designs and electronic data collection tools, written reports and papers for you, fitting around your team and their requirements.
 - We can configure all the necessary devices for electronic data collection and provide custom tools to monitor the progress of large data collection efforts.
 - We partner with you, working together, holding regular meetings to monitor progress and keep everybody informed and updated.

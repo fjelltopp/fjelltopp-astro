@@ -11,16 +11,19 @@ tags:
   - DataManagement
 authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
 ---
+import { Image } from "astro:assets";
+import mockUp1 from "../../assets/product/fjelltopp-mock-up-1.jpg";
+import dots9 from "../../assets/dots/dots9.jpg";
 
 _This is the second post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“._
 
 ---
 
-Balancing data availability with data security is a real challenge, especially for Fjelltopp’s clients in low and middle income countries (LMICs). The availability of accurate and up-to-date public health information is critical for good decision-making.
+Balancing data availability with data security is a real challenge, especially for Fjelltopp's clients in low and middle income countries (LMICs). The availability of accurate and up-to-date public health information is critical for good decision-making.
 
-LMICs often work with multiple national and international partners all of whom require access to such data in order to support the country’s fight against diseases such as Tuberculosis, HIV, Malaria and Polio. On the other hand, health data, particularly patient-identifiable data, is highly sensitive and requires the highest levels of security.
+LMICs often work with multiple national and international partners all of whom require access to such data in order to support the country's fight against diseases such as Tuberculosis, HIV, Malaria and Polio. On the other hand, health data, particularly patient-identifiable data, is highly sensitive and requires the highest levels of security.
 
-<Image class="w-full md:w-1/3 md:float-right md:ml-5" src="/fjelltopp-astro/src/assets/product/fjelltopp-mock-up-1.jpg" alt="TODO" />
+<Image class="w-full md:w-1/3 md:float-right md:ml-5" src={mockUp1} alt="TODO" />
 
 ### The Problem
 
@@ -35,7 +38,7 @@ There are generally two types of outcomes where institutions or sectors fail to 
 
 With the [cyber security market valued at $140 billion in 2021](https://www.fortunebusinessinsights.com/industry-reports/cyber-security-market-101165), and expected to grow many times over in the coming years, there is no shortage of technology available to help resolve this problem. However, the decisions underpinning these technologies are deeply complex and political. How should data be classified? Who should be able to access different types of data and for what purposes? What level of protection should different data types be given?
 
-The solution begins as a legal and political one, written up in policy, licences and data sharing agreements. One such example would be the EU’s GDPR regulations, or the UK Government’s Data Protection Act. Because the problem is so challenging, it gets neglected by many institutions and projects.
+The solution begins as a legal and political one, written up in policy, licences and data sharing agreements. One such example would be the EU's GDPR regulations, or the UK Government's Data Protection Act. Because the problem is so challenging, it gets neglected by many institutions and projects.
 
 Our recommendation here is to write something down. Anything. Even if it only serves to reflect the status quo, however arbitrary that may feel. A written document creates clarity and facilitates review, discussion and development amongst stakeholders.
 
@@ -44,13 +47,13 @@ Our recommendation here is to write something down. Anything. Even if it only se
 Many projects lack clear adherence to a data protection policy, meaning a pragmatic approach is required to be a responsible steward of data. Here are a few simple technical principles that you can use to help you steer your data management work towards a sound balance of _security_ and _availability._
 
 - **Centralised storage** of data means that you can protect more data, more effectively, with fewer investments in security. It also simplifies the process of finding and accessing data. If your data is sitting on many private computers, or siloed systems, consider how you can bring it together in one place.
-- **Individual user accounts** give you control over restricting and monitoring each individuals’ actions through your system. You should seek to remove all sharing of passwords or account access from your work. In our experience this is one of the most prevalent threats to cyber security in the international development sector.
+- **Individual user accounts** give you control over restricting and monitoring each individuals' actions through your system. You should seek to remove all sharing of passwords or account access from your work. In our experience this is one of the most prevalent threats to cyber security in the international development sector.
 - **Flexible access restriction** enables you to grant specific users the power to perform specific actions (read/write) upon specific data. As a general rule of thumb, users should never be granted more than the specific access they require to perform their designated task.
 - **Popular and open security standards** are stress-tested and updated by a global community of experts. Tread carefully if your engineers propose their own designs for security and encryption. A good design should always be built from other widely-adopted security solutions.
 - **Modern up-to-date software and standards.** There is a continuous battle to identify and fix security vulnerabilities in software. The software built for your project will depend upon many other third-party software modules. New versions of these “dependencies” are frequently released to fix recently identified vulnerabilities. It is important to ensure there is time and funding to keep these dependencies up-to-date, even though this work may yield no noticeable improvement to the user experience.
 - **Use password and secret managers.** Strong passwords are long and random lists of upper and lower case letters, numbers and special characters. They are not memorable! Use a password manager, such as [Bitwarden](https://bitwarden.com/) or [Dashlane](https://www.dashlane.com/), to store a different strong password for every system you use. Never share passwords between systems. Your software engineers should be using a similar solution to store secrets for the software they are building e.g. encryption keys and database passwords. Fjelltopp uses and recommends [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) for this purpose.
 
-<Image class="w-full md:w-1/3 md:float-right md:ml-5" src="/fjelltopp-astro/src/assets/dots/dots9.jpg" alt="TODO" />
+<Image class="w-full md:w-1/3 md:float-right md:ml-5" src={dots9} alt="TODO" />
 
 ## Some questions to ponder:
 
