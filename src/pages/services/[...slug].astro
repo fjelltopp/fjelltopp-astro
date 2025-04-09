@@ -1,6 +1,6 @@
 ---
-import MainLayout from "../../layouts/MainLayout.astro";
 import { getCollection, getEntry, render } from "astro:content";
+import MainLayout from "../../layouts/MainLayout.astro";
 
 import "../../styles/global.css";
 
@@ -30,7 +30,7 @@ const { Content } = await render(entry);
   <main class="mb-40 space-y-40 pt-24">
     <section class="bg-white">
       <div
-        class="mx-auto max-w-screen-xl items-center gap-16 px-4 py-8 lg:grid lg:grid-cols-1 lg:px-3 lg:py-16"
+        class="max-w-(--breakpoint-xl) mx-auto items-center gap-16 px-8 py-8 lg:grid lg:grid-cols-1 lg:px-16 lg:py-16"
       >
         <div class="font-light text-gray-500 sm:text-lg">
           <a
@@ -57,8 +57,17 @@ const { Content } = await render(entry);
           <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900">
             {entry.data.title}
           </h2>
-          <div class="content">
+          <div
+            class="content prose prose-l prose-ul:list-inside prose-ol:list-inside prose-blockquote:border-l-0 prose-img:my-5 max-w-none"
+          >
             <Content />
+          </div>
+          <div class="mt-10 inline-flex w-full items-center justify-center">
+            <a
+              href="/fjelltopp-astro/#contact"
+              class="rounded-2xl border bg-zinc-900 px-8 py-5 text-center text-xl font-normal leading-7 text-white hover:bg-white hover:text-black"
+              >Get in touch</a
+            >
           </div>
         </div>
       </div>
