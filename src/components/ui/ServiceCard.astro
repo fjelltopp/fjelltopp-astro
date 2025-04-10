@@ -5,9 +5,6 @@ import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import Card from "./Card.astro";
 
-import gob from "../../assets/arrow-dark.svg";
-import wob from "../../assets/arrow-white.svg";
-
 /* 
 1. Gray card with green title and green on black icon 
 2. Green card with gray title and green on black icon
@@ -22,42 +19,34 @@ interface Props {
 ---
 
 <Card isUnderline={false}>
-  <div
-    class=`h-[300px] w-full sm:h-full lg:gap-[60px] grid custom-grid lg:grid-cols-2 lg:grid-rows-1 p-8 sm:p-[50px] rounded-[45px] ${service.data.order % 3 === 1 ? 'bg-gray' : service.data.order % 3 === 2 ? 'bg-green' : 'bg-dark text-gray'}`
+  <a
+    href={"/fjelltopp-astro/services/" + service.id}
+    class="flex items-center gap-3.5"
   >
-    <h3 class=`flex flex-col col-span-2 lg:col-span-1`>
-      <span
-        class=`w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : 'whitehead'}`
-        >{splitTitle(service.data.title)[0]}</span
-      >
-      <span
-        class=`w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : 'whitehead'}`
-        >{splitTitle(service.data.title)[1]}</span
-      >
-    </h3>
-    <picture
-      class="order-1 row-span-1 flex h-full w-full items-center justify-center lg:order-none lg:row-span-2"
+    <div
+      class="bg-gray flex h-[150px] w-full items-center justify-between gap-[60px] rounded-[45px] p-8"
     >
-      <Image
-        src={service.data.image}
-        alt={service.data.alt}
-        class="h-[100px] w-auto object-cover sm:h-auto sm:w-3/4"
-      />
-    </picture>
-    <div class="flex items-end">
-      <a
-        href={"/fjelltopp-astro/services/" + service.id}
-        class="flex items-center gap-3.5"
-        ><Image
-          src={service.data.order % 3 === 1 || service.data.order % 3 === 2
-            ? gob
-            : wob}
-          alt="Click for more details"
-        />
-        <span class="hidden sm:block">More info</span></a
+      <h3 class=`flex items-center flex-col col-span-2 lg:col-span-1`>
+        <span
+          class=`text-nowrap w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : service.data.order % 3 === 2 ? 'whitehead' : 'blackhead'}`
+          >{splitTitle(service.data.title)[0]}</span
+        >
+        <span
+          class=`text-nowrap w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : service.data.order % 3 === 2 ? 'whitehead' : 'blackhead'}`
+          >{splitTitle(service.data.title)[1]}</span
+        >
+      </h3>
+      <picture
+        class="order-1 row-span-1 flex h-full w-full items-center justify-center lg:order-none lg:row-span-2"
       >
+        <Image
+          src={service.data.image}
+          alt={service.data.alt}
+          class="max-h-[100px] w-auto object-cover sm:h-auto sm:w-3/4 sm:object-contain"
+        />
+      </picture>
     </div>
-  </div>
+  </a>
 </Card>
 
 <style>

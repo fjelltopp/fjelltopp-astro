@@ -19,12 +19,13 @@ const blog = defineCollection({
 
 const industries = defineCollection({
   loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/industries" }),
-  schema: z.object({
-    title: z.string(),
-    order: z.number(),
-    image: z.string(),
-    summary: z.string(),
-    language: z.enum(["en", "fr"]),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      order: z.number(),
+      image: image(),
+      summary: z.string(),
+      language: z.enum(["en", "fr"]),
   }),
 });
 
@@ -39,7 +40,7 @@ const projects = defineCollection({
 });
 
 const services = defineCollection({
-  loader: glob({ pattern: "*.md", base: "src/content/services" }),
+  loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/services" }),
   schema: ({ image }) =>
     z.object({
       title: z.string(),

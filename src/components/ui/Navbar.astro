@@ -38,8 +38,6 @@ const menuitems = [
     dropdown: true,
     dropdownContent: allIndustries,
   },
-  { href: "/#cases", label: "Use Cases", dropdown: false, dropdownContent: [] },
-  { href: "/pricing", label: "Pricing", dropdown: false, dropdownContent: [] },
   { href: "/articles", label: "Blog", dropdown: false, dropdownContent: [] },
 ];
 
@@ -104,7 +102,7 @@ const navButton = {
                       </button>
                       <DropdownItems>
                         <div
-                          class="rounded bg-white lg:bg-white/80 lg:absolute lg:overflow-auto"
+                          class="rounded bg-white lg:bg-white lg:absolute lg:overflow-auto"
                         >
                           {item.dropdownContent.map((subItem, _) => (
                             <a
