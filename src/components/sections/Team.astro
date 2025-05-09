@@ -8,69 +8,32 @@ const description =
 
 // Team images
 import cn from "../../assets/team/chas-nelson.jpg";
-import gr from "../../assets/team/gunnar-ro.jpg";
-import jb from "../../assets/team/jonathan-berry.jpg";
-import js from "../../assets/team/jyri-soppela.jpg";
+import jh from "../../assets/team/john-haskew.jpg";
 import mk from "../../assets/team/mix-kundegorski.jpg";
-import ta from "../../assets/team/toavina-andriamihaingo.jpg";
-import ts from "../../assets/team/tomasz-sabala.jpg";
 
 const team = [
   {
     pic: cn,
-    name: "John Smith",
-    role: "CEO and Founder",
+    name: "Dr Chas Nelson",
+    role: "Data & AI Strategist",
     description:
       "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
-    link: "https://linkedin.com",
-  },
-  {
-    pic: gr,
-    name: "Jane Doe",
-    role: "Director of Operations",
-    description:
-      "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-    link: "https://linkedin.com",
-  },
-  {
-    pic: jb,
-    name: "Michael Brown",
-    role: "Senior SEO Specialist",
-    description:
-      "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
-    link: "https://linkedin.com",
-  },
-  {
-    pic: js,
-    name: "Emily Johnson",
-    role: "PPC Manager",
-    description:
-      "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
-    link: "https://linkedin.com",
+    link: "https://www.linkedin.com/in/chasnelson1990/",
   },
   {
     pic: mk,
-    name: "Brian Williams",
-    role: "Social Media Specialist",
+    name: "Dr Mix Kundegorski",
+    role: "Health Informatics Specialist",
     description:
       "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
-    link: "https://linkedin.com",
+    link: "https://www.linkedin.com/in/mix-kundegorski-01988865/",
   },
   {
-    pic: ta,
-    name: "Sarah Kim",
-    role: "Content Creator",
+    pic: jh,
+    name: "Dr John Haskew",
+    role: "AI & Public Health Expert",
     description:
       "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
-    link: "https://linkedin.com",
-  },
-  {
-    pic: ts,
-    name: "Sarah Kim",
-    role: "Content Creator",
-    description:
-      "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
-    link: "https://linkedin.com",
   },
 ];
 ---
@@ -79,7 +42,7 @@ const team = [
   <div class="mt-[140px]">
     <SectionTitle sectionTitle="Team" description={description} />
     <div
-      class="grid grid-cols-1 grid-rows-2 gap-10 md:grid-cols-2 xl:grid-cols-3"
+      class="grid grid-cols-1 grid-rows-1 gap-10 md:grid-cols-2 xl:grid-cols-3"
     >
       {
         team.map((member, index) => (
@@ -93,9 +56,6 @@ const team = [
           />
         ))
       }
-    </div>
-    <div class="mt-10 flex justify-end">
-      <button class="btn-primary">See all team</button>
     </div>
   </div>
 </Section>
