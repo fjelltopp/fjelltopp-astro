@@ -6,9 +6,10 @@ summary: "Since 2015, our goal has been to strive for higher ground and gain dee
 coverImage: ../../assets/dots/dots1.png
 type: "Article"
 language: "en"
-authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+authImage: ../../assets/team/jonathan-berry.jpg
 tags: []
 ---
+
 import { Image } from "astro:assets";
 import dots2 from "../../assets/dots/dots2.jpg";
 import team1 from "../../assets/summits/2019-helsinki/team1.jpg";
@@ -23,7 +24,12 @@ We got together with the experts at [Mike Pye +Co](https://mikepyemarketing.com/
 
 We knew that we needed to increase the awareness of our company by communicating a more three dimensional Fjelltopp picture. We investigated each and every aspect of our output, assessing its success and planning improvements.
 
-<video class="w-full h-auto rounded-xl my-6" controls="" autoplay src="/fjelltopp-astro/videos/fjelltopp-dots.mp4"></video>
+<video
+  class="my-6 h-auto w-full rounded-xl"
+  controls=""
+  autoplay
+  src="/fjelltopp-astro/videos/fjelltopp-dots.mp4"
+></video>
 
 ### But why?
 
@@ -37,7 +43,7 @@ Cards on the table: we don't like showing off or being the centre of attention, 
 
 ### And why should you care?
 
-<Image class="w-full md:float-left md:w-md md:mr-5" src={dots2} alt="TODO"/>
+<Image class="md:w-md w-full md:float-left md:mr-5" src={dots2} alt="TODO" />
 
 > _It's not just about work in progress - the unknowns of data needs and global public health needs - but being in constant progress, staying ahead, testing, challenging and always learning and developing._
 
@@ -51,4 +57,9 @@ Although we're data scientists and software engineers, our business is ultimatel
 
 If you need data analysis and research support in your organisation, we can provide CKAN support, data hubs for health, DHIS2 support, research and analysis and much more. Have a look at some of the work we've been involved with and get in touch today to see how we can help you harmonise health data.
 
-<Image class="place-self-center" src={team1} alt="The Fjelltopp team" width="512"/>
+<Image
+  class="place-self-center"
+  src={team1}
+  alt="The Fjelltopp team"
+  width="512"
+/>

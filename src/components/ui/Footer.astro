@@ -7,17 +7,24 @@ import Twitter from "../../assets/twitter.svg";
 import ShortForm from "../ui/ShortForm.astro";
 
 const logos = [
-  { name: "Facebook", src: Facebook, link: "https://facebook.com" },
-  { name: "Linkedin", src: Linkedin, link: "https://linkedin.com" },
-  { name: "Twitter", src: Twitter, link: "https://twitter.com" },
+  {
+    name: "Facebook",
+    src: Facebook,
+    link: "https://facebook.com/fjelltoppltd",
+  },
+  {
+    name: "Linkedin",
+    src: Linkedin,
+    link: "https://www.linkedin.com/company/fjelltopp/",
+  },
+  { name: "Twitter", src: Twitter, link: "https://twitter.com/fjelltoppltd" },
 ];
 
 const links = [
-  { name: "About us", href: "#about" },
-  { name: "Services", href: "#services" },
-  { name: "Use Cases", href: "#cases" },
-  { name: "Pricing", href: "#Testimonials" },
-  { name: "Blog", href: "#Home" },
+  { name: "About us", href: "/fjelltopp-astro/about" },
+  { name: "Team", href: "/fjelltopp-astro/#team" },
+  { name: "Services", href: "/fjelltopp-astro/#services" },
+  { name: "Blog", href: "/fjelltopp-astro/articles" },
 ];
 ---
 
@@ -79,11 +86,13 @@ const links = [
             <h3 class="text-green mb-5 text-center text-2xl md:text-left">
               Contact us
             </h3>
-            <div class="flex flex-col justify-between gap-4">
-              <span> Email: examplemail.com </span>
-              <span> Phone: +123 456 789 </span>
+            <div
+              class="flex flex-col justify-between gap-4 text-sm text-gray-200"
+            >
+              <span>Email: info@fjelltopp.org</span>
               <span class="lg:w-3/4">
-                Address: 1234 Street Name, City Name, Country Name
+                Registered office: 40 Blackburn Road, Padiham, Lancashire, BB12
+                8JZ
               </span>
             </div>
           </div>
@@ -91,41 +100,13 @@ const links = [
             <ShortForm />
           </div>
         </div>
-      </div>
 
-      <div class="bg-gray mb-5 h-[1px]"></div>
-      <div
-        class="mt-4 flex h-20 flex-col justify-center text-center md:mt-0 md:justify-between lg:flex-row"
-      >
-        <span
-          >2024 Fjelltopp - Made With <a
-            class="underline"
-            target="_blank"
-            href="https://astro.build">Astro</a
-          > by
-          <a class="underline" target="_blank" href="https://manulthanura.com"
-            >Manul</a
-          ></span
-        >&nbsp
-        <span>
-          Credits (
-          <a
-            href="https://www.olgaskuja.design/"
-            target="_blank"
-            class="underline">Olga</a
-          >,
-          <a
-            href="https://esteban-vasquez.netlify.app/"
-            target="_blank"
-            class="underline">Esteban</a
-          >)
-          <span> &</span>
-          <a
-            class="underline"
-            href="https://creativecommons.org/licenses/by/4.0/"
-            target="_blank">Licence</a
-          >
-        </span>
+        <div class="bg-gray mb-5 h-[1px]"></div>
+        <div class="mt-4 text-center text-sm text-gray-400">
+          Fjelltopp Ltd is registered in the United Kingdom. Company number
+          11961922.<br />
+          Registered office: 40 Blackburn Road, Padiham, Lancashire, BB12 8JZ.
+        </div>
       </div>
     </div>
   </div>

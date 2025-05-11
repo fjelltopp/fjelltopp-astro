@@ -8,7 +8,7 @@ const blog = defineCollection({
       title: z.string(),
       pubDate: z.date(),
       author: z.string(),
-      authImage: z.string(),
+      authImage: image(),
       coverImage: image(),
       tags: z.array(z.string()),
       summary: z.string(),
@@ -26,7 +26,7 @@ const industries = defineCollection({
       image: image(),
       summary: z.string(),
       language: z.enum(["en", "fr"]),
-  }),
+    }),
 });
 
 const projects = defineCollection({

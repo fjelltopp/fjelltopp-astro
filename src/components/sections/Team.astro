@@ -4,7 +4,7 @@ import TeamCard from "../ui/TeamCard.astro";
 import Section from "./Section.astro";
 
 const description =
-  "Meet the skilled and experienced team behind our successful digital marketing strategies";
+  "Our core consultants are part of a broader community of practice working at the intersection of public health, AI, and data systems. This team brings strategic, technical, and operational leadership from years of global experience.";
 
 // Team images
 import cn from "../../assets/team/chas-nelson.jpg";
@@ -17,23 +17,23 @@ const team = [
     name: "Dr Chas Nelson",
     role: "Data & AI Strategist",
     description:
-      "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+      "Dr Chas Nelson is Fjelltopp's Director and Principal Consultant, providing strategic leadership for technology integration projects. Chas has a PhD in computing, 10+ years experience in data science across biomedicine and healthcare, and extensive experience building international data projects for international development and the public sector. He has also driven forward industry best practices and regulatory understanding in AI for health.",
     link: "https://www.linkedin.com/in/chasnelson1990/",
-  },
-  {
-    pic: mk,
-    name: "Dr Mix Kundegorski",
-    role: "Health Informatics Specialist",
-    description:
-      "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
-    link: "https://www.linkedin.com/in/mix-kundegorski-01988865/",
   },
   {
     pic: jh,
     name: "Dr John Haskew",
     role: "AI & Public Health Expert",
     description:
-      "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
+      "Dr John Haskew is a medical doctor trained in epidemiology and public health with 20+ years field and leadership experience in Asia, Africa and the Middle East. John has advised WHO Representatives and Ministries of Health across the region and brings extensive experience in knowledge translation for policy makers and multi-stakeholder discussions. John is currently based in Kenya.",
+    link: "team/john",
+  },
+  {
+    pic: mk,
+    name: "Dr Mix Kundegorski",
+    role: "",
+    description:
+      "Dr Mix Kundegorski has extensive experience in advanced statistical methods and artificial intelligence applications across diverse domains. His background includes years of work in public health technology and disease control, supported by a PhD in mathematical ecology. His technical expertise, gained through work with WHO and FAO, provides him with a deep understanding of user requirements and challenges within knowledge-based organisations.",
   },
 ];
 ---
@@ -46,14 +46,14 @@ const team = [
     >
       {
         team.map((member, index) => (
-          <TeamCard
-            key={index}
-            pic={member.pic}
-            name={member.name}
-            role={member.role}
-            description={member.description}
-            link={member.link}
-          />
+          <a href={member.link} class="block transition-shadow hover:shadow-lg">
+            <TeamCard
+              pic={member.pic}
+              name={member.name}
+              role={member.role}
+              description={member.description}
+            />
+          </a>
         ))
       }
     </div>
