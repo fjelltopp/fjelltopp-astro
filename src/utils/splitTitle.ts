@@ -4,19 +4,19 @@ export function splitTitle(title: string): Array<string> {
     return [title.toString(), ""];
   }
 
-  let titleObj: Array<string> = title.split(" ");
-  let titleTop: Array<string> = [];
-  let titleBottom: Array<string> = [];
+  const titleObj: Array<string> = title.split(" ");
+  const titleTop: Array<string> = [];
+  const titleBottom: Array<string> = [];
 
   while (titleObj.length > 0) {
     // As far as possible, split the text evenly between the two lines
     if (titleTop.join().length <= titleBottom.join().length) {
-      let word: string | undefined = titleObj.shift();
+      const word: string | undefined = titleObj.shift();
       if (typeof word != "undefined") {
         titleTop.push(word);
       }
     } else {
-      let word: string | undefined = titleObj.pop();
+      const word: string | undefined = titleObj.pop();
       if (typeof word != "undefined") {
         titleBottom.push(word);
       }
