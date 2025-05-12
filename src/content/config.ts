@@ -55,10 +55,10 @@ const services = defineCollection({
 const team = defineCollection({
   loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/team" }),
   schema: ({ image }) =>
-  z.object({
-    full_name: z.string(),
-    image: image(),
-  }),
+    z.object({
+      full_name: z.string(),
+      image: image(),
+    }),
 });
 
 export const collections = {
