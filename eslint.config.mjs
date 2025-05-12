@@ -1,7 +1,8 @@
 import eslintPluginAstro from "eslint-plugin-astro";
-export default [
-  // add more generic rule sets here, such as:
-  // js.configs.recommended,
+import ts from "typescript-eslint";
+
+export default ts.config(
+  ts.configs.recommended,
   ...eslintPluginAstro.configs["jsx-a11y-strict"],
   {
     rules: {
@@ -9,4 +10,4 @@ export default [
       // "astro/no-set-html-directive": "error"
     },
   },
-];
+);
