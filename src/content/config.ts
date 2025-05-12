@@ -52,13 +52,12 @@ const services = defineCollection({
     }),
 });
 
-const teams = defineCollection({
+const team = defineCollection({
   loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/team" }),
-  schema: z.object({
-    author: z.string(),
-    image: z.string(),
-    summary: z.string(),
-    language: z.enum(["en", "fr"]),
+  schema: ({ image }) =>
+  z.object({
+    full_name: z.string(),
+    image: image(),
   }),
 });
 
@@ -67,5 +66,5 @@ export const collections = {
   industries: industries,
   projects: projects,
   services: services,
-  teams: teams,
+  team: team,
 };
