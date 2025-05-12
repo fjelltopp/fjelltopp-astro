@@ -1,7 +1,7 @@
 ---
 import { getCollection, getEntry, render } from "astro:content";
 import MainLayout from "../../layouts/MainLayout.astro";
-
+import { Image } from "astro:assets";
 import "../../styles/global.css";
 
 export async function getStaticPaths() {
@@ -27,7 +27,7 @@ const { Content } = await render(entry);
 ---
 
 <MainLayout title={entry.data.title}>
-  <main class="mb-40 space-y-40 pt-24">
+  <main class="mb-40 space-y-40 pt-0">
     <section class="bg-white">
       <div
         class="max-w-(--breakpoint-xl) mx-auto items-center gap-16 px-8 py-8 lg:grid lg:grid-cols-1 lg:px-16 lg:py-16"
@@ -54,9 +54,20 @@ const { Content } = await render(entry);
             </svg>
             <span class="ml-1 text-lg font-bold">Back</span>
           </a>
-          <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900">
-            {entry.data.title}
-          </h2>
+          <div class="flex flex-col gap-4 lg:flex-row lg:items-center">
+            {
+              entry.data.image && (
+                <Image
+                  src={entry.data.image}
+                  alt={entry.data.alt}
+                  class="h-32 w-32 object-contain lg:mr-6"
+                />
+              )
+            }
+            <h2 class="text-4xl font-extrabold tracking-tight text-gray-900">
+              {entry.data.title}
+            </h2>
+          </div>
           <div
             class="content prose prose-l prose-ul:list-inside prose-ol:list-inside prose-blockquote:border-l-0 prose-img:my-5 max-w-none"
           >

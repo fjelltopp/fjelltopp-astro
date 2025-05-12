@@ -8,7 +8,7 @@ type Props = {
 
 <div class="flex flex-wrap gap-2">
   {
-    tags.map((tag: string, _) => (
+    tags.map((tag: string) => (
       <span class="bg-lime rounded-full px-2 py-1 text-xs text-black hover:opacity-90">
         <a href={"/articles/tag/" + tag}>#{capitalize(tag)}</a>
       </span>

@@ -1,0 +1,49 @@
+---
+import { getCollection, getEntry, render } from "astro:content";
+import MainLayout from "../../layouts/MainLayout.astro";
+import "../../styles/global.css";
+import { Image } from "astro:assets";
+
+export async function getStaticPaths() {
+  const allTeammembers = await getCollection("team");
+  return allTeammembers.map((person) => ({
+    params: { slug: person.id },
+  }));
+}
+
+const { slug } = Astro.params;
+
+if (slug === undefined) {
+  throw new Error("Slug is required");
+}
+
+const entry = await getEntry("team", slug);
+
+if (entry === undefined) {
+  return Astro.redirect("/404");
+}
+
+const { Content } = await render(entry);
+---
+
+<MainLayout title="{entry.data.full_name}">
+  <section
+    class="mx-auto mt-10 flex max-w-4xl flex-col gap-6 px-4 py-8 md:flex-row"
+  >
+    <Image
+      src={entry.data.image}
+      alt={entry.data.full_name}
+      class="h-auto w-32 object-contain lg:mr-6"
+    />
+    <div class="prose mt-10 flex-1">
+      <h2 class="text-4xl font-extrabold tracking-tight text-gray-900">
+        {entry.data.full_name}
+      </h2>
+    </div>
+    <div
+      class="content prose prose-l prose-ul:list-inside prose-ol:list-inside prose-blockquote:border-l-0 prose-img:my-5 max-w-none"
+    >
+      <Content />
+    </div>
+  </section>
+</MainLayout>

@@ -8,7 +8,7 @@ const blog = defineCollection({
       title: z.string(),
       pubDate: z.date(),
       author: z.string(),
-      authImage: z.string(),
+      authImage: image(),
       coverImage: image(),
       tags: z.array(z.string()),
       summary: z.string(),
@@ -26,7 +26,7 @@ const industries = defineCollection({
       image: image(),
       summary: z.string(),
       language: z.enum(["en", "fr"]),
-  }),
+    }),
 });
 
 const projects = defineCollection({
@@ -52,14 +52,13 @@ const services = defineCollection({
     }),
 });
 
-const teams = defineCollection({
+const team = defineCollection({
   loader: glob({ pattern: "[^_]*.{md,mdx}", base: "src/content/team" }),
-  schema: z.object({
-    author: z.string(),
-    image: z.string(),
-    summary: z.string(),
-    language: z.enum(["en", "fr"]),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      full_name: z.string(),
+      image: image(),
+    }),
 });
 
 export const collections = {
@@ -67,5 +66,5 @@ export const collections = {
   industries: industries,
   projects: projects,
   services: services,
-  teams: teams,
+  team: team,
 };

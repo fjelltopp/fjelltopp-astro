@@ -1,21 +1,22 @@
 ---
-title: "Principle #5 Version Everything"
-pubDate: 2023-06-19T15:22:16+01:00
+title: "Principle #6 Version everything"
+pubDate: 2023-06-19T15:10:47+01:00
 author: "Dr Jonathan Berry"
-summary: "Without version control you risk losing everything. It ensures you have access to old versions of data and metadata. "
-coverImage: ../../assets/dots/dots8.jpg
+summary: "Versioning is essential for data management.  It allows you to track changes, roll back if necessary, and maintain a clear audit trail."
+coverImage: ../../assets/dots/dots11.jpg
 type: "Article"
 language: "en"
 tags:
   - 6Principles
   - DataManagement
-authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+authImage: ../../assets/team/jonathan-berry.jpg
 ---
+
 import { Image } from "astro:assets";
 import malawiMockUp1 from "../../assets/product/malawi-mock-up-1.png";
 import dots2 from "../../assets/dots/dots2.jpg";
 
-_This is the fifth post in a series that outlines “[Six principles for sound data management](/six-principles-of-sound-data-management/)“._
+_This is the sixth post in a series that outlines "[Six principles for sound data management](/six-principles-of-sound-data-management/)"._
 
 ---
 
@@ -23,17 +24,21 @@ Without version control you risk losing everything.
 
 Version control is a crucial (yet often overlooked) feature of any data management system. This essential tool can help you debug data-quality issues, base your decisions upon up-to-date data, and ensure that no data is ever lost.
 
-In this article, we discuss the importance of maintaining a complete and clear history of all data _and_ metadata changes - otherwise referred to as the dataset's “audit trail”. We'll show how Fjelltopp could help you implement this for your organisation's data.
+In this article, we discuss the importance of maintaining a complete and clear history of all data _and_ metadata changes - otherwise referred to as the dataset's "audit trail". We'll show how Fjelltopp could help you implement this for your organisation's data.
 
 ### What is version control?
 
 Version control involves tracking and managing the changes made to your data over time. The term can encompass a wide range of features and tools but at the very least, version control should enable you to: review old revisions of your data, understand when they were made, who the author was and revert to them if necessary.
 
-In software and data engineering the most popular tool used for this purpose is called [Git](https://git-scm.com/). This complex tool is the ‘gold standard', providing a range of features that enable many people to work on many versions of the same data all at once. It is incredibly efficient in the way it stores each revision of the data. New versions can be branched from old versions and merged with other versions in a variety of ways. The date and author of each revision is recorded for the audit trail, which can often end up being more of a non-linear audit “network” over time.
+In software and data engineering the most popular tool used for this purpose is called [Git](https://git-scm.com/). This complex tool is the 'gold standard', providing a range of features that enable many people to work on many versions of the same data all at once. It is incredibly efficient in the way it stores each revision of the data. New versions can be branched from old versions and merged with other versions in a variety of ways. The date and author of each revision is recorded for the audit trail, which can often end up being more of a non-linear audit "network" over time.
 
 Whilst Fjelltopp uses Git extensively, in our experience, many of our clients would not benefit from its complexity. For the most part a much simpler feature-set will suffice. We like how Google Drive/Docs does versioning. It records a linear list of revisions made to the document, including the author and time of the revision, allowing you to tag, filter and revert to revisions as desired. This is the approach we have implemented in our [CKAN](/fjelltopp-astro/services/data-catalogues-and-hubs) and [Health Data Hubs ](/fjelltopp-astro/services/data-catalogues-and-hubs)solutions.
 
-<Image class="w-full md:float-right md:w-1/3 pl-5" src={malawiMockUp1} alt="TODO"/>
+<Image
+  class="w-full pl-5 md:float-right md:w-1/3"
+  src={malawiMockUp1}
+  alt="TODO"
+/>
 
 ### Why should you Version?
 
@@ -56,7 +61,11 @@ Fjelltopp builds metadata version control into our data projects as a founding p
 
 ### How should you version?
 
-<Image class="h-100 w-full md:float-left md:w-1/4 md:mr-5 object-cover object-center" src={dots2} alt="TODO"/>
+<Image
+  class="h-100 w-full object-cover object-center md:float-left md:mr-5 md:w-1/4"
+  src={dots2}
+  alt="TODO"
+/>
 
 **\[1\] Ensure you and your team are familiar with your versioning tools.**
 
@@ -78,4 +87,4 @@ Version control is a critical element of any data management system. It ensures 
 
 Fjelltopp would be delighted to discuss any of the above points with you - you can set up a free meeting with us [here](/fjelltopp-astro/#contact).
 
-[Read Principle #6 Archive data upon each use](/data-management-principle-archive-data-upon-each-use)
+[Read Principle #5 Version everything](/data-management-principle-version-everything)
