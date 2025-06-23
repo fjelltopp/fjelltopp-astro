@@ -129,3 +129,9 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.prose li {
+  text-indent: -1em;
+  padding-left: 1.5em;
+  margin: 0;
+}
