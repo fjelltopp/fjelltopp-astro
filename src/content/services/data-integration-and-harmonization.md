@@ -1,5 +1,5 @@
 ---
-title: "Data integration & harmonization"
+title: "Data integration & harmonization"
 order: 3
 summary: "Expert data management and analysis for your public health research project."
 image: ../../assets/pics/integration.svg

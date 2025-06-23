@@ -5,8 +5,8 @@ import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import Card from "./Card.astro";
 
-/* 
-1. Gray card with green title and green on black icon 
+/*
+1. Gray card with green title and green on black icon
 2. Green card with gray title and green on black icon
 3. Black card with gray title and gray on black icon
 */
@@ -23,29 +23,29 @@ interface Props {
     href={"/fjelltopp-astro/services/" + service.id}
     class="flex items-center gap-3.5"
   >
-    <div
-      class="bg-gray flex h-[150px] w-full items-center justify-between gap-[60px] rounded-[45px] p-8"
-    >
-      <h3 class=`flex items-center flex-col col-span-2 lg:col-span-1`>
-        <span
-          class=`text-nowrap w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : service.data.order % 3 === 2 ? 'whitehead' : 'blackhead'}`
-          >{splitTitle(service.data.title)[0]}</span
-        >
-        <span
-          class=`text-nowrap w-[fit-content] ${service.data.order % 3 === 1 ? 'greenhead' : service.data.order % 3 === 2 ? 'whitehead' : 'blackhead'}`
-          >{splitTitle(service.data.title)[1]}</span
-        >
-      </h3>
-      <picture
-        class="order-1 row-span-1 flex h-full w-full items-center justify-center lg:order-none lg:row-span-2"
-      >
-        <Image
-          src={service.data.image}
-          alt={service.data.alt}
-          class="max-h-[100px] w-auto object-cover sm:h-auto sm:w-3/4 sm:object-contain"
-        />
-      </picture>
-    </div>
+<div
+  class="bg-gray flex h-[150px] w-full items-center rounded-[45px] p-8"
+>
+  <div class="w-1/2 flex justify-center">
+    <h3 class="flex flex-col items-center text-center">
+      <span class={`inline-block ${service.data.order % 3 === 1 ? 'greenhead' : service.data.order % 3 === 2 ? 'whitehead' : 'blackhead'}`}>
+        {splitTitle(service.data.title)[0]}
+      </span>
+      <span class={`inline-block ${service.data.order % 3 === 1 ? 'greenhead' : service.data.order % 3 === 2 ? 'whitehead' : 'blackhead'}`}>
+        {splitTitle(service.data.title)[1]}
+      </span>
+    </h3>
+  </div>
+  <div class="w-1/2 flex items-center justify-center">
+    <picture class="flex items-center justify-center">
+      <Image
+        src={service.data.image}
+        alt={service.data.alt}
+        class="max-h-[100px] w-auto object-contain"
+      />
+    </picture>
+  </div>
+</div>
   </a>
 </Card>
 
