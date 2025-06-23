@@ -23,29 +23,31 @@ interface Props {
     href={"/fjelltopp-astro/services/" + service.id}
     class="flex items-center gap-3.5"
   >
-<div
-  class="bg-gray flex h-[150px] w-full items-center rounded-[45px] p-8"
->
-  <div class="w-1/2 flex justify-center">
-    <h3 class="flex flex-col items-center text-center">
-      <span class={`inline-block ${service.data.order % 3 === 1 ? 'greenhead' : service.data.order % 3 === 2 ? 'whitehead' : 'blackhead'}`}>
-        {splitTitle(service.data.title)[0]}
-      </span>
-      <span class={`inline-block ${service.data.order % 3 === 1 ? 'greenhead' : service.data.order % 3 === 2 ? 'whitehead' : 'blackhead'}`}>
-        {splitTitle(service.data.title)[1]}
-      </span>
-    </h3>
-  </div>
-  <div class="w-1/2 flex items-center justify-center">
-    <picture class="flex items-center justify-center">
-      <Image
-        src={service.data.image}
-        alt={service.data.alt}
-        class="max-h-[100px] w-auto object-contain"
-      />
-    </picture>
-  </div>
-</div>
+    <div class="bg-gray flex h-[150px] w-full items-center rounded-[45px] p-8">
+      <div class="flex w-1/2 justify-center">
+        <h3 class="flex flex-col items-center text-center">
+          <span
+            class={`inline-block ${service.data.order % 3 === 1 ? "greenhead" : service.data.order % 3 === 2 ? "whitehead" : "blackhead"}`}
+          >
+            {splitTitle(service.data.title)[0]}
+          </span>
+          <span
+            class={`inline-block ${service.data.order % 3 === 1 ? "greenhead" : service.data.order % 3 === 2 ? "whitehead" : "blackhead"}`}
+          >
+            {splitTitle(service.data.title)[1]}
+          </span>
+        </h3>
+      </div>
+      <div class="flex w-1/2 items-center justify-center">
+        <picture class="flex items-center justify-center">
+          <Image
+            src={service.data.image}
+            alt={service.data.alt}
+            class="max-h-[100px] w-auto object-contain"
+          />
+        </picture>
+      </div>
+    </div>
   </a>
 </Card>
 
