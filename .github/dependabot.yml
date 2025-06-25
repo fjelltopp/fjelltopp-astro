@@ -36,6 +36,9 @@ updates:
           - "patch"
     reviewers:
       - "ChasNelson1990"
+    labels:
+      - "dependencies"
+      - "ci/cd"
     commit-message:
       prefix: "deps(ci)"
 
