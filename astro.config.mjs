@@ -6,8 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 
 export default defineConfig({
-  site: "https://chasnelson1990.github.io/",
-  base: "fjelltopp-astro",
+  site: "https://www.fjelltopp.org/",
 
   i18n: {
     locales: ["en", "fr"],

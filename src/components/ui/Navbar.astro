@@ -42,7 +42,7 @@ const menuitems = [
 ];
 
 const navButton = {
-  href: "/fjelltopp-astro/#contact",
+  href: "/#contact",
   label: "Book a consultation",
 };
 ---
@@ -54,11 +54,8 @@ const navButton = {
     >
       <Astronav>
         <div class="flex w-full items-center justify-between lg:w-auto">
-          <a
-            href="/fjelltopp-astro/"
-            class="flex items-center space-x-3 rtl:space-x-reverse"
-          >
-            <img src="/fjelltopp-astro/Logo.svg" class="h-16" alt="Logo" />
+          <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="/Logo.svg" class="h-16" alt="Logo" />
           </a>
           <MenuIcon
             class="h-8 w-8 cursor-pointer text-[var(--dark)] lg:hidden"
@@ -74,7 +71,7 @@ const navButton = {
                 <li>
                   {!item.dropdown ? (
                     <a
-                      href={`/fjelltopp-astro${item.href}`}
+                      href={`${item.href}`}
                       class="mobile-nav-link mx-0 block rounded text-[var(--dark)] hover:bg-[var(--dark)] hover:text-white lg:mx-2 lg:bg-transparent lg:p-1"
                       data-close-menu="true"
                     >
@@ -104,7 +101,7 @@ const navButton = {
                         <div class="rounded bg-white lg:absolute lg:overflow-auto lg:bg-white">
                           {item.dropdownContent.map((subItem) => (
                             <a
-                              href={`/fjelltopp-astro${item.href}/${subItem.id}`}
+                              href={`${item.href}/${subItem.id}`}
                               class="mobile-nav-link ml-4 block rounded text-[var(--dark)] hover:bg-[var(--dark)] hover:text-white lg:ml-0 lg:w-64 lg:bg-transparent lg:p-1"
                               data-close-menu="true"
                             >

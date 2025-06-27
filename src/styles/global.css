@@ -40,9 +40,7 @@
 
   @font-face {
     font-family: "Poppins";
-    src:
-      url("/fjelltopp-astro/fonts/poppins/Poppins-Regular.woff2"),
-      format("woff2");
+    src: url("/fonts/poppins/Poppins-Regular.woff2"), format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -50,9 +48,7 @@
 
   @font-face {
     font-family: "Poppins";
-    src:
-      url("/fjelltopp-astro/fonts/poppins/Poppins-Medium.woff2"),
-      format("woff2");
+    src: url("/fonts/poppins/Poppins-Medium.woff2"), format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
