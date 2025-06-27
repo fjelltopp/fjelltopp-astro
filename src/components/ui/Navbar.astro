@@ -74,7 +74,7 @@ const navButton = {
                 <li>
                   {!item.dropdown ? (
                     <a
-                      href={`/fjelltopp-astro${item.href}`}
+                      href={`${item.href}`}
                       class="mobile-nav-link mx-0 block rounded text-[var(--dark)] hover:bg-[var(--dark)] hover:text-white lg:mx-2 lg:bg-transparent lg:p-1"
                       data-close-menu="true"
                     >
@@ -104,7 +104,7 @@ const navButton = {
                         <div class="rounded bg-white lg:absolute lg:overflow-auto lg:bg-white">
                           {item.dropdownContent.map((subItem) => (
                             <a
-                              href={`/fjelltopp-astro${item.href}/${subItem.id}`}
+                              href={`${item.href}/${subItem.id}`}
                               class="mobile-nav-link ml-4 block rounded text-[var(--dark)] hover:bg-[var(--dark)] hover:text-white lg:ml-0 lg:w-64 lg:bg-transparent lg:p-1"
                               data-close-menu="true"
                             >
