@@ -8,7 +8,7 @@ language: "en"
 
 Since Fjelltopp’s inception, we have been at the forefront of public health innovation. We have worked on data catalogues and research and analysis support projects for governments, United Nations agencies, universities, and NGOs. We have also developed real-time epidemiological surveillance systems for disease control and emergency response in Tanzania, the Philippines, Madagascar, and Central African Republic.
 
-Our work in this industry encompasses data catalogues for health, public health research and analysis support, and support with both CKAN and DHIS2, using open-source survey tools (such as [Kobo Toolbox](https://www.kobotoolbox.org/) or [ODK](getodk.org)) and custom-versioned software code (using the Python/R framework) to create familiar outputs in Microsoft Excel, Google Sheets, or custom databases.
+Our work in this industry encompasses data catalogues for health, public health research and analysis support, and support with both CKAN and DHIS2, using open-source survey tools (such as [Kobo Toolbox](https://www.kobotoolbox.org/) or [ODK](https://getodk.org)) and custom-versioned software code (using the Python/R framework) to create familiar outputs in Microsoft Excel, Google Sheets, or custom databases.
 
 We believe that streamlining and consolidating the world’s public health data means better decisions can be made for better health across the world.
 
