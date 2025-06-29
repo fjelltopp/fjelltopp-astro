@@ -8,7 +8,7 @@ language: "en"
 
 Our work in the public sector spans project management, document management, and data repositories. We provide expertise in electronic data collection, data analysis, and research that supports public sector data research and analysis, always ensuring the projects align with national policies and objectives.
 
-We have worked with government ministries and consultants across Europe, Africa, and Asia, providing expertise in electronic data collection, analysis, and research that supports public sector projects. We collect data using open-source survey tools (such as [Kobo Toolbox](https://www.kobotoolbox.org/) or [ODK](getodk.org)), and then clean, profile, and analyse the data with custom-versioned software code (using the Python/R framework) to create familiar outputs in Microsoft Excel, Google Sheets, or custom databases.
+We have worked with government ministries and consultants across Europe, Africa, and Asia, providing expertise in electronic data collection, analysis, and research that supports public sector projects. We collect data using open-source survey tools (such as [Kobo Toolbox](https://www.kobotoolbox.org/) or [ODK](https://getodk.org)), and then clean, profile, and analyse the data with custom-versioned software code (using the Python/R framework) to create familiar outputs in Microsoft Excel, Google Sheets, or custom databases.
 
 Our approach ensures best practices in data management are followed throughout the research project, meaning the analysis will be easily repeatable, auditable, organised, and completely secure – which are vital to support and strengthen evidence-based decision making across the public sector.
 
