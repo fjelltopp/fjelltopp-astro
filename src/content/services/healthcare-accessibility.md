@@ -1,7 +1,7 @@
 ---
 title: "Healthcare accessibility"
 order: 7
-summary: "Expert data management and analysis for your public health research project."
+summary: "From Barriers to Solutions: Making Healthcare Access Measurable and Actionable."
 image: ../../assets/pics/accessibility.svg
 alt: "A duck and/or a rabbit"
 type: "Service"

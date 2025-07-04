@@ -7,7 +7,7 @@ alt: "A duck and/or a rabbit"
 type: "Service"
 language: "en"
 ---
-## **Overview**
+## **Machines that understand health**
 
 **Artificial intelligence (AI)** enables automation, augmentation, and intelligent decision-making across complex systems. At **Fjelltopp**, we specialize in advising and leading AI initiatives in public health, development, and humanitarian sectors. With hands-on experience in **machine learning**, **computer vision**, and **natural language processing**, we help partners understand what’s possible, make informed choices, and implement meaningful solutions. We combine this cross-cutting technical expertise with **years of frontline public health experience**, ensuring that every AI recommendation is grounded in domain realities and tailored to real-world health system needs.
 

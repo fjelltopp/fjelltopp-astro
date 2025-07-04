@@ -1,7 +1,7 @@
 ---
 title: "Public health surveillance"
 order: 5
-summary: "Expert data management and analysis for your public health research project."
+summary: "From Signals to Systems: Designing Surveillance That Works."
 image: ../../assets/pics/surveillance.svg
 alt: "A duck and/or a rabbit"
 type: "Service"
