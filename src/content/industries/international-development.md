@@ -6,10 +6,10 @@ image: ../../assets/dots/dots4.jpg
 language: "en"
 ---
 
-Fjelltopp has been working in international development since we opened our metaphorical doors. Our work has encompassed projects in Tanzania, the Philippines, Madagascar, and Central African Republic, experience working with the Foreign, Commonwealth, and Development Office (FCDO), and a network of consultants across Europe, Africa, and Asia. We work to ensure that local context is always considered and respected alongside the global standards maintained in all our work.
+Fjelltopp has been active in international development since we opened our metaphorical doors. Our work has included projects in Tanzania, the Philippines, Madagascar, and the Central African Republic, as well as collaborations with major donors - including UN agencies and the UK Foreign, Commonwealth & Development Office (FCDO) - across Europe, Africa, and Asia. We work to ensure that local context is always considered and respected alongside the global standards maintained in all our work.
 
 We bring our expertise in data catalogues, research and analysis support, open-source survey tools, and custom-versioned software code and apply it to data in international development – a field we know very well.
-We are skilled at blending our considerable project experience with our knowledge of international contexts and cultures, and are fully dedicated to promoting social equity and contributing to the global goals of sustainable development.
+We combine extensive project experience with deep understanding of international contexts and cultures, and are firmly committed to advancing social equity and contributing to the global goals of sustainable development.
 
 - **Collaborative Project Design and Implementation** We work with international organisations, governments, and local partners to design and implement projects that address critical development challenges.
 - **Open-Source Solutions for Sustainable Development** Using open-source platforms like CKAN, we provide flexible and scalable solutions that can be adapted to various development contexts.
