@@ -1,7 +1,7 @@
 ---
 title: "Data integration & harmonization"
 order: 3
-summary: "Expert data management and analysis for your public health research project."
+summary: "Ensure Seamless Data Integration and Harmonization for Public Health."
 image: ../../assets/pics/integration.svg
 alt: "A duck and/or a rabbit"
 type: "Service"
