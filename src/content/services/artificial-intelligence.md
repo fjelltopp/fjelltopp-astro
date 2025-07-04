@@ -1,6 +1,6 @@
 ---
 title: "Artificial intelligence"
-order: 2
+order: 0
 summary: "A summary of things to say"
 image: ../../assets/pics/ai.svg
 alt: "A duck and/or a rabbit"
