@@ -24,3 +24,13 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 | `npm run format`          | Format your code with Prettier                   |
 | `npm run lint`            | Lint your code with ESLint                       |
+
+## 🚀 Releases and deployment
+
+The site is deployed to GitHub Pages when a GitHub release is published. Releases are managed by [Release Please](https://github.com/googleapis/release-please), which reads commit messages on `main`, so they must follow [Conventional Commits](https://www.conventionalcommits.org/).
+
+1. Merge changes to `main` using a commit message (for squash merges, the PR title) with a prefix such as `feat: ...` or `fix: ...`.
+2. Release Please then opens a `chore(main): release x.y.z` PR.
+3. Merge that PR. This publishes the release, which triggers the deploy workflow.
+
+Commits that are not releasable (for example `chore:`, `deps:`, or messages with no prefix like `Content update`) do not produce a release PR, so they will not be deployed on their own. Use `fix:` or `feat:` for any change that should go live.
