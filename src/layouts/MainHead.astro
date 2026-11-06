@@ -1,8 +1,15 @@
 ---
 import Seo from "../components/seo/Seo.astro";
+import siteData from "../data/siteData.json";
 
 // Pass the contents to create SEO for the page
-const { title, description, image, frontmatter, robots } = Astro.props;
+const {
+  title,
+  description = siteData.description,
+  image,
+  frontmatter,
+  robots,
+} = Astro.props;
 ---
 
 <head>
