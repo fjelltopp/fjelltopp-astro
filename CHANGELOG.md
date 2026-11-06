@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.3](https://github.com/fjelltopp/fjelltopp-astro/compare/v1.10.2...v1.10.3) (2026-11-06)
+
+
+### Bug Fixes
+
+* Minor content updates ([#144](https://github.com/fjelltopp/fjelltopp-astro/issues/144)) ([3953b05](https://github.com/fjelltopp/fjelltopp-astro/commit/3953b056f11c11fa6cd2c87bc21aad3cf8c0307b))
+
 ## [1.10.1](https://github.com/fjelltopp/fjelltopp-astro/compare/v1.10.0...v1.10.1) (2025-07-04)
 
 
